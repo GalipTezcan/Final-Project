@@ -1,0 +1,21 @@
+Date: Tue, 26 Nov 2024 14:13:45 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+age: 0
+via: HTTP/1.1 Merlin CDN
+vary: Accept-Encoding
+last-modified: Mon, 18 Nov 2024 12:15:18 GMT
+x-main-sys: main-16
+x-sub-sys: sub-7775446f55-94vdj
+cbglayer: C
+x-cache-sys: 4l6QIf02
+x-l1-cache: MISS
+x-l1-cache-time: Tue, 26 Nov 2024 14:13:37 GMT
+x-midtier: tr-ist-shy-s10
+x-cache-status: MISS
+X-Edge: tr-ist-shy-s17
+Server: MerlinCDN
+Allow: GET, HEAD, OPTIONS, POST
+Cache-Control: max-age=90
+Content-Encoding: gzip

@@ -1,0 +1,15 @@
+Age: 10754
+Date: Tue, 26 Nov 2024 13:08:09 GMT
+Content-Length: 291074
+Connection: Keep-Alive
+Via: (c)Haberturk
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Last-Modified: Fri, 22 Nov 2024 14:09:34 GMT
+x-main-sys: main-09
+x-sub-sys: sub-7775446f55-48dx9
+CBGLayer: C
+x-cache-sys: KKzUq411
+Server: CBG Platform
+x-l1-cache: MISS
+x-l1-cache-time: Tue, 26 Nov 2024 13:07:14 GMT

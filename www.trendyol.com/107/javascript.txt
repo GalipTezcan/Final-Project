@@ -1,0 +1,19 @@
+
+
+    function onSubmit(e) {
+      var searchBox = document.getElementById('search');
+      if (searchBox) {
+        var value = searchBox.value;
+
+        if (value && value.length > 1) {
+          var searchKey = encodeURIComponent(value);
+          document.location.href =
+            '/sr?q=' + searchKey + '&st=' + searchKey + '&qt=' + searchKey + '&os=1';
+        }
+      }
+      return false;
+    }
+
+  
+
+

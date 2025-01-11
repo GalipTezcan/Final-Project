@@ -1,0 +1,24 @@
+Date: Tue, 26 Nov 2024 14:31:26 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+age: 0
+via: HTTP/1.1 Merlin CDN
+etag: W/"KXHOOMECLDSRPZMMT"
+vary: Accept-Encoding
+x-main-sys: main-23
+x-sub-sys: sub-7775446f55-pblq4
+cbglayer: PF
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cache-sys: 4l6QIf02
+x-l1-cache: MISS
+x-l1-cache-time: Tue, 26 Nov 2024 14:29:50 GMT
+x-midtier: tr-ist-sh-s15
+x-cache-status: EXPIRED
+X-Edge: tr-ist-sh-s13
+Server: MerlinCDN
+Allow: GET, HEAD, OPTIONS, POST
+Cache-Control: max-age=90
+Content-Encoding: gzip

@@ -1,0 +1,22 @@
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: Server
+Date: Fri, 10 Jan 2025 12:22:25 GMT
+x-amz-rid: P3KN364RC4EKRQ3PCJZW
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com; script-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=ATVPDKIKX0DER:sid=000-0000000-0000000:rid=P3KN364RC4EKRQ3PCJZW:sn=www.amazon.com
+cache-control: no-cache
+pragma: no-cache
+expires: -1
+Content-Encoding: gzip
+Content-Language: en-US
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Cache: Miss from cloudfront
+Via: 1.1 abfd1acbdfd06a6f8973804a735a65ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IST50-P3
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: KTbfat6JUmx7ZmLiNiDlCLgJqvKqNB8rwzuGqIXTA3TJG10IxHyTbA==

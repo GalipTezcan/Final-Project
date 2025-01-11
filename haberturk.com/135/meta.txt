@@ -1,0 +1,45 @@
+<meta charset="UTF-8">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="Habertürk">
+<meta name="csrf-token" content="ACRh1CngZwrBgqF7rx7vpFWu3eIiIlB4YGwNJa3A">
+<meta name="description" content="Aþkýn karmaþýk labirentlerinde kaybolmuþ bir çiftin dokunaklý hikayesini anlatan tek perdelik müzikli tiyatro oyunu “Üç Tunç Tas”, 27 Kasým Çarþamba Ýstanbul Bahçe Galata, 29 Kasým Cuma Ýstanbul Kadýköy Eðitim Sahnesi ve 30 Kasým Cumartesi Þiþli Tiyatrosu’nda tiyatroseverlerle buluþacak.">
+<meta name="title" content="Aþk ve Çekiþmenin Yansýmasý: Üç Tunç Tas">
+<meta name="datePublished" content="2024-11-26T00:41:57+03:00">
+<meta name="dateModified" content="2024-11-26T00:41:57+03:00">
+<meta name="url" content="/ask-ve-cekismenin-yansimasi-uc-tunc-tas-3741084">
+<meta name="articleSection" content="news">
+<meta name="articleAuthor" content="Kadir Kaymakçý">
+<meta name="keywords" content="Üç Tunç Tas, Ýstanbul Kadýköy Eðitim Sahnesi, þiþli tiyatrosu, OYUN, Tiyatro Gün">
+<meta property="fb:app_id" content="161827680527303">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Habertürk">
+<meta property="product:category" content="">
+<meta property="product:brand" content="">
+<meta property="og:url" content="https://www.haberturk.com/ask-ve-cekismenin-yansimasi-uc-tunc-tas-3741084">
+<meta property="og:title" content="Aþk ve Çekiþmenin Yansýmasý: Üç Tunç Tas">
+<meta property="og:description" content="Aþkýn karmaþýk labirentlerinde kaybolmuþ bir çiftin dokunaklý hikayesini anlatan tek perdelik müzikli tiyatro oyunu “Üç Tunç Tas”, 27 Kasým Çarþamba Ýstanbul Bahçe Galata, 29 Kasým Cuma Ýstanbul Kadýköy Eðitim Sahnesi ve 30 Kasým Cumartesi Þiþli Tiyatrosu’nda tiyatroseverlerle buluþacak.">
+<meta property="og:image" content="https://im.haberturk.com/l/2024/11/25/ver1732561910/3741084/jpg/1200x628">
+<meta property="og:image:type" content="image/jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@haberturk">
+<meta name="twitter:creator" content="@haberturk">
+<meta name="twitter:url" content="https://www.haberturk.com/ask-ve-cekismenin-yansimasi-uc-tunc-tas-3741084">
+<meta name="twitter:title" content="Aþk ve Çekiþmenin Yansýmasý: Üç Tunç Tas">
+<meta name="twitter:description" content="Aþkýn karmaþýk labirentlerinde kaybolmuþ bir çiftin dokunaklý hikayesini anlatan tek perdelik müzikli tiyatro oyunu “Üç Tunç Tas”, 27 Kasým Çarþamba Ýstanbul Bahçe Galata, 29 Kasým Cuma Ýstanbul Kadýköy Eðitim Sahnesi ve 30 Kasým Cumartesi Þiþli Tiyatrosu’nda tiyatroseverlerle buluþacak.">
+<meta name="twitter:image:src" content="https://im.haberturk.com/l/2024/11/25/ver1732561910/3741084/jpg/600x314">
+<meta name="twitter:domain" content="haberturk.com">
+<meta property="taboola:image16x9" content="https://im.haberturk.com/l/2024/11/25/ver1732561910/3741084/jpg/640x360">
+<meta property="taboola:image1x1" content="https://im.haberturk.com/l/2024/11/25/ver1732561910/3741084/jpg/640x640">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A9ejJbmUme7Mcan6LhOEb3xu1rtOR0wo0OFCsvDNtVQAURUxNE6WVKpi/8UDE+6qpeiTuYwhQz0aFpxSXDuNegAAAACQeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29tcHJlc3Npb25EaWN0aW9uYXJ5VHJhbnNwb3J0VjMiLCJleHBpcnkiOjE3MzMyNzAzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A/nLJchvU3DZp7nqa9ODYDqcEW3b40Jf9gdp1+gffTKguFiYpx8XBAicRlpA9PUDtTTLbSxWz5laQxLp0R6WdAAAAACWeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29tcHJlc3Npb25EaWN0aW9uYXJ5VHJhbnNwb3J0VjMiLCJleHBpcnkiOjE3MzMyNzAzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A9AxgGSwmnfgzzkyJHILUr3H8nJ/3D+57oAsL4DBt4USlng4jZ0weq+fZtHC/Qwwn6gd4QSa5DzT3OBif+kXVA0AAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="AxjhRadLCARYRJawRjMjq4U8V8okQvSnrBIJWdMajuEkN3/DfVAcLcFhMVrUWnOXagwlI8dQD84FwJDGj9ohqAYAAABveyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWFkc2VydmljZXMuY29tOjQ0MyIsImZlYXR1cmUiOiJGZXRjaExhdGVyQVBJIiwiZXhwaXJ5IjoxNzI1NDA3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">

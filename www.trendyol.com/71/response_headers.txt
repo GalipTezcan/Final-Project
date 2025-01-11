@@ -1,0 +1,13 @@
+Date: Fri, 10 Jan 2025 08:35:47 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Cache-Control: max-age=15
+Expires: Fri, 10 Jan 2025 08:36:02 GMT
+Set-Cookie: __cf_bm=eNTP8TUfKeLpO_6b3dlkvOo_mKGTjtxnimZe5NzFGdw-1736498147-1.0.1.1-YsOe54poXd_xGc_WF9SoSmb096oxPrYRyMNYcwl_wkzQYHd1Px374TFHTf8Lzw_F2_NzFSSz3PWD6Msi3Q39tQ; path=/; expires=Fri, 10-Jan-25 09:05:47 GMT; domain=.trendyol.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 8ffb55f05801db79-IST
+Content-Encoding: gzip

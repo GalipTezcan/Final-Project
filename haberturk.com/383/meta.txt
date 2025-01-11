@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="Habertürk">
+<meta name="csrf-token" content="fTP23Jk5ZkO1Cg4cQdNO1KwLa1JbcVvNX96vKtD9">
+<meta name="description" content="150 milyar dolarlýk servetinin yüzde 99'unu baðýþlama sözü veren Warren Buffett servetini daðýtmalarý için 3 vekil atadý. Bu 3 kiþi Buffett'ýn&nbsp;71, 69 ve 66 yaþlarýndaki çocuklarýnýn mirasýný hayýr iþleri için daðýtmadan vefat etmeleri durumunda, daðýtýmýn tamamlanmasýndan sorumlu olacak. Buffett konuyla ilgili yazdýðý mektupta servet hanedanlýðý yaratmak istemediðini ve servet hanedanlýklarýnýn kiþisel geliþimi zayýflatýp iliþkileri karmaþýk hale getirebileceðini belirtti. Mektupta &quot;Bir hanedan yaratmak ya da çocuklarýmýn ötesine geçen bir plan yapmak hiç istemedim. Üçünü de çok iyi tanýyorum ve onlara tamamen güveniyorum. Gelecek nesiller...">
+<meta name="title" content="Buffett servetini neden ailesine býrakmýyor?">
+<meta name="datePublished" content="2024-11-26T13:01:12+03:00">
+<meta name="dateModified" content="2024-11-26T13:01:12+03:00">
+<meta name="url" content="/buffett-servetini-neden-ailesine-birakmiyor-3741275-ekonomi">
+<meta name="articleSection" content="news">
+<meta name="articleAuthor" content="Selim Karahan">
+<meta name="keywords" content="">
+<meta property="fb:app_id" content="161827680527303">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Habertürk">
+<meta property="product:category" content="">
+<meta property="product:brand" content="">
+<meta property="og:url" content="https://www.haberturk.com/buffett-servetini-neden-ailesine-birakmiyor-3741275-ekonomi">
+<meta property="og:title" content="Buffett servetini neden ailesine býrakmýyor? - Ýþ-Yaþam Haberleri">
+<meta property="og:description" content="150 milyar dolarlýk servetinin yüzde 99'unu baðýþlama sözü veren Warren Buffett servetini daðýtmalarý için 3 vekil atadý. Bu 3 kiþi Buffett'ýn&nbsp;71, 69 ve 66 yaþlarýndaki çocuklarýnýn mirasýný hayýr iþleri için daðýtmadan vefat etmeleri durumunda, daðýtýmýn tamamlanmasýndan sorumlu olacak. Buffett konuyla ilgili yazdýðý mektupta servet hanedanlýðý yaratmak istemediðini ve servet hanedanlýklarýnýn kiþisel geliþimi zayýflatýp iliþkileri karmaþýk hale getirebileceðini belirtti. Mektupta &quot;Bir hanedan yaratmak ya da çocuklarýmýn ötesine geçen bir plan yapmak hiç istemedim. Üçünü de çok iyi tanýyorum ve onlara tamamen güveniyorum. Gelecek nesiller...">
+<meta property="og:image" content="https://im.haberturk.com/l/2024/11/26/ver1732615218/3741275/jpg/1200x628">
+<meta property="og:image:type" content="image/jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@haberturk">
+<meta name="twitter:creator" content="@haberturk">
+<meta name="twitter:url" content="https://www.haberturk.com/buffett-servetini-neden-ailesine-birakmiyor-3741275-ekonomi">
+<meta name="twitter:title" content="Buffett servetini neden ailesine býrakmýyor? - Ýþ-Yaþam Haberleri">
+<meta name="twitter:description" content="150 milyar dolarlýk servetinin yüzde 99'unu baðýþlama sözü veren Warren Buffett servetini daðýtmalarý için 3 vekil atadý. Bu 3 kiþi Buffett'ýn&nbsp;71, 69 ve 66 yaþlarýndaki çocuklarýnýn mirasýný hayýr iþleri için daðýtmadan vefat etmeleri durumunda, daðýtýmýn tamamlanmasýndan sorumlu olacak. Buffett konuyla ilgili yazdýðý mektupta servet hanedanlýðý yaratmak istemediðini ve servet hanedanlýklarýnýn kiþisel geliþimi zayýflatýp iliþkileri karmaþýk hale getirebileceðini belirtti. Mektupta &quot;Bir hanedan yaratmak ya da çocuklarýmýn ötesine geçen bir plan yapmak hiç istemedim. Üçünü de çok iyi tanýyorum ve onlara tamamen güveniyorum. Gelecek nesiller...">
+<meta name="twitter:image:src" content="https://im.haberturk.com/l/2024/11/26/ver1732615218/3741275/jpg/600x314">
+<meta name="twitter:domain" content="haberturk.com">
+<meta property="taboola:image16x9" content="https://im.haberturk.com/l/2024/11/26/ver1732615218/3741275/jpg/640x360">
+<meta property="taboola:image1x1" content="https://im.haberturk.com/l/2024/11/26/ver1732615218/3741275/jpg/640x640">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A9AxgGSwmnfgzzkyJHILUr3H8nJ/3D+57oAsL4DBt4USlng4jZ0weq+fZtHC/Qwwn6gd4QSa5DzT3OBif+kXVA0AAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">

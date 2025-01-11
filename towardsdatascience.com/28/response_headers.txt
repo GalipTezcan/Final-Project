@@ -1,0 +1,26 @@
+Date: Fri, 10 Jan 2025 07:16:26 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Ray: 8ffae1b00bd0d616-IST
+CF-Cache-Status: DYNAMIC
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Expires: Thu, 09 Sep 1999 09:09:09 GMT
+Link: <https://medium.com/humans.txt>; rel="humans"
+Set-Cookie: uid=lo_b69b6bb955d4; Path=/; Expires=Sat, 14 Feb 2026 07:16:26 GMT; HttpOnly; Secure; SameSite=None, sid=1:tI92Vf9R8FBe+aBWRN2n4YJrhMYUHGi0uck8+RGd/Swkxn7WQztnSrS4EojhV3Ei; Path=/; Expires=Sat, 14 Feb 2026 07:16:26 GMT; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Pragma: no-cache
+content-security-policy: default-src 'self'; connect-src https://localhost https://*.instapaper.com https://*.stripe.com https://glyph.medium.com https://*.paypal.com https://*.braintree-api.com https://*.braintreegateway.com https://accounts.google.com https://getpocket.com https://towardsdatascience.com https://*.towardsdatascience.com https://*.medium.com https://medium.com https://*.medium.com https://*.algolia.net https://cdn-static-1.medium.com https://dnqgz544uhbo8.cloudfront.net https://cdn-videos-1.medium.com https://cdn-audio-1.medium.com https://${LIGHTSTEP_HOST} https://*.branch.io 'self'; font-src data: https://*.amazonaws.com https://*.medium.com https://glyph.medium.com https://glyph-sandbox.medium.sh https://medium.com https://*.gstatic.com https://dnqgz544uhbo8.cloudfront.net https://cdn-static-1.medium.com 'self'; frame-src chromenull: https: webviewprogressproxy: blob: medium: 'self'; img-src blob: data: https: 'self'; media-src https://*.cdn.vine.co https://d1fcbxp97j4nb2.cloudfront.net https://d262ilb51hltx0.cloudfront.net https://*.medium.com https://gomiro.medium.com https://miro.medium.com https://pbs.twimg.com 'self' blob:; object-src 'self'; script-src 'unsafe-eval' 'unsafe-inline' about: https: 'self'; style-src 'unsafe-inline' data: https: 'self'; report-uri https://csp.medium.com
+medium-fulfilled-by: edgy/8.10.0, valencia/main-20250109-131209-10770cd5ee
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 239
+x-frame-options: sameorigin
+x-obvious-info: 20250109-1753-root,a3aed32e
+x-obvious-tid: 1736493386345:8c53acec483b
+x-powered-by: Medium
+x-ua-compatible: IE=edge, Chrome=1
+x-xss-protection: 1; mode=block
+Vary: Accept-Encoding
+Server: cloudflare
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400

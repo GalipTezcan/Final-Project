@@ -1,0 +1,6 @@
+<meta charset="utf-8">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<meta name="description" content="Online shopping from a great selection at Books Store.">
+<meta name="keywords" content="Books, Amazon.com">
+<meta name="anti-csrftoken-a2z" content="hMB/oXpMfI+NFhlGyuKPMvQp42HQ8B7GLjncXmb2rOBwAAAAAGeBENplOTc5YTBjYy04MGU3LTQ4ZTAtYWE5ZS1hZDI0YzM4NWU5ODY=">
+<meta name="encrypted-slate-token" content="AnYxsWDmZZHlbhDnrC/LlXgJEdaLRceOydliMVFhq2lZX2cicxg0aWHLC0MsAdgRo9YEd4F/2zDJLb69CQb6ONM5bx5KovrEctlpTptav6a9t6rpNQbKwn6935zmOhEjQCrKvc57jZdpSmx8P5gNS4aLYJydfJVIeEWnD2SnFkIL1d+gahxlHNcDLA0z/HHuMamHWoYr/nZVA60NhB8mnd73mX+Fpj4avJLr1ndcaKMaIZeO8kDNY1iw7rNYAiBpriGJxI3B3TJ6BEs=">

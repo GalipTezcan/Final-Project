@@ -1,0 +1,6 @@
+<meta charset="utf-8">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<meta name="keywords" content="amazon devices, alexa, echo, fire, kindle">
+<meta name="description" content="Amazon Devices are all the devices manufactured by Amazon, including Kindle e-readers, Fire tablets, Fire TV streaming media players, Echo devices, Dash Buttons and more.">
+<meta name="anti-csrftoken-a2z" content="hA7qhFtWuYidKUJo8AHAjuLHl49Yx6uD+NjpizShVX8xAAAAAGeBFIBlOTc5YTBjYy04MGU3LTQ4ZTAtYWE5ZS1hZDI0YzM4NWU5ODY=">
+<meta name="encrypted-slate-token" content="AnYx4baVDafi6+lJBzUpJZzF/rD6IOanFP/vRU9CMVIzIxeeeSGvB3gPJOFT7Op+IX6y24Xy7q/jO5LjejLp1/ZWa2ZXhz+YSjBrKXbRylrVU3hKJAgFhDiHTJRQs9LaqYG5+PCNK1cnXhKN/lVUfiP+NZ7b8N6l3e4ulJq9QIuFpYL2fyrO6PVH9sbDSIkfwr8LUarc3b9K59dNEAZvOmYkuuGeWRU4W9+IMLKsMje8QnDXAJ0ChUL/f/SlpafcdF3j1Z8h/pzcMw==">

@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<meta name="ResourceLoaderDynamicStyles" content="">
+<meta name="generator" content="MediaWiki 1.44.0-wmf.11">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bursa_in_Turkey.svg/1200px-Bursa_in_Turkey.svg.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="515">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bursa_in_Turkey.svg/800px-Bursa_in_Turkey.svg.png">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="343">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bursa_in_Turkey.svg/640px-Bursa_in_Turkey.svg.png">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="274">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="Süpürtü, Ýnegöl - Vikipedi">
+<meta property="og:type" content="website">

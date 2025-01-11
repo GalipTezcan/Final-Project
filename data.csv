@@ -1,0 +1,11 @@
+url1,url2,label
+https://www.example.com,https://www.example.com,1
+https://www.example.com,https://www.wikipedia.org,0
+https://www.example.com,https://www.geeksforgeeks.org/how-to-set-browser-width-and-height-in-selenium-webdriver/,0
+https://www.example.com,https://www.haberturk.com/gri-kategoride-aranirken-yakalanan-mkp-uyesi-terorist-kadir-celik-tutuklandi-guncel-haberler-3740310,0
+https://www.wikipedia.org,https://www.wikipedia.org,1
+https://www.wikipedia.org,https://www.geeksforgeeks.org/how-to-set-browser-width-and-height-in-selenium-webdriver/,0
+https://www.wikipedia.org,https://www.haberturk.com/gri-kategoride-aranirken-yakalanan-mkp-uyesi-terorist-kadir-celik-tutuklandi-guncel-haberler-3740310,0
+https://www.geeksforgeeks.org/how-to-set-browser-width-and-height-in-selenium-webdriver/,https://www.geeksforgeeks.org/how-to-set-browser-width-and-height-in-selenium-webdriver/,1
+https://www.geeksforgeeks.org/how-to-set-browser-width-and-height-in-selenium-webdriver/,https://www.haberturk.com/gri-kategoride-aranirken-yakalanan-mkp-uyesi-terorist-kadir-celik-tutuklandi-guncel-haberler-3740310,0
+https://www.haberturk.com/gri-kategoride-aranirken-yakalanan-mkp-uyesi-terorist-kadir-celik-tutuklandi-guncel-haberler-3740310,https://www.haberturk.com/gri-kategoride-aranirken-yakalanan-mkp-uyesi-terorist-kadir-celik-tutuklandi-guncel-haberler-3740310,1

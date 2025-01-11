@@ -1,0 +1,27 @@
+<meta data-rh="true" charset="utf-8">
+<meta data-rh="true" name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1">
+<meta data-rh="true" name="theme-color" content="#000000">
+<meta data-rh="true" name="twitter:app:name:iphone" content="Medium">
+<meta data-rh="true" name="twitter:app:id:iphone" content="828256236">
+<meta data-rh="true" property="al:ios:app_name" content="Medium">
+<meta data-rh="true" property="al:ios:app_store_id" content="828256236">
+<meta data-rh="true" property="al:android:package" content="com.medium.reader">
+<meta data-rh="true" property="al:android:app_name" content="Medium">
+<meta data-rh="true" property="fb:app_id" content="542599432471018">
+<meta data-rh="true" property="og:site_name" content="Medium">
+<meta data-rh="true" property="og:title" content="Pratheesh Shivaprasad – Medium">
+<meta data-rh="true" name="description" content="Read writing from Pratheesh Shivaprasad on Medium. SDE @Intelligence Node. LinkedIn: linkedin.com/in/pratheesh-s. Every day, Pratheesh Shivaprasad and thousands of other voices read, write, and share important stories on Medium.">
+<meta data-rh="true" property="og:description" content="Read writing from Pratheesh Shivaprasad on Medium. SDE @Intelligence Node. LinkedIn: linkedin.com/in/pratheesh-s. Every day, Pratheesh Shivaprasad and thousands of other voices read, write, and share important stories on Medium.">
+<meta data-rh="true" name="twitter:description" content="Read writing from Pratheesh Shivaprasad on Medium. SDE @Intelligence Node. LinkedIn: linkedin.com/in/pratheesh-s. Every day, Pratheesh Shivaprasad and thousands of other voices read, write, and share important stories on Medium.">
+<meta data-rh="true" property="og:url" content="https://iampratheesh.medium.com">
+<meta data-rh="true" property="al:web:url" content="https://iampratheesh.medium.com">
+<meta data-rh="true" property="al:ios:url" content="medium://@iampratheesh">
+<meta data-rh="true" name="twitter:app:url:iphone" content="medium://@iampratheesh">
+<meta data-rh="true" property="al:android:url" content="medium://@iampratheesh">
+<meta data-rh="true" property="profile:username" content="iampratheesh">
+<meta data-rh="true" property="profile:first_name" content="Pratheesh">
+<meta data-rh="true" property="profile:last_name" content="Shivaprasad">
+<meta data-rh="true" property="og:type" content="profile">
+<meta data-rh="true" name="twitter:card" content="summary">
+<meta property="og:image" content="https://miro.medium.com/v2/resize:fit:1200/1*AJ5wo5BLGL6ohJjZYiPxfw.jpeg" data-rh="true">
+<meta name="twitter:image:src" content="https://miro.medium.com/v2/resize:fit:1200/1*AJ5wo5BLGL6ohJjZYiPxfw.jpeg" data-rh="true">

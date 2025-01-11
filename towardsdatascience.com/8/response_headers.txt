@@ -1,0 +1,20 @@
+Date: Fri, 10 Jan 2025 07:09:40 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Ray: 8ffad7c24c63e341-IST
+CF-Cache-Status: DYNAMIC
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Link: <https://glyph.medium.com/css/unbound.css>; as="style"; rel="preload"
+Set-Cookie: uid=lo_e8d5e200a287; Path=/; Expires=Sat, 14 Feb 2026 07:09:39 GMT; HttpOnly; Secure; SameSite=None, sid=1:tI92Vf9R8FBe+aBWRN2n4W5yjN8Xatt1DAuaMMSGdDxvZ9bgRkT7Cqx3WgT/LO60; Path=/; Expires=Sat, 14 Feb 2026 07:09:39 GMT; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+content-security-policy: frame-ancestors 'self' https://medium.com
+medium-fulfilled-by: edgy/8.10.0, valencia/main-20250109-131209-10770cd5ee, lite/main-20250109-203833-4b33bc4feb, rito/main-20250109-205737-aad8afdd1e, tutu/main-20250109-175250-a3aed32e54
+medium-missing-time: 193
+X-Content-Type-Options: nosniff
+x-envoy-upstream-service-time: 325
+x-request-received-at: 1736492979670
+Server: cloudflare
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400

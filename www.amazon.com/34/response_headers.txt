@@ -1,0 +1,14 @@
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: Server
+Date: Fri, 10 Jan 2025 12:23:06 GMT
+x-amz-rid: Z5F7QKZD3JDJ05F74KMW
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Cache: Error from cloudfront
+Via: 1.1 23a3532b9f37d2cbec75f03b960145dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IST50-P3
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: vV0lqCGUCQn9c0bwtMedic4WwFNmchyELK4uHRE5k_0Iwncdl1O_-g==

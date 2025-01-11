@@ -1,0 +1,34 @@
+<meta data-rh="true" charset="utf-8">
+<meta data-rh="true" name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1">
+<meta data-rh="true" name="theme-color" content="#000000">
+<meta data-rh="true" name="twitter:app:name:iphone" content="Medium">
+<meta data-rh="true" name="twitter:app:id:iphone" content="828256236">
+<meta data-rh="true" property="al:ios:app_name" content="Medium">
+<meta data-rh="true" property="al:ios:app_store_id" content="828256236">
+<meta data-rh="true" property="al:android:package" content="com.medium.reader">
+<meta data-rh="true" property="fb:app_id" content="542599432471018">
+<meta data-rh="true" property="og:site_name" content="Medium">
+<meta data-rh="true" property="og:type" content="article">
+<meta data-rh="true" property="article:published_time" content="2025-01-09T18:31:38.671Z">
+<meta data-rh="true" name="title" content="What to Do If the Logit Decision Boundary Fails? | by Lukasz Gatarek | Jan, 2025 | Towards Data Science">
+<meta data-rh="true" property="og:title" content="What to Do If the Logit Decision Boundary Fails?">
+<meta data-rh="true" property="al:android:url" content="medium://p/b8883e2abacc">
+<meta data-rh="true" property="al:ios:url" content="medium://p/b8883e2abacc">
+<meta data-rh="true" property="al:android:app_name" content="Medium">
+<meta data-rh="true" name="description" content="Logistic regression is by far the most widely used machine learning model for binary classification datasets. The model is relatively simple and is based on a key assumption: the existence of a…">
+<meta data-rh="true" property="og:description" content="Feature engineering for classification models using Bayesian Machine Learning">
+<meta data-rh="true" property="og:url" content="https://towardsdatascience.com/what-to-do-if-the-logit-decision-boundary-fails-b8883e2abacc">
+<meta data-rh="true" property="al:web:url" content="https://towardsdatascience.com/what-to-do-if-the-logit-decision-boundary-fails-b8883e2abacc">
+<meta data-rh="true" property="og:image" content="https://miro.medium.com/v2/resize:fit:732/1*L-NoPy6HLxXUOs3MuDYvPQ.png">
+<meta data-rh="true" property="article:author" content="https://medium.com/@lukaszgatarek81">
+<meta data-rh="true" name="author" content="Lukasz Gatarek">
+<meta data-rh="true" name="robots" content="index,noarchive,follow,max-image-preview:large">
+<meta data-rh="true" name="referrer" content="unsafe-url">
+<meta data-rh="true" property="twitter:title" content="What to Do If the Logit Decision Boundary Fails?">
+<meta data-rh="true" name="twitter:site" content="@TDataScience">
+<meta data-rh="true" name="twitter:app:url:iphone" content="medium://p/b8883e2abacc">
+<meta data-rh="true" property="twitter:description" content="Feature engineering for classification models using Bayesian Machine Learning">
+<meta data-rh="true" name="twitter:image:src" content="https://miro.medium.com/v2/resize:fit:732/1*L-NoPy6HLxXUOs3MuDYvPQ.png">
+<meta data-rh="true" name="twitter:card" content="summary_large_image">
+<meta data-rh="true" name="twitter:label1" content="Reading time">
+<meta data-rh="true" name="twitter:data1" content="6 min read">

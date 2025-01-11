@@ -1,0 +1,27 @@
+<meta data-rh="true" charset="utf-8">
+<meta data-rh="true" name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1">
+<meta data-rh="true" name="theme-color" content="#000000">
+<meta data-rh="true" name="twitter:app:name:iphone" content="Medium">
+<meta data-rh="true" name="twitter:app:id:iphone" content="828256236">
+<meta data-rh="true" property="al:ios:app_name" content="Medium">
+<meta data-rh="true" property="al:ios:app_store_id" content="828256236">
+<meta data-rh="true" property="al:android:package" content="com.medium.reader">
+<meta data-rh="true" property="al:android:app_name" content="Medium">
+<meta data-rh="true" property="fb:app_id" content="542599432471018">
+<meta data-rh="true" property="og:site_name" content="Medium">
+<meta data-rh="true" property="og:title" content="James Thorn – Medium">
+<meta data-rh="true" name="description" content="Read writing from James Thorn on Medium. Data Science, Machine Learning &amp; Life. https://howtolearnmachinelearning.com/. Every day, James Thorn and thousands of other voices read, write, and share important stories on Medium.">
+<meta data-rh="true" property="og:description" content="Read writing from James Thorn on Medium. Data Science, Machine Learning &amp; Life. https://howtolearnmachinelearning.com/. Every day, James Thorn and thousands of other voices read, write, and share important stories on Medium.">
+<meta data-rh="true" name="twitter:description" content="Read writing from James Thorn on Medium. Data Science, Machine Learning &amp; Life. https://howtolearnmachinelearning.com/. Every day, James Thorn and thousands of other voices read, write, and share important stories on Medium.">
+<meta data-rh="true" property="og:url" content="https://james-thorn.medium.com">
+<meta data-rh="true" property="al:web:url" content="https://james-thorn.medium.com">
+<meta data-rh="true" property="al:ios:url" content="medium://@james-thorn">
+<meta data-rh="true" name="twitter:app:url:iphone" content="medium://@james-thorn">
+<meta data-rh="true" property="al:android:url" content="medium://@james-thorn">
+<meta data-rh="true" property="profile:username" content="james-thorn">
+<meta data-rh="true" property="profile:first_name" content="James">
+<meta data-rh="true" property="profile:last_name" content="Thorn">
+<meta data-rh="true" property="og:type" content="profile">
+<meta data-rh="true" name="twitter:card" content="summary">
+<meta property="og:image" content="https://miro.medium.com/v2/resize:fit:1200/1*prwERjMwYLd-_7yy70TYHg.png" data-rh="true">
+<meta name="twitter:image:src" content="https://miro.medium.com/v2/resize:fit:1200/1*prwERjMwYLd-_7yy70TYHg.png" data-rh="true">

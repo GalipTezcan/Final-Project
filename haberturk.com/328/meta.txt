@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="Habertürk">
+<meta name="csrf-token" content="q7yWe2nGYqkaw8c975sh89d42mV7pXMAyQ5TJprn">
+<meta name="description" content="Habertürk’ün Stil sayfasý modadan saðlýklý yaþama, iliþkilerden dekorasyona, en trend mekanlardan gözde seyahat duraklarýna hayatýn tüm renklerini sayfalarýna taþýyor">
+<meta name="keywords" content="ht stil, stil">
+<meta property="fb:app_id" content="161827680527303">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Habertürk">
+<meta property="product:category" content="">
+<meta property="product:brand" content="">
+<meta property="og:url" content="https://www.haberturk.com/stil">
+<meta property="og:title" content="Hayata stili ile renk katan kiþiler ve trend konular">
+<meta property="og:description" content="Habertürk’ün Stil sayfasý modadan saðlýklý yaþama, iliþkilerden dekorasyona, en trend mekanlardan gözde seyahat duraklarýna hayatýn tüm renklerini sayfalarýna taþýyor">
+<meta property="og:image" content="https://haberturk.com/images/common/manifest/512x512.png">
+<meta property="og:image:type" content="image/jpg">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@haberturk">
+<meta name="twitter:creator" content="@haberturk">
+<meta name="twitter:url" content="https://www.haberturk.com/stil">
+<meta name="twitter:title" content="Hayata stili ile renk katan kiþiler ve trend konular">
+<meta name="twitter:description" content="Habertürk’ün Stil sayfasý modadan saðlýklý yaþama, iliþkilerden dekorasyona, en trend mekanlardan gözde seyahat duraklarýna hayatýn tüm renklerini sayfalarýna taþýyor">
+<meta name="twitter:image:src" content="https://haberturk.com/images/common/manifest/512x512.png">
+<meta name="twitter:domain" content="haberturk.com">
+<meta name="viewport" content="width=device-width, initial-scale=1">

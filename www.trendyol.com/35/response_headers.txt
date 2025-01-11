@@ -1,0 +1,21 @@
+Date: Fri, 10 Jan 2025 08:22:53 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+content-security-policy: script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://www.trendyol.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://static.cloudflareinsights.com https://cdn.dsmcdn.com https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com https://static.ads-twitter.com https://creativecdn.com https://www.glami.com.tr https://www.googleadservices.com https://static.criteo.net https://analytics.tiktok.com https://connect.facebook.net https://googleads.g.doubleclick.net https://sslwidget.criteo.com https://analytics.twitter.com https://tpc.googlesyndication.com https://js-agent.newrelic.com https://bam-cell.nr-data.net https://pagead2.googlesyndication.com https://www.gstatic.com https://auth.trendyol.com https://payment.trendyol.com https://maps.googleapis.com https://console.brightmountainmedia.com https://cdn.cookielaw.org https://img2-digitouch.mncdn.com https://www.googleoptimize.com platform.twitter.com analytics.tiktok.com sslwidget.criteo.com bam.nr-data.net www.google-analytics.com connect.facebook.net ssl.google-analytics.com www.googleadservices.com static.ads-twitter.com mc.yandex.ru googleads.g.doubleclick.net apigw.trendyol.com www.googletagmanager.com s3.amazonaws.com cdnjs.cloudflare.com js-agent.newrelic.com img-trendyol.mncdn.com mc.yandex.com translate.google.com code.jquery.com translate.googleapis.com translate.yandex.net https://google.com https://www.google.com cdn.cookielaw.org static.criteo.net static.cloudflareinsights.com widget.eu.criteo.com www.googleoptimize.com https://gumgum.com https://challenges.cloudflare.com https://static.zdassets.com https://media.flixsyndication.net https://static-assets.flix360.io https://media.flixcar.com https://media.flixsyndication.net https://media.flixfacts.com https://prod.flixgvid.flix360.io https://*.hotjar.com; frame-ancestors 'self' https://*.trendyol.com; report-uri https://apigw.trendyol.com/discovery-web-websfxsecurity-santral/csp
+set-cookie: COOKIE_TY.IsUserAgentMobileOrTablet=false; expires=Sat, 11 Jan 2025 08:22:53 GMT; path=/, hvtb=1; expires=Sun, 10 Jan 2027 08:22:53 GMT; domain=.trendyol.com; path=/, VisitCount=1; expires=Sun, 10 Jan 2027 08:22:53 GMT; domain=.trendyol.com; path=/, SearchMode=1; expires=Fri, 10 Jan 2025 08:52:53 GMT; domain=.trendyol.com; path=/, platform=web; expires=Sun, 10 Jan 2027 08:22:53 GMT; domain=.trendyol.com; path=/, FirstSession=0; domain=.trendyol.com; path=/; secure, __cf_bm=TlsgNPL_labc_t2mzdkTeXF1u7Koj7u5zX4px2JYyBM-1736497373-1.0.1.1-8_rZLjIdfNJCpFfNT2XCMQq2mdq4pFjpEnlk481y1jb.jQLPu4s0sQzgDAo7i75D1Zxcb9RJ6SiBJczRCUax5A; path=/; expires=Fri, 10-Jan-25 08:52:53 GMT; domain=.trendyol.com; HttpOnly; Secure; SameSite=None, __cflb=04dToXpE75gnanWf1Jct5BHNFbbVQqWPtfi93hqVV7; SameSite=Lax; path=/; expires=Fri, 10-Jan-25 08:52:53 GMT; HttpOnly, _cfuvid=HM.fS1O6JWvCdl.AP7ndO0n2vKml0OdJUaU3ll7xv28-1736497373294-0.0.1.1-604800000; path=/; domain=.trendyol.com; HttpOnly; Secure; SameSite=None
+vary: Accept-Encoding,Accept-Encoding
+x-content-type-options: nosniff
+x-renderer: storefront
+x-reverse-proxy: sfx
+x-robots-tag: noindex
+x-tbp-deployment: true
+x-ua-compatible: IE=edge,chrome=1
+ty-lb-fid: GLP-ZEF-CEQ-RKG-YO51-GERAQLBY-ZNEF
+Strict-Transport-Security: max-age=15768000;
+Referrer-Policy: same-origin
+ty-lb-upstream-status: 200
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8ffb43064e54d5f6-IST
+Content-Encoding: gzip

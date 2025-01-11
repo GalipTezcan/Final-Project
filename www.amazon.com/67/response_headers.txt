@@ -1,0 +1,13 @@
+Content-Length: 302673
+Connection: keep-alive
+Date: Fri, 10 Jan 2025 12:34:46 GMT
+x-amz-rid: CB54J1JR5N15C0SK8S6D
+content-encoding: gzip
+pragma: no-cache
+expires: -1
+cache-control: no-cache
+X-Cache: Miss from cloudfront
+Via: 1.1 bfe9d994abba969f95c1b3b4712cf2ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IST50-P3
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: MUAJu7o89NcX8_i8eTNktBF9pwqFvFFH2TpMWZrFN2KuUBvuUTPjSw==

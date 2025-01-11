@@ -1,0 +1,1 @@
+https://github.com/trending/nix?since=daily

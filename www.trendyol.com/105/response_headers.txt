@@ -1,0 +1,19 @@
+Date: Fri, 10 Jan 2025 08:46:27 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+vary: Accept-Encoding
+x-renderer: storefront
+x-reverse-proxy: sfx
+x-robots-tag: noindex
+x-tbp-deployment: true
+ty-lb-fid: GLP-ZEF-CEQ-RKG-YO58-GERAQLBY-ZNEF
+Strict-Transport-Security: max-age=15768000;
+Referrer-Policy: same-origin
+X-Content-Type-Options: nosniff
+ty-lb-upstream-status: 404
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=czLpO7fboKAUN7oovl6PL6FlCpnUbmtwj455T9aMQIs-1736498787-1.0.1.1-HJc0fU5DKE0fRMUzowRNTaaw0nZUkvTi8OzuAnZqL4jBRpdR50urxHcHXHAbjGXWTuiZ9_3xszOpa92d8DcKZw; path=/; expires=Fri, 10-Jan-25 09:16:27 GMT; domain=.trendyol.com; HttpOnly; Secure; SameSite=None, __cflb=04dToXpE75gnanWf1Jct5BHNFbbVQqWQjbFVf5PcWZ; SameSite=Lax; path=/; expires=Fri, 10-Jan-25 09:16:27 GMT; HttpOnly, _cfuvid=Grrxl0.YjrTrVs7cXybbtKhrs74GN0AUEfGa2Rxg2lo-1736498787000-0.0.1.1-604800000; path=/; domain=.trendyol.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 8ffb658a8948e326-IST
+Content-Encoding: gzip

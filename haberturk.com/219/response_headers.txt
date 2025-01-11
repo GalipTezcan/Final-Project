@@ -1,0 +1,25 @@
+Date: Tue, 26 Nov 2024 13:39:30 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+vary: Accept-Encoding
+set-cookie: XSRF-TOKEN=eyJpdiI6ImludE0rOXZEQTduNGhFdzRNQlBBWnc9PSIsInZhbHVlIjoiRjA4d3c4c0xXZ0xBbGlkN3AxRUo0eVhwVkw3N1JXV1hza3FFejdSdDFVd2FUZGprMWdJWm4wOG5rdWFncDI4QkIrVU9CdHBBWSs3K0NhYW1vYjBiejQvRWdjWTFkNTNYNHZkRjU2dVVhNDBnR1dvS05EQ1habWdrYWl3WE9RSzAiLCJtYWMiOiJmYWI2N2Y3YjM0YmEyNWMwZDZlZWI4OTc1ZTA1ZTZmNTU0NWFhNzkyYjk2YjZjNmI2NjZkYzdiMjEyZDUxMjdkIiwidGFnIjoiIn0%3D; expires=Tue, 26 Nov 2024 15:39:25 GMT; Max-Age=7200; path=/; samesite=lax, haberturk_session=eyJpdiI6InV0MGJLZEgzRlNWK1ZkbTlFMnF3QlE9PSIsInZhbHVlIjoiSHo3dkh2THBLeVA1T1hwa0gwNkxsVjRaSUtjcmN2b3ZmeWNVVzcyTWJMNVJuK1dyb1doblZqRURaZlAxakhlaWhtYnZ2V0Nsa216amE1bVUrVzBBSUFDcTYrMmlGdk1KV1ZwTEZ5cVh2eTFScDZPSkI1Z1M3SE9RU2ZzSDZPT1IiLCJtYWMiOiJjMDIwNzRhMzhkNTU1MDNlMTBlZTMzZmY2ZjA4YmE1NTZhMTE2NzI5MmVjN2Y5MTFiZDI5MzcwNzhiYzQ3OWIzIiwidGFnIjoiIn0%3D; expires=Tue, 26 Nov 2024 15:39:25 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+x-main-sys: main-15
+x-sub-sys: sub-7775446f55-pfsw4
+cbglayer: PF
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-cache-sys: VsJ2es01
+x-l1-cache: MISS
+x-l1-cache-time: Tue, 26 Nov 2024 13:39:25 GMT
+etag: W/"KXADCFAPHHRVPZSMS"
+x-midtier: tr-ist-sh-s14
+x-cache-status: HIT
+via: HTTP/1.1 Merlin CDN
+age: 0
+X-Edge: tr-ist-sh-s05
+Server: MerlinCDN
+Allow: GET, HEAD, OPTIONS, POST
+Cache-Control: max-age=120
+Content-Encoding: gzip

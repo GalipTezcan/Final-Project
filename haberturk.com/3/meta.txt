@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="Habertürk">
+<meta name="csrf-token" content="CUikdb9FVAsOr3PQzhYnMpeQhYuhYxCx2hi5nl1b">
+<meta name="robots" content="noindex, nofollow">
+<meta name="googlebot" content="noindex">
+<meta name="googlebot-news" content="nosnippet">
+<meta name="description" content="T.C. MERSÝN 2. ASLÝYE TÝCARET MAHKEMESÝ">
+<meta name="title" content="T.C. MERSÝN 2. ASLÝYE TÝCARET MAHKEMESÝ">
+<meta name="datePublished" content="2024-11-25T23:50:03+03:00">
+<meta name="dateModified" content="2024-11-25T23:50:03+03:00">
+<meta name="url" content="/resmi-ilanlar/tc-mersin-2-asliye-ticaret-mahkemesi-3740454">
+<meta name="articleSection" content="resmiilan">
+<meta name="articleAuthor" content="www.bik.gov.tr">
+<meta name="keywords" content="ilangovtr, Basýn no ILN02128128">
+<meta property="fb:app_id" content="161827680527303">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Habertürk">
+<meta property="product:category" content="">
+<meta property="product:brand" content="">
+<meta property="og:url" content="https://www.haberturk.com/resmi-ilanlar/tc-mersin-2-asliye-ticaret-mahkemesi-3740454">
+<meta property="og:title" content="T.C. MERSÝN 2. ASLÝYE TÝCARET MAHKEMESÝ">
+<meta property="og:description" content="T.C. MERSÝN 2. ASLÝYE TÝCARET MAHKEMESÝ">
+<meta property="og:image" content="https://im.haberturk.com/l/2024/11/23/ver1732360420/3740454/jpg/1200x628">
+<meta property="og:image:type" content="image/jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@haberturk">
+<meta name="twitter:creator" content="@haberturk">
+<meta name="twitter:url" content="https://www.haberturk.com/resmi-ilanlar/tc-mersin-2-asliye-ticaret-mahkemesi-3740454">
+<meta name="twitter:title" content="T.C. MERSÝN 2. ASLÝYE TÝCARET MAHKEMESÝ">
+<meta name="twitter:description" content="T.C. MERSÝN 2. ASLÝYE TÝCARET MAHKEMESÝ">
+<meta name="twitter:image:src" content="https://im.haberturk.com/l/2024/11/23/ver1732360420/3740454/jpg/600x314">
+<meta name="twitter:domain" content="haberturk.com">
+<meta property="taboola:image16x9" content="https://im.haberturk.com/l/2024/11/23/ver1732360420/3740454/jpg/640x360">
+<meta property="taboola:image1x1" content="https://im.haberturk.com/l/2024/11/23/ver1732360420/3740454/jpg/640x640">
+<meta name="viewport" content="width=device-width, initial-scale=1">

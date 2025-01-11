@@ -1,0 +1,15 @@
+Server: Server
+Content-Type: text/html
+x-amz-rid: 5VYF368020G99BQCW6SK
+Vary: Content-Type,Accept-Encoding,User-Agent
+Last-Modified: Wed, 13 Nov 2024 20:28:46 GMT
+ETag: "a6f-626d12e3c7b80-gzip"
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Content-Length: 1203
+Date: Fri, 10 Jan 2025 12:19:53 GMT
+Connection: keep-alive
+Alt-Svc: h3=":443"; ma=93600
+X-Amzn-Cdn-Id: ak-0.3fb3afc3.1736511593.1207e412
+X-Cache: NotCacheable from child
