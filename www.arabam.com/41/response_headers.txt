@@ -1,0 +1,15 @@
+Date: Sat, 01 Mar 2025 09:11:10 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+link: <https://www.arabam.com/blog/wp-json/>; rel="https://api.w.org/", <https://www.arabam.com/blog/wp-json/wp/v2/categories/19>; rel="alternate"; type="application/json"
+x-ua-device: desktop
+x-varnish: 102262548
+Age: 0
+x-cache: MISS
+vary: Accept-Encoding,User-Agent, User-Agent
+Set-Cookie: UserGuidValue=2a75f575a2874a9e8c17bf90f010a9c4;Domain=www.arabam.com;Path=/;Max-Age=10368000;SameSite=None;HTTPOnly;Secure
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9197865cfb12e34a-IST
+Content-Encoding: gzip

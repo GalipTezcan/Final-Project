@@ -1,0 +1,17 @@
+Date: Sat, 01 Mar 2025 09:37:37 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-powered-by: arabam.com Development Team
+x-frame-options: deny
+x-ua-device: desktop
+x-varnish: 106734185 107025417
+Age: 22
+x-cache: HIT
+vary: Accept-Encoding, User-Agent
+Set-Cookie: UserGuidValue=835de0a2f0f4a4b0a5f4a10aecc8dbae;Domain=www.arabam.com;Path=/;Max-Age=10368000;SameSite=None;HTTPOnly;Secure
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9197ad43bcf7d61f-IST
+Content-Encoding: gzip

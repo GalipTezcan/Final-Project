@@ -1,0 +1,15 @@
+Date: Sat, 01 Mar 2025 11:19:23 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+vary: User-Agent, Accept-Encoding
+strict-transport-security: max-age=31536000; includeSubDomains
+CF-Cache-Status: HIT
+Age: 6
+Expires: Sat, 01 Mar 2025 11:24:23 GMT
+Cache-Control: public, max-age=300
+Access-Control-Max-Age: 86400
+Set-Cookie: _cfuvid=q8FIRBBWJZU5tKO4javWUj5FH0R1MxEH4rbv94qfbVk-1740827963619-0.0.1.1-604800000; path=/; domain=.pazarama.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 9198425479ead5eb-IST
+Content-Encoding: gzip

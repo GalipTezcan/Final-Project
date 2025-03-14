@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta property="og:image" content="https://arabam-blog.mncdn.com/wp-content/uploads/2024/06/karavan-yapimi-7.jpg">
+<meta name="description" content="Bu blog yazýsýnda karavan yapýmý sürecinin temel adýmlarýný size kýlavuz olmasý adýna anlatacaðýz. Detaylar için gelin içeriðimize geçelim.">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sýfýrdan Karavan Yapma Süreci">
+<meta property="og:description" content="Bu blog yazýsýnda karavan yapýmý sürecinin temel adýmlarýný size kýlavuz olmasý adýna anlatacaðýz. Detaylar için gelin içeriðimize geçelim.">
+<meta property="og:url" content="https://www.arabam.com/blog/otomobille-yasam/minibus-nasil-karavan-olur-donusturme-adimlari-nelerdir/">
+<meta property="og:site_name" content="arabam.com">
+<meta property="article:published_time" content="2024-06-27T07:00:50+00:00">
+<meta property="article:modified_time" content="2024-06-27T07:04:01+00:00">
+<meta property="og:image" content="https://arabam-blog.mncdn.com/wp-content/uploads/2024/06/karavan-yapimi-7.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="768">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="author" content="Büþra Dilara Karababa">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:label1" content="Yazan:">
+<meta name="twitter:data1" content="Büþra Dilara Karababa">
+<meta name="twitter:label2" content="Tahmini okuma süresi">
+<meta name="twitter:data2" content="8 dakika">
+<meta name="generator" content="WordPress 6.4.5">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta itemprop="name" content="Büþra Dilara Karababa">
+<meta itemprop="datePublished" content="2024-06-27T10:00:50+00:00">
+<meta itemprop="dateModified" content="2024-06-27T10:04:01+03:00">
+<meta itemscope="" itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="https://www.arabam.com/blog/otomobille-yasam/minibus-nasil-karavan-olur-donusturme-adimlari-nelerdir/">
+<meta itemprop="url" content="https://arabam-blog.mncdn.com/wp-content/uploads/2018/04/logo-blog-2-1.png">
+<meta itemprop="name" content="arabam.com">
+<meta itemprop="headline " content="Sýfýrdan Karavan Yapma Süreci">
+<meta itemprop="url" content="https://arabam-blog.mncdn.com/wp-content/uploads/2024/06/karavan-yapimi-7.jpg">
+<meta itemprop="width" content="1024">
+<meta itemprop="height" content="768">

@@ -1,0 +1,556 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://www.arabam.com/blog/category/otomobil-testleri/","url":"https://www.arabam.com/blog/category/otomobil-testleri/","name":"Testler arþivleri - arabam.com","isPartOf":{"@id":"https://www.arabam.com/blog/#website"},"primaryImageOfPage":{"@id":"https://www.arabam.com/blog/category/otomobil-testleri/#primaryimage"},"image":{"@id":"https://www.arabam.com/blog/category/otomobil-testleri/#primaryimage"},"thumbnailUrl":"https://arabam-blog.mncdn.com/wp-content/uploads/2023/11/Peugeot-308-2.jpg","description":"Otomobillerin 0-100 km/s deðerlerinden fiyatlarýna, dýþ tasarýmýndan donaným özelliklerine kadar ayrýntýlý testler arabam.com/blog adresinde!","breadcrumb":{"@id":"https://www.arabam.com/blog/category/otomobil-testleri/#breadcrumb"},"inLanguage":"tr"},{"@type":"ImageObject","inLanguage":"tr","@id":"https://www.arabam.com/blog/category/otomobil-testleri/#primaryimage","url":"https://arabam-blog.mncdn.com/wp-content/uploads/2023/11/Peugeot-308-2.jpg","contentUrl":"https://arabam-blog.mncdn.com/wp-content/uploads/2023/11/Peugeot-308-2.jpg","width":1024,"height":768,"caption":"Peugeot 308"},{"@type":"BreadcrumbList","@id":"https://www.arabam.com/blog/category/otomobil-testleri/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana sayfa","item":"https://www.arabam.com/blog/"},{"@type":"ListItem","position":2,"name":"Testler"}]},{"@type":"WebSite","@id":"https://www.arabam.com/blog/#website","url":"https://www.arabam.com/blog/","name":"arabam.com","description":"2.El ve 0 Km Araç Satýþ Platformu","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.arabam.com/blog/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"tr"}]}
+
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.arabam.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.5"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+
+
+/* <![CDATA[ */
+var SDT_DATA = {"ajaxurl":"https:\/\/www.arabam.com\/blog\/wp-admin\/admin-ajax.php","siteUrl":"https:\/\/www.arabam.com\/blog\/","pluginsUrl":"https:\/\/arabam-blog.mncdn.com\/wp-content\/plugins","isAdmin":""};
+/* ]]> */
+
+
+
+
+	function source_of_copy() {
+		var body_element = document.getElementsByTagName('body')[0];
+		var selection;
+		selection = window.getSelection();
+		var infoText = "<br /><br /> Her hakký arabam.com’da saklýdýr. Kaynak gösterilerek dahi alýntý yapýlamaz.";
+		var kopyalanan = selection + infoText;
+		var gizliDiv = document.createElement('div');
+		gizliDiv.style.position='absolute';
+		gizliDiv.style.left='-99999px';
+		body_element.appendChild(gizliDiv);
+		gizliDiv.innerHTML = kopyalanan;
+		selection.selectAllChildren(gizliDiv);
+		window.setTimeout(function() {
+			body_element.removeChild(gizliDiv);
+		},0);
+	}
+	document.oncopy = source_of_copy;
+
+
+				window.tdwGlobal = {"adminUrl":"https:\/\/www.arabam.com\/blog\/wp-admin\/","wpRestNonce":"f7eed4f40a","wpRestUrl":"https:\/\/www.arabam.com\/blog\/wp-json\/","permalinkStructure":"\/%category%\/%postname%\/"};
+			
+
+    
+    
+
+	    var tdBlocksArray = []; //here we store all the items for the current page
+
+	    //td_block class - each ajax block uses a object of this class for requests
+	    function tdBlock() {
+		    this.id = '';
+		    this.block_type = 1; //block type id (1-234 etc)
+		    this.atts = '';
+		    this.td_column_number = '';
+		    this.td_current_page = 1; //
+		    this.post_count = 0; //from wp
+		    this.found_posts = 0; //from wp
+		    this.max_num_pages = 0; //from wp
+		    this.td_filter_value = ''; //current live filter value
+		    this.is_ajax_running = false;
+		    this.td_user_action = ''; // load more or infinite loader (used by the animation)
+		    this.header_color = '';
+		    this.ajax_pagination_infinite_stop = ''; //show load more at page x
+	    }
+
+
+        // td_js_generator - mini detector
+        (function(){
+            var htmlTag = document.getElementsByTagName("html")[0];
+
+	        if ( navigator.userAgent.indexOf("MSIE 10.0") > -1 ) {
+                htmlTag.className += ' ie10';
+            }
+
+            if ( !!navigator.userAgent.match(/Trident.*rv\:11\./) ) {
+                htmlTag.className += ' ie11';
+            }
+
+	        if ( navigator.userAgent.indexOf("Edge") > -1 ) {
+                htmlTag.className += ' ieEdge';
+            }
+
+            if ( /(iPad|iPhone|iPod)/g.test(navigator.userAgent) ) {
+                htmlTag.className += ' td-md-is-ios';
+            }
+
+            var user_agent = navigator.userAgent.toLowerCase();
+            if ( user_agent.indexOf("android") > -1 ) {
+                htmlTag.className += ' td-md-is-android';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Mac OS X')  ) {
+                htmlTag.className += ' td-md-is-os-x';
+            }
+
+            if ( /chrom(e|ium)/.test(navigator.userAgent.toLowerCase()) ) {
+               htmlTag.className += ' td-md-is-chrome';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Firefox') ) {
+                htmlTag.className += ' td-md-is-firefox';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Safari') && -1 === navigator.userAgent.indexOf('Chrome') ) {
+                htmlTag.className += ' td-md-is-safari';
+            }
+
+            if( -1 !== navigator.userAgent.indexOf('IEMobile') ){
+                htmlTag.className += ' td-md-is-iemobile';
+            }
+
+        })();
+
+
+
+
+        var tdLocalCache = {};
+
+        ( function () {
+            "use strict";
+
+            tdLocalCache = {
+                data: {},
+                remove: function (resource_id) {
+                    delete tdLocalCache.data[resource_id];
+                },
+                exist: function (resource_id) {
+                    return tdLocalCache.data.hasOwnProperty(resource_id) && tdLocalCache.data[resource_id] !== null;
+                },
+                get: function (resource_id) {
+                    return tdLocalCache.data[resource_id];
+                },
+                set: function (resource_id, cachedData) {
+                    tdLocalCache.remove(resource_id);
+                    tdLocalCache.data[resource_id] = cachedData;
+                }
+            };
+        })();
+
+    
+    
+var td_viewport_interval_list=[{"limitBottom":767,"sidebarWidth":228},{"limitBottom":1018,"sidebarWidth":300},{"limitBottom":1140,"sidebarWidth":324}];
+var td_ajax_url="https:\/\/www.arabam.com\/blog\/wp-admin\/admin-ajax.php?td_theme_name=Newspaper&v=9.2.2";
+var td_get_template_directory_uri="https:\/\/arabam-blog.mncdn.com\/wp-content\/themes\/newspaper";
+var tds_snap_menu="snap";
+var tds_logo_on_sticky="show_header_logo";
+var tds_header_style="";
+var td_please_wait="L\u00fctfen Bekleyin...";
+var td_email_user_pass_incorrect="Kullan\u0131c\u0131 ad\u0131 veya \u015fifre yanl\u0131\u015f!";
+var td_email_user_incorrect="Email veya kullan\u0131c\u0131 ad\u0131 yanl\u0131\u015f!";
+var td_email_incorrect="Email yanl\u0131\u015f!";
+var tds_more_articles_on_post_enable="show";
+var tds_more_articles_on_post_time_to_wait="";
+var tds_more_articles_on_post_pages_distance_from_top=0;
+var tds_theme_color_site_wide="#4db2ec";
+var tds_smart_sidebar="enabled";
+var tdThemeName="Newspaper";
+var td_magnific_popup_translation_tPrev="\u00d6nceki (Sol ok tu\u015fu)";
+var td_magnific_popup_translation_tNext="Sonraki (Sa\u011f ok tu\u015fu)";
+var td_magnific_popup_translation_tCounter="%curr% \/ %total%";
+var td_magnific_popup_translation_ajax_tError="%url% linkindeki i\u00e7erik y\u00fcklenemedi.";
+var td_magnific_popup_translation_image_tError="%curr% nolu imaj y\u00fcklenemedi.";
+var tdDateNamesI18n={"month_names":["Ocak","\u015eubat","Mart","Nisan","May\u0131s","Haziran","Temmuz","A\u011fustos","Eyl\u00fcl","Ekim","Kas\u0131m","Aral\u0131k"],"month_names_short":["Oca","\u015eub","Mar","Nis","May","Haz","Tem","A\u011fu","Eyl","Eki","Kas","Ara"],"day_names":["Pazar","Pazartesi","Sal\u0131","\u00c7ar\u015famba","Per\u015fembe","Cuma","Cumartesi"],"day_names_short":["Paz","Pts","Sal","\u00c7ar","Per","Cum","Cts"]};
+var td_ad_background_click_link="";
+var td_ad_background_click_target="";
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGPD5L');
+
+
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+
+
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/100875367/blog_article_300x250', [300, 250], 'div-gpt-ad-1534335447968-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+googletag.cmd.push(function() {
+        googletag.defineSlot('/21155722/arabam_web/arb_w_blog_sag_sutun', [[336, 280], [250, 250], 'fluid', [300, 250]], 'div-gpt-ad-1570193402459-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+googletag.cmd.push(function() {
+    googletag.defineSlot('/21155722/arabam_web/arb_w_blog_masthead', ['fluid', [990, 250], [970, 250]], 'div-gpt-ad-1570193273761-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+
+
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "WebSite",
+                    "@id": "https://www.arabam.com/blog/",
+                    "name": "Ana Sayfa"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                    "item": {
+                    "@type": "WebPage",
+                    "@id": "https://www.arabam.com/blog/category/otomobil-testleri/",
+                    "name": "Testler"
+                }
+            }    
+        ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+var block_td_uid_1_67c2c9e62f40a = new tdBlock();
+block_td_uid_1_67c2c9e62f40a.id = "td_uid_1_67c2c9e62f40a";
+block_td_uid_1_67c2c9e62f40a.atts = '{"limit":4,"td_column_number":3,"ajax_pagination":"next_prev","category_id":"19","show_child_cat":30,"td_ajax_filter_type":"td_category_ids_filter","td_ajax_preloading":"","block_template_id":"","header_color":"","ajax_pagination_infinite_stop":"","offset":"","td_filter_default_txt":"","td_ajax_filter_ids":"","el_class":"","color_preset":"","border_top":"","css":"","tdc_css":"","class":"td_uid_1_67c2c9e62f40a_rand","tdc_css_class":"td_uid_1_67c2c9e62f40a_rand","tdc_css_class_style":"td_uid_1_67c2c9e62f40a_rand_style"}';
+block_td_uid_1_67c2c9e62f40a.td_column_number = "3";
+block_td_uid_1_67c2c9e62f40a.block_type = "td_block_mega_menu";
+block_td_uid_1_67c2c9e62f40a.post_count = "4";
+block_td_uid_1_67c2c9e62f40a.found_posts = "8831";
+block_td_uid_1_67c2c9e62f40a.header_color = "";
+block_td_uid_1_67c2c9e62f40a.ajax_pagination_infinite_stop = "";
+block_td_uid_1_67c2c9e62f40a.max_num_pages = "2208";
+tdBlocksArray.push(block_td_uid_1_67c2c9e62f40a);
+
+var block_td_uid_11_67c2c9e663ba6 = new tdBlock();
+block_td_uid_11_67c2c9e663ba6.id = "td_uid_11_67c2c9e663ba6";
+block_td_uid_11_67c2c9e663ba6.atts = '{"limit":"5","td_column_number":3,"ajax_pagination":"next_prev","category_id":"20","show_child_cat":30,"td_ajax_filter_type":"td_category_ids_filter","td_ajax_preloading":"","block_template_id":"","header_color":"","ajax_pagination_infinite_stop":"","offset":"","td_filter_default_txt":"","td_ajax_filter_ids":"","el_class":"","color_preset":"","border_top":"","css":"","tdc_css":"","class":"td_uid_11_67c2c9e663ba6_rand","tdc_css_class":"td_uid_11_67c2c9e663ba6_rand","tdc_css_class_style":"td_uid_11_67c2c9e663ba6_rand_style"}';
+block_td_uid_11_67c2c9e663ba6.td_column_number = "3";
+block_td_uid_11_67c2c9e663ba6.block_type = "td_block_mega_menu";
+block_td_uid_11_67c2c9e663ba6.post_count = "5";
+block_td_uid_11_67c2c9e663ba6.found_posts = "625";
+block_td_uid_11_67c2c9e663ba6.header_color = "";
+block_td_uid_11_67c2c9e663ba6.ajax_pagination_infinite_stop = "";
+block_td_uid_11_67c2c9e663ba6.max_num_pages = "125";
+tdBlocksArray.push(block_td_uid_11_67c2c9e663ba6);
+
+var block_td_uid_12_67c2c9e6689e7 = new tdBlock();
+block_td_uid_12_67c2c9e6689e7.id = "td_uid_12_67c2c9e6689e7";
+block_td_uid_12_67c2c9e6689e7.atts = '{"limit":"5","td_column_number":3,"ajax_pagination":"next_prev","category_id":"22","show_child_cat":30,"td_ajax_filter_type":"td_category_ids_filter","td_ajax_preloading":"","block_template_id":"","header_color":"","ajax_pagination_infinite_stop":"","offset":"","td_filter_default_txt":"","td_ajax_filter_ids":"","el_class":"","color_preset":"","border_top":"","css":"","tdc_css":"","class":"td_uid_12_67c2c9e6689e7_rand","tdc_css_class":"td_uid_12_67c2c9e6689e7_rand","tdc_css_class_style":"td_uid_12_67c2c9e6689e7_rand_style"}';
+block_td_uid_12_67c2c9e6689e7.td_column_number = "3";
+block_td_uid_12_67c2c9e6689e7.block_type = "td_block_mega_menu";
+block_td_uid_12_67c2c9e6689e7.post_count = "5";
+block_td_uid_12_67c2c9e6689e7.found_posts = "1209";
+block_td_uid_12_67c2c9e6689e7.header_color = "";
+block_td_uid_12_67c2c9e6689e7.ajax_pagination_infinite_stop = "";
+block_td_uid_12_67c2c9e6689e7.max_num_pages = "242";
+tdBlocksArray.push(block_td_uid_12_67c2c9e6689e7);
+
+var block_td_uid_13_67c2c9e67057b = new tdBlock();
+block_td_uid_13_67c2c9e67057b.id = "td_uid_13_67c2c9e67057b";
+block_td_uid_13_67c2c9e67057b.atts = '{"limit":"5","td_column_number":3,"ajax_pagination":"next_prev","category_id":"23","show_child_cat":30,"td_ajax_filter_type":"td_category_ids_filter","td_ajax_preloading":"","block_template_id":"","header_color":"","ajax_pagination_infinite_stop":"","offset":"","td_filter_default_txt":"","td_ajax_filter_ids":"","el_class":"","color_preset":"","border_top":"","css":"","tdc_css":"","class":"td_uid_13_67c2c9e67057b_rand","tdc_css_class":"td_uid_13_67c2c9e67057b_rand","tdc_css_class_style":"td_uid_13_67c2c9e67057b_rand_style"}';
+block_td_uid_13_67c2c9e67057b.td_column_number = "3";
+block_td_uid_13_67c2c9e67057b.block_type = "td_block_mega_menu";
+block_td_uid_13_67c2c9e67057b.post_count = "5";
+block_td_uid_13_67c2c9e67057b.found_posts = "3292";
+block_td_uid_13_67c2c9e67057b.header_color = "";
+block_td_uid_13_67c2c9e67057b.ajax_pagination_infinite_stop = "";
+block_td_uid_13_67c2c9e67057b.max_num_pages = "659";
+tdBlocksArray.push(block_td_uid_13_67c2c9e67057b);
+
+var block_td_uid_22_67c2c9e697cbc = new tdBlock();
+block_td_uid_22_67c2c9e697cbc.id = "td_uid_22_67c2c9e697cbc";
+block_td_uid_22_67c2c9e697cbc.atts = '{"custom_title":"En Pop\u00fcler","custom_url":"","block_template_id":"","header_color":"#","header_text_color":"#","accent_text_color":"#","m6_tl":"","limit":"4","offset":"","el_class":"","post_ids":"","category_id":"","category_ids":"","tag_slug":"","autors_id":"","installed_post_types":"","sort":"random_7_day","td_ajax_filter_type":"","td_ajax_filter_ids":"","td_filter_default_txt":"All","td_ajax_preloading":"","ajax_pagination":"load_more","ajax_pagination_infinite_stop":"","class":"td_block_widget td_uid_22_67c2c9e697cbc_rand","separator":"","f_header_font_header":"","f_header_font_title":"Block header","f_header_font_settings":"","f_header_font_family":"","f_header_font_size":"","f_header_font_line_height":"","f_header_font_style":"","f_header_font_weight":"","f_header_font_transform":"","f_header_font_spacing":"","f_header_":"","f_ajax_font_title":"Ajax categories","f_ajax_font_settings":"","f_ajax_font_family":"","f_ajax_font_size":"","f_ajax_font_line_height":"","f_ajax_font_style":"","f_ajax_font_weight":"","f_ajax_font_transform":"","f_ajax_font_spacing":"","f_ajax_":"","f_more_font_title":"Load more button","f_more_font_settings":"","f_more_font_family":"","f_more_font_size":"","f_more_font_line_height":"","f_more_font_style":"","f_more_font_weight":"","f_more_font_transform":"","f_more_font_spacing":"","f_more_":"","m6f_title_font_header":"","m6f_title_font_title":"Article title","m6f_title_font_settings":"","m6f_title_font_family":"","m6f_title_font_size":"","m6f_title_font_line_height":"","m6f_title_font_style":"","m6f_title_font_weight":"","m6f_title_font_transform":"","m6f_title_font_spacing":"","m6f_title_":"","m6f_cat_font_title":"Article category tag","m6f_cat_font_settings":"","m6f_cat_font_family":"","m6f_cat_font_size":"","m6f_cat_font_line_height":"","m6f_cat_font_style":"","m6f_cat_font_weight":"","m6f_cat_font_transform":"","m6f_cat_font_spacing":"","m6f_cat_":"","m6f_meta_font_title":"Article meta info","m6f_meta_font_settings":"","m6f_meta_font_family":"","m6f_meta_font_size":"","m6f_meta_font_line_height":"","m6f_meta_font_style":"","m6f_meta_font_weight":"","m6f_meta_font_transform":"","m6f_meta_font_spacing":"","m6f_meta_":"","css":"","tdc_css":"","td_column_number":1,"color_preset":"","border_top":"","tdc_css_class":"td_uid_22_67c2c9e697cbc_rand","tdc_css_class_style":"td_uid_22_67c2c9e697cbc_rand_style"}';
+block_td_uid_22_67c2c9e697cbc.td_column_number = "1";
+block_td_uid_22_67c2c9e697cbc.block_type = "td_block_7";
+block_td_uid_22_67c2c9e697cbc.post_count = "1";
+block_td_uid_22_67c2c9e697cbc.found_posts = "1";
+block_td_uid_22_67c2c9e697cbc.header_color = "#";
+block_td_uid_22_67c2c9e697cbc.ajax_pagination_infinite_stop = "";
+block_td_uid_22_67c2c9e697cbc.max_num_pages = "1";
+tdBlocksArray.push(block_td_uid_22_67c2c9e697cbc);
+
+
+
+/* <![CDATA[ */
+var DTGS_NONCE_FRONTEND = "be27b07e3c"
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.arabam.com\/blog\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+
+
+
+
+    
+jQuery().ready(function() {
+var pulldown_size = jQuery(".td-category-pulldown-filter:first").width();
+if (pulldown_size > 113) { jQuery(".td-category-pulldown-filter .td-pulldown-filter-list").css({"min-width": pulldown_size, "border-top": "1px solid #444"}); }
+});
+
+                
+                    jQuery(window).ready(function() {
+                        tdAjaxLoop.loopState.sidebarPosition = '';
+                        tdAjaxLoop.loopState.moduleId = '2';
+                        tdAjaxLoop.loopState.currentPage = 1;
+
+	                    /*
+	                        The max_num_pages and the currentPage are used to show the loading box element on page (and also a new request), and according to wp docs
+	                        the max_num_pages = $found_posts / $posts_per_page, so we must consider the offset query var when $posts_per_page
+	                        is different from -1 (-1 means to show all posts)
+
+	                        !Important. For the moment, it's used only for categories.
+	                     */
+
+                        if ( -1 === 63) {
+		                    tdAjaxLoop.loopState.max_num_pages = 63;
+	                    } else {
+		                    tdAjaxLoop.loopState.max_num_pages = 62;
+	                    }
+
+                        tdAjaxLoop.loopState.atts = {
+                            'category_id':20
+	                        ,offset : 5                        };
+                        tdAjaxLoop.loopState.ajax_pagination_infinite_stop = 3;
+                        tdAjaxLoop.init();
+                    });
+                
+                
+
+	
+
+		(function(){
+			var html_jquery_obj = jQuery('html');
+
+			if (html_jquery_obj.length && (html_jquery_obj.is('.ie8') || html_jquery_obj.is('.ie9'))) {
+
+				var path = 'https://arabam-blog.mncdn.com/wp-content/themes/newspaper/style.css';
+
+				jQuery.get(path, function(data) {
+
+					var str_split_separator = '#td_css_split_separator';
+					var arr_splits = data.split(str_split_separator);
+					var arr_length = arr_splits.length;
+
+					if (arr_length > 1) {
+
+						var dir_path = 'https://arabam-blog.mncdn.com/wp-content/themes/newspaper';
+						var splited_css = '';
+
+						for (var i = 0; i < arr_length; i++) {
+							if (i > 0) {
+								arr_splits[i] = str_split_separator + ' ' + arr_splits[i];
+							}
+							//jQuery('head').append('<style>' + arr_splits[i] + '</style>');
+
+							var formated_str = arr_splits[i].replace(/\surl\(\'(?!data\:)/gi, function regex_function(str) {
+								return ' url(\'' + dir_path + '/' + str.replace(/url\(\'/gi, '').replace(/^\s+|\s+$/gm,'');
+							});
+
+							splited_css += "<style>" + formated_str + "</style>";
+						}
+
+						var td_theme_css = jQuery('link#td-theme-css');
+
+						if (td_theme_css.length) {
+							td_theme_css.after(splited_css);
+						}
+					}
+				});
+			}
+		})();
+
+	
+	
+
+
+
+							(function(jQuery, undefined) {
+
+								jQuery(window).ready(function() {
+
+									if ( 'undefined' !== typeof tdcAdminIFrameUI ) {
+										var $liveIframe  = tdcAdminIFrameUI.getLiveIframe();
+
+										if ( $liveIframe.length ) {
+											$liveIframe.load(function() {
+												$liveIframe.contents().find( 'body').append( '<textarea class="tdw-css-writer-editor" style="display: none"></textarea>' );
+											});
+										}
+									}
+
+								});
+
+							})(jQuery);
+
+						
+
+							jQuery(window).load(function (){
+
+								if ( 'undefined' !== typeof tdLiveCssInject ) {
+
+									tdLiveCssInject.init();
+
+
+									var editor_textarea = jQuery('.td_live_css_uid_1_67c2c9e6be1f9');
+									var languageTools = ace.require("ace/ext/language_tools");
+									var tdcCompleter = {
+										getCompletions: function (editor, session, pos, prefix, callback) {
+											if (prefix.length === 0) {
+												callback(null, []);
+												return
+											}
+
+											if ('undefined' !== typeof tdcAdminIFrameUI) {
+
+												var data = {
+													error: undefined,
+													getShortcode: ''
+												};
+
+												tdcIFrameData.getShortcodeFromData(data);
+
+												if (!_.isUndefined(data.error)) {
+													tdcDebug.log(data.error);
+												}
+
+												if (!_.isUndefined(data.getShortcode)) {
+
+													var regex = /el_class=\"([A-Za-z0-9_-]*\s*)+\"/g,
+														results = data.getShortcode.match(regex);
+
+													var elClasses = {};
+
+													for (var i = 0; i < results.length; i++) {
+														var currentClasses = results[i]
+															.replace('el_class="', '')
+															.replace('"', '')
+															.split(' ');
+
+														for (var j = 0; j < currentClasses.length; j++) {
+															if (_.isUndefined(elClasses[currentClasses[j]])) {
+																elClasses[currentClasses[j]] = '';
+															}
+														}
+													}
+
+													var arrElClasses = [];
+
+													for (var prop in elClasses) {
+														arrElClasses.push(prop);
+													}
+
+													callback(null, arrElClasses.map(function (item) {
+														return {
+															name: item,
+															value: item,
+															meta: 'in_page'
+														}
+													}));
+												}
+											}
+										}
+									};
+									languageTools.addCompleter(tdcCompleter);
+
+									window.editor = ace.edit("td_live_css_uid_1_67c2c9e6be1f9");
+                                    window.editor.$blockScrolling = Infinity;
+
+                                    // 'change' handler is written as function because it's called by tdc_on_add_css_live_components (of wp_footer hook)
+									// We did it to reattach the existing compiled css to the new content received from server.
+									window.editorChangeHandler = function () {
+										//tdwState.lessWasEdited = true;
+
+										window.onbeforeunload = function () {
+											if (tdwState.lessWasEdited) {
+												return "You have attempted to leave this page. Are you sure?";
+											}
+											return false;
+										};
+
+										var editorValue = editor.getSession().getValue();
+
+										editor_textarea.val(editorValue);
+
+										if ('undefined' !== typeof tdcAdminIFrameUI) {
+											tdcAdminIFrameUI.getLiveIframe().contents().find('.tdw-css-writer-editor:first').val(editorValue);
+
+											// Mark the content as modified
+											// This is important for showing info when composer closes
+                                            tdcMain.setContentModified();
+										}
+
+										tdLiveCssInject.less();
+									};
+
+									editor.getSession().setValue(editor_textarea.val());
+									editor.getSession().on('change', editorChangeHandler);
+
+									editor.setTheme("ace/theme/textmate");
+									editor.setShowPrintMargin(false);
+									editor.getSession().setMode("ace/mode/less");
+                                    editor.getSession().setUseWrapMode(true);
+									editor.setOptions({
+										enableBasicAutocompletion: true,
+										enableSnippets: true,
+										enableLiveAutocompletion: false
+									});
+
+								}
+
+							});
+						
+
+function OptanonWrapper(){};
+(function(a){function c(){(function(b,a,c,f,e,d){b.hj=b.hj||function(){(b.hj.q=b.hj.q||[]).push(arguments)};b._hjSettings={hjid:163411,hjsv:5};e=a.getElementsByTagName("head")[0];d=a.createElement("script");d.async=1;d.src=c+b._hjSettings.hjid+f+b._hjSettings.hjsv;e.appendChild(d)})(window,document,"//static.hotjar.com/c/hotjar-",".js?sv\x3d")}a.addEventListener?a.addEventListener("load",c,!1):a.attachEvent&&a.attachEvent("onload",c)})(window);dataLayer.push({event:"hotjarLoaded"});
+!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","657086049520132");fbq("track","PageView");
+!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods="page track identify instances debug on off once ready alias group enableCookie disableCookie".split(" ");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=function(b,c){var f="https://analytics.tiktok.com/i18n/pixel/events.js";
+a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement("script");c.type="text/javascript";c.async=!0;c.src=f+"?sdkid\x3d"+b+"\x26lib\x3d"+e;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)};a.load("C6TG40K8D8G7TBKFL5C0");a.page()}(window,document,"ttq");
+(function(a,e,b,f,g,c,d){a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};c=e.createElement(f);c.async=1;c.src="https://www.clarity.ms/tag/"+g;d=e.getElementsByTagName(f)[0];d.parentNode.insertBefore(c,d)})(window,document,"clarity","script","fbmdikkhtn");
+_linkedin_partner_id="5264417";window._linkedin_data_partner_ids=window._linkedin_data_partner_ids||[];window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+(function(a){a||(window.lintrk=function(c,d){window.lintrk.q.push([c,d])},window.lintrk.q=[]);a=document.getElementsByTagName("script")[0];var b=document.createElement("script");b.type="text/javascript";b.async=!0;b.src="https://snap.licdn.com/li.lms-analytics/insight.min.js";a.parentNode.insertBefore(b,a)})(window.lintrk);
+(function(){function g(){for(var b=document.querySelector("#_hj_poll_container").children[2].getAttribute("id").split("_poll")[0],c="",e=document.querySelectorAll("."+b+"_question_text"),a=document.querySelectorAll("."+b+"_widget_content"),d="",f=0;f<a.length;f++)a[f].addEventListener("click",function(){c=document.querySelector("."+b+"_button_radio_checkbox_active").dataset.value;for(var a=0;a<e.length;a++)-1==e[a].getAttribute("class").indexOf(b+"_hidden")&&(d=e[a].innerText)});document.querySelector("#"+
+b+"_action_submit").addEventListener("click",function(){dataLayer.push({Category:"Hotjar - Survey",Action:d,Label:c,noninteraction:"true",event:"gaEvent"})})}var c=250,h=2E4,a=0,d=setInterval(function(){a+=1;if(0<document.querySelectorAll("#_hj_poll_container").length)try{g(),clearInterval(d)}catch(b){}else a==h/c&&clearInterval(d)},c)})();
+
+
+var google_play_links=document.querySelectorAll("a[href^\x3d'https://play.google.com/']");for(i=0;i<google_play_links.length;i++)google_play_links[i].href="https://play.google.com/store/apps/details?id\x3dcom.dogan.arabam\x26rdid\x3dcom.dogan.arabam\x26referrer\x3dutm_source%3Darabamcom%26utm_campaign%3Dwebsite";var app_store_links=document.querySelectorAll("footer a[href^\x3d'https://itunes.apple.com/']");for(i=0;i<app_store_links.length;i++)app_store_links[i].href="https://itunes.apple.com/us/app/arabam-com/id369111943?pt\x3d1379903\x26ct\x3darabamcom-website\x26mt\x3d8";
+var gtm=google_tag_manager[google_tag_manager["rm"]["261937"](87)],HotjarID=google_tag_manager["rm"]["261937"](88);try{HotjarID&&(localStorage.HotjarID=HotjarID,gtm.onHtmlSuccess(89))}catch(a){gtm.onHtmlFailure(89)};
+var gtm=google_tag_manager[google_tag_manager["rm"]["261937"](93)],HotjarID=google_tag_manager["rm"]["261937"](94);try{HotjarID&&(localStorage.HotjarID=HotjarID,gtm.onHtmlSuccess(95))}catch(a){gtm.onHtmlFailure(95)};

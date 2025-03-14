@@ -1,0 +1,17 @@
+Date: Sat, 01 Mar 2025 08:59:15 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: private
+Set-Cookie: source=direct; expires=Mon, 31-Mar-2025 08:59:15 GMT; path=/, sessionSource=direct; expires=Mon, 31-Mar-2025 08:59:15 GMT; path=/, campaign=; expires=Mon, 31-Mar-2025 08:59:15 GMT; path=/, UserGuidValue=d8379b86-584f-4240-b890-d54ff43ff674; expires=Sun, 29-Jun-2025 08:59:15 GMT; path=/, UserGuidValue=7462d2eb4ea6703bffcc0579db400993;Domain=www.arabam.com;Path=/;Max-Age=10368000;SameSite=None;HTTPOnly;Secure
+x-powered-by: Arabamcom Development Team
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, ASessionID, loading, showError
+access-control-allow-methods: GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: sameorigin
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9197750d08f5db85-IST
+Content-Encoding: gzip
