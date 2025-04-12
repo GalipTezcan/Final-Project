@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Akakçe Çerez Politikasýna ulaþmak ve Çerez Tercihlerinizi belirlemek için buradan bilgi alabilirsiniz.">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.akakce.com/info/kvkk/cerez-politikasi/">
+<meta property="og:title" content="Akakçe Çerez Politikasý">
+<meta property="og:image" content="//cdn.akakce.com/i/akakce-logo-32.png">
+<meta property="og:site_name" content="akakce.com">
+<meta property="og:description" content="Akakçe Çerez Politikasýna ulaþmak ve Çerez Tercihlerinizi belirlemek için buradan bilgi alabilirsiniz.">
+<meta name="yandex-verification" content="e0deab145ce136eb">
+<meta itemprop="position" content="1">
+<meta itemprop="position" content="2">
+<meta itemprop="position" content="3">

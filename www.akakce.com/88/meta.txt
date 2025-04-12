@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Piyasaya göre hangi ürünlerin ucuz fiyata satýldýðýný öðrenmek istiyorsan site site dolaþma! Akakçe'de piyasadaki tüm fiyatlarý karþýlaþtýr, en ucuz fiyatý tek týkla bul.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.akakce.com/piyasaya-gore-ucuz-urunler/?c=17008&amp;y=10">
+<meta property="og:title" content="Piyasaya Göre Ucuz Güneþ Gözlükleri">
+<meta property="og:image" content="//cdn.akakce.com/i/akakce-logo-32.png">
+<meta property="og:site_name" content="akakce.com">
+<meta property="og:description" content="Piyasaya göre hangi ürünlerin ucuz fiyata satýldýðýný öðrenmek istiyorsan site site dolaþma! Akakçe'de piyasadaki tüm fiyatlarý karþýlaþtýr, en ucuz fiyatý tek týkla bul.">
+<meta name="yandex-verification" content="e0deab145ce136eb">
+<meta itemprop="position" content="1">
+<meta itemprop="position" content="2">
+<meta itemprop="position" content="3">

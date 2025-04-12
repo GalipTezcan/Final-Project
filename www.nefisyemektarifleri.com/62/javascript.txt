@@ -1,0 +1,423 @@
+
+
+
+
+
+
+
+
+
+	{
+		"@context" : "http://schema.org",
+		"@type" : "WebSite",
+		"name" : "Nefis Yemek Tarifleri",
+		"url" : "https://www.nefisyemektarifleri.com/",
+		"potentialAction": [{
+			"@type": "SearchAction",
+			"target": "https://www.nefisyemektarifleri.com/ara/?utm_source=browser-search&s={search_term_string}",
+			"query-input": "required name=search_term_string"
+		}]
+	}
+
+
+var nytwebpushmodule = 'https://mn.nytcdn.com/wp-content/themes/nytheme/src/js/vendor/web-push-module.js?v='  + parseInt(new Date().getTime() / 86400000);
+var nytwebpushnonce = '6a1220c1a7';
+
+window.addEventListener('DOMContentLoaded', function() {
+	var vendor_stylesheet = document.createElement('link');
+	vendor_stylesheet.href = 'https://mn.nytcdn.com/wp-content/themes/nytheme/dist/assets/css/general-vendor.css?1711622259';
+	vendor_stylesheet.rel  = 'stylesheet';
+	vendor_stylesheet.type = 'text/css';
+	document.getElementsByTagName('head')[0].appendChild(vendor_stylesheet);
+});
+
+window.addEventListener('load', function() {
+	var print_stylesheet = document.createElement('link');
+	print_stylesheet.href = 'https://mn.nytcdn.com/wp-content/themes/nytheme/print.css?1680961699';
+	print_stylesheet.rel  = 'stylesheet';
+	print_stylesheet.media = 'print';
+	document.getElementsByTagName('head')[0].appendChild(print_stylesheet);
+});
+
+
+	function removeEPLoading() {
+		var loading = document.querySelector('.video-presentation .video-loading ');
+
+		if (loading) {
+			loading.remove();
+		}
+
+		var nyt_video_container = document.getElementById('inline-video');
+		if (nyt_video_container){
+			nyt_video_container.style.backgroundColor = "unset";
+		}
+	}
+
+
+		var Countly = Countly || {};
+		Countly.q = Countly.q || [];
+
+		//provide countly initialization parameters
+		Countly.app_key = '0a8affd45c248ede741520e1486853df83eb9b81';
+		Countly.url = 'https://c.nefisyt.com';
+
+		// Countly.q.push(['track_sessions']);
+		// Countly.q.push(['track_pageview']);
+		// Countly.q.push(['track_errors']);
+
+		var events_json = '[]';
+		var events = JSON.parse(events_json);
+		events.forEach(function(event) {
+			Countly.q.push(['add_event', event ]);
+		});
+
+		//load countly script asynchronously
+		(function() {
+			var cly = document.createElement('script'); cly.type = 'text/javascript';
+			cly.async = true;
+			//enter url of script here
+			cly.src = 'https://cdnjs.cloudflare.com/ajax/libs/countly-sdk-web/20.4.0/countly.min.js';
+			cly.onload = function(){Countly.init()};
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+		})();
+	
+
+		    
+		                googleCustom = 'nyt=1&video=1&nyt_cat=liste';
+		    
+            noktaad={ads:new Array(),site:'nefisyemektarifleri'};
+			window.loadNoktaScript=function() {
+				if(document.getElementById('nokta-ad-script')!=null)return;
+				var noktaScript = document.createElement('script');
+				noktaScript.async = true;
+				noktaScript.type = "text/javascript";
+				noktaScript.id = 'nokta-ad-script';
+				noktaScript.src = 'https://static.virgul.com/theme/mockups/adcode/outside.js?dts=' + parseInt(new Date().getTime() / 86400000);
+				document.getElementsByTagName('head')[0].appendChild(noktaScript);
+			};
+			window.addEventListener('load', window.loadNoktaScript);
+			setTimeout(window.loadNoktaScript,1100);
+
+            
+	    
+
+            function loadNoktaPlayer() {
+                var dt = parseInt(new Date().getTime() / 86400000);
+                noktaPlayerScript = document.createElement('script');
+                noktaPlayerScript.async = true;
+                noktaPlayerScript.type = "text/javascript";
+                noktaPlayerScript.id = 'nokta-player-script';
+                noktaPlayerScript.src = 'https://c1.imgiz.com/player_others/html5/NoktaNpmPlayerApi.js?dts=' + dt;
+                document.getElementsByTagName('head')[0].appendChild(noktaPlayerScript);
+            }
+
+					
+
+            {
+            "@context":"http://schema.org",
+            "@type":"ItemList",
+            "mainEntityOfPage":{"@type":"CollectionPage",
+            "@id":"https://www.nefisyemektarifleri.com/liste/nefis-pratik-patlican-yemekleri/"
+            },
+            "itemListElement":[{"@type":"ListItem","position":1,"url":"https://www.nefisyemektarifleri.com/ali-nazik-kebabi/", "image":"https://i.nefisyemektarifleri.com/2024/03/25/ali-nazik-kebabi-7.jpg"},{"@type":"ListItem","position":2,"url":"https://www.nefisyemektarifleri.com/video/geleli-kebabi/", "image":"https://i.nefisyemektarifleri.com/2022/08/19/geleli-kebabi.jpg"},{"@type":"ListItem","position":3,"url":"https://www.nefisyemektarifleri.com/video/hunkar-begendi/", "image":"https://i.nefisyemektarifleri.com/2020/11/03/asperox-hunkar-begendi-8.jpg"},{"@type":"ListItem","position":4,"url":"https://www.nefisyemektarifleri.com/lezzeti-sahane-sogurme-kebabi/", "image":"https://i.nefisyemektarifleri.com/2020/05/08/lezzeti-sahane-sogurme-kebabi.jpg"},{"@type":"ListItem","position":5,"url":"https://www.nefisyemektarifleri.com/sebzeli-kiymali-enfes-patlican-musakka/", "image":"https://i.nefisyemektarifleri.com/2020/05/13/sebzeli-kiymali-enfes-patlican-musakka.jpg"},{"@type":"ListItem","position":6,"url":"https://www.nefisyemektarifleri.com/kiymali-patlican-sarma-11610327/", "image":"https://i.nefisyemektarifleri.com/2024/03/15/kiymali-patlican-sarma.jpg"},{"@type":"ListItem","position":7,"url":"https://www.nefisyemektarifleri.com/patlicanli-pilav-tarifi-2/", "image":"https://i.nefisyemektarifleri.com/2016/06/05/patlicanli-pilav-tarifi-600x400.jpeg"},{"@type":"ListItem","position":8,"url":"https://www.nefisyemektarifleri.com/misir-unlu-patlican-kizartma/", "image":"https://i.nefisyemektarifleri.com/2021/10/27/misir-unlu-patlican-kizartma-7.jpg"},{"@type":"ListItem","position":9,"url":"https://www.nefisyemektarifleri.com/etli-patlican-kebabi-10182203/", "image":"https://i.nefisyemektarifleri.com/2022/02/25/etli-patlican-kebabi.jpg"},{"@type":"ListItem","position":10,"url":"https://www.nefisyemektarifleri.com/patlican-tava-orjinal-tarif-adana-yoresi/", "image":"https://i.nefisyemektarifleri.com/2019/08/14/patlican-tava-orjinal-tarif-adana-yoresi-14-600x400.jpg"},{"@type":"ListItem","position":11,"url":"https://www.nefisyemektarifleri.com/patlican-kavurmasi-yapimi/", "image":"https://i.nefisyemektarifleri.com/2015/05/16/patlican-kavurmasi-600x400.jpg"},{"@type":"ListItem","position":12,"url":"https://www.nefisyemektarifleri.com/dillere-destan-patlican-kebabi/", "image":"https://i.nefisyemektarifleri.com/2020/05/08/dillere-destan-patlican-kebabi.jpg"},{"@type":"ListItem","position":13,"url":"https://www.nefisyemektarifleri.com/zeytinyagli-patlican-yemegi-yapimi/", "image":"https://i.nefisyemektarifleri.com/2021/11/10/zeytinyagli-patlican-yemegi-yapimi-6.jpg"},{"@type":"ListItem","position":14,"url":"https://www.nefisyemektarifleri.com/patlican-oturtma-8194161/", "image":"https://i.nefisyemektarifleri.com/2020/10/01/patlican-oturtma.jpg"},{"@type":"ListItem","position":15,"url":"https://www.nefisyemektarifleri.com/kofteli-patlican-kebabi-3315895/", "image":"https://i.nefisyemektarifleri.com/2022/07/08/kofteli-patlican-kebabi.jpg"},{"@type":"ListItem","position":16,"url":"https://www.nefisyemektarifleri.com/sehzade-kebabi-tarifi/", "image":"https://i.nefisyemektarifleri.com/2020/08/04/sehzade-kebabi-tarifi-11.jpg"},{"@type":"ListItem","position":17,"url":"https://www.nefisyemektarifleri.com/kofteli-islim-kebabi/", "image":"https://i.nefisyemektarifleri.com/2021/06/08/kofteli-islim-kebabi-11.jpg"},{"@type":"ListItem","position":18,"url":"https://www.nefisyemektarifleri.com/puf-puf-patlican-kizartmasi-cok-lezzetli/", "image":"https://i.nefisyemektarifleri.com/2017/03/31/puf-puf-patlican-kizartmasi-cok-lezzetli-600x400.jpg"},{"@type":"ListItem","position":19,"url":"https://www.nefisyemektarifleri.com/patates-pureli-patlican-kebabi-8272189/", "image":"https://i.nefisyemektarifleri.com/2020/10/22/patates-pureli-patlican-kebabi.jpg"},{"@type":"ListItem","position":20,"url":"https://www.nefisyemektarifleri.com/patlican-yemegi-etsiz/", "image":"https://i.nefisyemektarifleri.com/2020/10/28/patlican-yemegi-etsiz-8.jpg"},{"@type":"ListItem","position":21,"url":"https://www.nefisyemektarifleri.com/tavuklu-patlican-kebabi-nefis-lezzette/", "image":"https://i.nefisyemektarifleri.com/2021/10/24/tavuklu-patlican-kebabinefis-lezzette.jpg"},{"@type":"ListItem","position":22,"url":"https://www.nefisyemektarifleri.com/patlican-cullama-koz-patlicanli/", "image":"https://i.nefisyemektarifleri.com/2020/06/18/patlican-cullama-koz-patlicanli.jpg"},{"@type":"ListItem","position":23,"url":"https://www.nefisyemektarifleri.com/babagannus-tarifi/", "image":"https://i.nefisyemektarifleri.com/2019/11/04/babagannus-tarifi-7-600x400.jpg"},{"@type":"ListItem","position":24,"url":"https://www.nefisyemektarifleri.com/patlican-musakka-yapilisi/", "image":"https://i.nefisyemektarifleri.com/2019/11/15/patlican-musakka-yapilisi-videolu-600x400.jpg"},{"@type":"ListItem","position":25,"url":"https://www.nefisyemektarifleri.com/video/cok-begenilen-patlican-kapama-tarifi/", "image":"https://i.nefisyemektarifleri.com/2018/06/05/patlican-kapama-600x400.jpg"},{"@type":"ListItem","position":26,"url":"https://www.nefisyemektarifleri.com/kuru-patlican-dolmasi/", "image":"https://i.nefisyemektarifleri.com/2020/03/27/kuru-patlican-dolmasi-10.jpg"},{"@type":"ListItem","position":27,"url":"https://www.nefisyemektarifleri.com/firinda-patlican-graten/", "image":"https://i.nefisyemektarifleri.com/2018/05/07/firinda-patlican-graten-600x400.jpg"},{"@type":"ListItem","position":28,"url":"https://www.nefisyemektarifleri.com/patlicanli-bulgur-pilavi-tarifi/", "image":"https://i.nefisyemektarifleri.com/2021/11/12/patlicanli-bulgur-pilavi-tarifi-1.jpg"},{"@type":"ListItem","position":29,"url":"https://www.nefisyemektarifleri.com/kofteli-patlican-sarma-tarifi/", "image":"https://i.nefisyemektarifleri.com/2020/05/18/kofteli-patlican-sarma-tarifi.jpg"},{"@type":"ListItem","position":30,"url":"https://www.nefisyemektarifleri.com/firinda-patlican-kebabi/", "image":"https://i.nefisyemektarifleri.com/2007/09/firinda-patlican-kebabi-fotografi.jpg"},{"@type":"ListItem","position":31,"url":"https://www.nefisyemektarifleri.com/hunkar-begendi-yapimi/", "image":"https://i.nefisyemektarifleri.com/2024/04/15/hunkar-begendi-yapimi-videolu.jpg"},{"@type":"ListItem","position":32,"url":"https://www.nefisyemektarifleri.com/video/koz-patlican-koftesi-videolu/", "image":"https://i.nefisyemektarifleri.com/2018/05/23/koz-patlican-koftesi-videolu-7-600x400.jpg"},{"@type":"ListItem","position":33,"url":"https://www.nefisyemektarifleri.com/firinda-kiymali-patlican-musakka/", "image":"https://i.nefisyemektarifleri.com/2015/04/07/firinda-kiymali-patlican-musakka-600x400.jpg"},{"@type":"ListItem","position":34,"url":"https://www.nefisyemektarifleri.com/patlican-baligi-misir-unlu-patlican-kizartmasi-9564199/", "image":"https://i.nefisyemektarifleri.com/2021/06/29/patlican-baligi-misir-unlu-patlican-kizartmasi.jpg"},{"@type":"ListItem","position":35,"url":"https://www.nefisyemektarifleri.com/karni-yarik-tarifi/", "image":"https://i.nefisyemektarifleri.com/2019/06/27/karniyarik-tarifi-videolu-4-600x400.jpg"},{"@type":"ListItem","position":36,"url":"https://www.nefisyemektarifleri.com/patlicanli-pilav-kapama-7461022/", "image":"https://i.nefisyemektarifleri.com/2020/05/05/patlicanli-pilav-kapama.jpg"},{"@type":"ListItem","position":37,"url":"https://www.nefisyemektarifleri.com/video/patlicanli-beyti-kebabi-nasil-yapilir/", "image":"https://i.nefisyemektarifleri.com/2017/10/05/kofteli-patlicanli-beyti-kebabi-10-600x400.jpg"},{"@type":"ListItem","position":38,"url":"https://www.nefisyemektarifleri.com/firinda-kiymali-patlican/", "image":"https://i.nefisyemektarifleri.com/2021/04/29/firinda-kiymali-patlican-8.jpg"},{"@type":"ListItem","position":39,"url":"https://www.nefisyemektarifleri.com/urfa-kazan-kebabi-9298868/", "image":"https://i.nefisyemektarifleri.com/2021/04/27/urfa-kazan-kebabi.jpg"},{"@type":"ListItem","position":40,"url":"https://www.nefisyemektarifleri.com/patlican-lazanya-tarifi/", "image":"https://i.nefisyemektarifleri.com/2014/09/patlican-lazanya-tarif-foto.jpg"},{"@type":"ListItem","position":41,"url":"https://www.nefisyemektarifleri.com/imam-bayildi-yapimi/", "image":"https://i.nefisyemektarifleri.com/2023/08/18/imam-bayildi-yapimi-6.jpg"},{"@type":"ListItem","position":42,"url":"https://www.nefisyemektarifleri.com/patlican-cigirtma-bergama-yoresi/", "image":"https://i.nefisyemektarifleri.com/2014/05/patlican-cigirtma-bergama-yoresi-fotografi-3.jpg"},{"@type":"ListItem","position":43,"url":"https://www.nefisyemektarifleri.com/saksuka-tarifi/", "image":"https://i.nefisyemektarifleri.com/2013/05/saksuka-tarifi-fotografi.jpg"},{"@type":"ListItem","position":44,"url":"https://www.nefisyemektarifleri.com/ratatuy-tarifi/", "image":"https://i.nefisyemektarifleri.com/2014/06/ratatuy-tarifi-fotografi-1.jpg"},{"@type":"ListItem","position":45,"url":"https://www.nefisyemektarifleri.com/video/patlicanli-citir-borek-tarifi/", "image":"https://i.nefisyemektarifleri.com/2021/08/09/patlicanli-borek.jpg"}]}
+(function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-MFXWLS3');
+
+            dataLayer.push( {"event":"PageView","page":{"name":"Nefis Pratik Patlýcan Yemekleri: Resimli, Çeþitli Tarifler","post_type":"liste"},"login":false,"liste":{"rating":4,"comment_count":0}} );
+        
+
+            function gtm_trigger_virtual_data(trigger) {
+                if (undefined === trigger) {
+                    return;
+                }
+
+                var virtual_layers = [];
+
+                virtual_layers.forEach(function (data_layer) {
+                    if (data_layer.event === trigger) {
+                        dataLayer.push(data_layer);
+                    }
+                });
+            }
+        
+
+	var BP_DTheme = {};
+	var ajaxurl = '/wp-admin/admin-ajax.php?ajaxget=1';
+	var ajaxurl_upload = '/wp-admin/admin-ajax.php';
+	
+	var nyt_push_target = "https://bildirim.nefisyemektarifleri.com/";
+	var nyt_cdn = "https://mn.nytcdn.com/wp-content/";
+	var nyt_is_logged_in = 0;
+
+
+
+
+
+
+
+
+
+
+function  setPgCode(){var pgData={};var tagger = Tapad.init({gdpr:typeof noktaad=='undefined'?(noktaConsent==''?null:1):(noktaad.consent==''?null:1),ccpa:null,bp_id: 'noktacommedya',gdpr_consent: typeof noktaad=='undefined'?(noktaConsent==''?null:noktaConsent):(noktaad.consent==''?null:noktaad.consent)},{name:'P&G',pixelUrl:'https:\/\/feed.pghub.io/tag'});pgData.category='site_geneli';tagger.sync(pgData);};var googletag = googletag || {};googletag.cmd=googletag.cmd||[];window.virgulEnableSingleRequest=window.virgulEnableSingleRequest||false;window.empowerEnableNovatiq=false;window.noktaUsedSlots=[];var noktaGSlts=noktaGSlts||[],noktaGBckSlts=noktaGBckSlts||[],noktaDfpSlots=noktaDfpSlots ||[],noktaCuSlts=noktaCuSlts ||[],noktaDisabledGids=noktaDisabledGids ||[],nogrt={},ngcr=false,hasCrite=true;window.checkDomainsForCriteo=[];window.virgulGoogleDisplayed=[];;googletag.cmd.push(function(){if(virgulEnableSingleRequest){googletag.destroySlots(noktaDfpSlots);noktaDfpSlots=[];}});try{noktaad.settings.gamLazyLoad=noktaad.settings.gamLazyLoad||false;}catch(eghhf){window.gamLazyLoad=window.gamLazyLoad||false;};window.empowerGdprApplies=false;if(document.getElementById('dfpHeadScript')==null && (typeof googletag.pubadsReady=='undefined' || !googletag.apiReady)){var gads = document.createElement('script');gads.async = true;gads.type = 'text/javascript';gads.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js';gads.id='dfpHeadScript';var node=document.getElementsByTagName('script')[0];node.parentNode.insertBefore(gads, node);}else ngcr=true;googletag.cmd.push(function() {googletag.pubads().disableInitialLoad();ngcr=true;try{window.empPrO=noktaad.settings.pricingRules;window.tmpemeps={'web_nyt_tarif_disi_yazi_baslangic':{'r':0},'web_nyt_search_native':{'r':0},'web_nyt_slider_alti':{'r':0},'web_nyt_search_native_repeating':{'r':0},'web_nyt_sidebar_300x250':{'r':0},'web_nyt_yeni_tarifler_son_eklenen_videolar_arasi_468x60':{'r':0},'web_nyt_tarif_gorsel_en_alt_610x280':{'r':0},'web_nyt_right_tower':{'r':0},'web_nyt_malzemeler_yani_300x250':{'r':0},'web_nyt_anasayfa_icerik_300x250':{'r':0},'web_nyt_tarif_yapilis_sonrasi':{'r':0},'web_nyt_tarif_malzemeler_yapilis_arasi_468x60':{'r':0},'web_nyt_in_content':{'r':0},'web_nyt_sidebar_300x600_alt':{'r':0},'web_nyt_sidebar_300x600':{'r':1},'web_nyt_sidebar_blog_yazilari_alti_300x600':{'r':0},'web_nyt_icerik_detay_baslik_alti_610x280':{'r':0},'web_nyt_iftar_menu_karti':{'r':0},'web_nyt_benzer_tarifler_ilginizi_cekebilir_arasi_630x400':{'r':0},'web_nyt_tarif_karti_populer':{'r':0},'web_nyt_below_hero_content':{'r':0},'web_nyt_tarif_karti':{'r':0},'web_nyt_arama_sonuc':{'r':0},'web_nyt_left_tower':{'r':1},'web_nyt_search_native_2':{'r':0}};window.empowerSetPR(window.tmpemeps);delete window.tmpemeps;}catch(excfg){};window.empowerPushAd=window.empowerPushAd||function(e,t,a,n,o,i,d){e='div-gpt-ad-1455783126174-'+e;try{void 0===noktaGSlts[e]&&(noktaGSlts[e]={targeting:d||[],slot:null,code:t,codes:a,dimension:n,adType:i||''}),noktaGBckSlts[e]=o}catch(e){}};empowerPushAd('15374921728129623web_nyt_sidebar_300x600_alt','/21728129623,21696649314/web_nyt_sidebar_300x600_alt',[],[[300,600],[160,600],[120,600],'fluid',[300,250]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15325921728129623web_nyt_tarif_karti_populer','/21728129623,21696649314/web_nyt_tarif_karti_populer',[],['fluid',[300,250],[300,100]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15375521728129623web_nyt_slider_alti','/21728129623,21696649314/web_nyt_slider_alti',[],[[640,205],[652,180],[620,108],[615,90],[320,100],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15318521728129623web_nyt_right_tower','/21728129623,21696649314/web_nyt_right_tower',[],[[160, 600], [120, 600], 'fluid', [120, 240], [160, 400], [120, 400], [125, 125]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15319121728129623web_nyt_yeni_tarifler_son_eklenen_videolar_arasi_468x60','/21728129623,21696649314/web_nyt_yeni_tarifler_son_eklenen_videolar_arasi_468x60',[],[[468, 60], [615, 60], [320, 50], [300, 50], [120, 60], [216, 54], 'fluid', [600, 200]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15320421728129623web_nyt_tarif_yapilis_sonrasi','/21728129623,21696649314/web_nyt_tarif_yapilis_sonrasi',[],[[300, 250], [250, 250], [200, 200], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15320021728129623web_nyt_benzer_tarifler_ilginizi_cekebilir_arasi_630x400','/21728129623,21696649314/web_nyt_benzer_tarifler_ilginizi_cekebilir_arasi_630x400',[],[[630, 400], [300, 100], [300, 250], [240, 400], [320, 250], [320, 320], [336, 280], [468, 60], [468, 280], [480, 320], [600, 300], [615, 150], [615, 250], [615, 280], [620, 108], [320, 50], [300, 50], [234, 60], [120, 60], [88, 31], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15318921728129623web_nyt_tarif_malzemeler_yapilis_arasi_468x60','/21728129623,21696649314/web_nyt_tarif_malzemeler_yapilis_arasi_468x60',[],[[468,60],[320,50],[300,50],[120,60],[216,54],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15319321728129623web_nyt_malzemeler_yani_300x250','/21728129623,21696649314/web_nyt_malzemeler_yani_300x250',[],[[300, 250], [300, 200], [300, 100], [300, 50], [250, 250], [234, 60], [200, 200], [180, 150], [125, 125], [120, 60], [120, 240], [88, 31], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15424721728129623web_nyt_arama_sonuc','/21728129623,21696649314/web_nyt_arama_sonuc',[],['fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15319421728129623web_nyt_sidebar_blog_yazilari_alti_300x600','/21728129623,21696649314/web_nyt_sidebar_blog_yazilari_alti_300x600',[],[[300,600],[300,250],[336,280],[160,600],[120,600],[120,240],[300,800],[250,250],[200,200],[160,160],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15319221728129623web_nyt_icerik_detay_baslik_alti_610x280','/21728129623,21696649314/web_nyt_icerik_detay_baslik_alti_610x280',[],[[300, 100], [300, 150], [300, 250], [320, 50], [320, 100], [320, 150], [320, 180], [320, 250], [468, 60], [336, 280], [468, 280], [600, 200], [615, 300], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15381521728129623web_nyt_iftar_menu_karti','/21728129623,21696649314/web_nyt_iftar_menu_karti',[],['fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15375121728129623web_nyt_search_native_2','/21728129623,21696649314/web_nyt_search_native_2',[],['fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15318421728129623web_nyt_left_tower','/21728129623,21696649314/web_nyt_left_tower',[],[[160, 600], [120, 600], 'fluid', [120, 240], [160, 400], [120, 400], [125, 125]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'3'}]);empowerPushAd('15318821728129623web_nyt_anasayfa_icerik_300x250','/21728129623,21696649314/web_nyt_anasayfa_icerik_300x250',[],[[300,250],[250,250],[200,200],[160,160],[300,100],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15325821728129623web_nyt_tarif_karti','/21728129623,21696649314/web_nyt_tarif_karti',[],[[300,250],[250,250],[200,200],[160,160],[300,100],[300,50],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15460321728129623web_nyt_tarif_disi_yazi_baslangic','/21728129623,21696649314/web_nyt_tarif_disi_yazi_baslangic',[],[[468,60],'fluid',[600,200],[300,250],[336,280],[320,250],[468,250],[468,280]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15320121728129623web_nyt_tarif_gorsel_en_alt_610x280','/21728129623,21696649314/web_nyt_tarif_gorsel_en_alt_610x280',[],[[300,250],[320,180],[320,250],[468,60],[336,280],[468,280],[600,200],[640,205],'fluid',[300,100],[320,100]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15941521728129623web_nyt_in_content','/21728129623,21696649314/web_nyt_in_content',[],[[468,60],[414,138],[414,100],[412,137],[412,100],[390,130],[390,100],[375,125],[375,100],[360,120],[360,100],[320,250],[320,100],[320,50],[300,250],[300,200],[300,100],[300,50],[250,250],[234,60],[200,200],[180,150],[125,125],[120,60],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15875221728129623web_nyt_sidebar_300x250','/21728129623,21696649314/web_nyt_sidebar_300x250',[],[[300,250],[250,250],[200,200],[160,160],[300,100],[300,50],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15375021728129623web_nyt_search_native','/21728129623,21696649314/web_nyt_search_native',[],['fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15962321728129623web_nyt_below_hero_content','/21728129623,21696649314/web_nyt_below_hero_content',[],[[970, 250], [970, 120], [970, 90], [970, 66], [950, 90], [930, 180], [750, 200], [750, 100], [728, 90], [728, 250], [728, 100], [468, 60], [414, 138], [414, 100], [412, 137], [412, 100], [390, 130], [390, 100], [375, 125], [375, 100], [360, 120], [360, 100], [320, 250], [320, 100], [320, 50], [300, 250], [300, 200], [300, 100], [300, 50], [250, 250], [234, 60], [200, 200], [180, 150], [125, 125], [120, 60], [120, 240], [88, 31], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15375221728129623web_nyt_search_native_repeating','/21728129623,21696649314/web_nyt_search_native_repeating',[],['fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15318721728129623web_nyt_sidebar_300x600','/21728129623,21696649314/web_nyt_sidebar_300x600',[],[[300, 600], [160, 600], [120, 600], 'fluid', [300, 250]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);try{var tgss={};tgss.category='site_geneli';tgss.plm='null';tgss.viewable='2';tgss.site='nefisyemektarifleri';tgss.mt='1744446373270';tgss.pager='1@site_geneli@nefisyemektarifleri:site_geneli';tgss.policy='0';tgss.iabcat=[];tgss.iabcat.push('IAB8');tgss.iabcat.push('IAB8-9');tgss.host='www.nefisyemektarifleri.com';tgss.url='ratik patlican yemekleri &vi=10836584@';tgss.targetCtr='0';tgss.pid='vnetcc5ccf5f-d54d-40ee-b5e2-6e7e9d4caa3c';tgss.targetCr='0';tgss.Mobile='false';tgss.env='web';tgss.overlay='1';tgss.rc='0';tgss.datasave='0';tgss.nyt=['1'];tgss.video=['1'];tgss.nyt_cat=['liste'];for(var tgs in tgss){googletag.pubads().setTargeting(tgs,tgss[tgs]);}}catch(excbp){};if(virgulEnableSingleRequest)googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs(true);googletag.pubads().setCentering(true);if(typeof(dfpCodePushed)!='undefined' && dfpCodePushed)setTimeout(function(){for(mm in noktaGSlts)refreshGoogle(mm);},1200);window.getPPID=typeof window.getPPID!='undefined'?window.getPPID:function(){return 'vnetcc5ccf5fd54d40eeb5e26e7e9d4caa3c'};googletag.pubads().setPublisherProvidedId(window.getPPID());try{if((typeof noktaad=='undefined'?cookie:noktaad.cookie)('nonpa')=='1')googletag.pubads().setRequestNonPersonalizedAds(1);}catch(eghhf){};try{if((typeof noktaad=='undefined'?virgulRefreshCount:noktaad.refreshCount)>400){document.removeEventListener('visibilitychange', window.scrChange);window.vrgPw=function(){};window.noktaHeaderBidding={};window.refreshGoogle=function(t){};var elmxf=document.createElement('IMG');elmxf.setAttribute('class','virgulCounter'),elmxf.style.display='none',elmxf.setAttribute('data-time-end',(new Date).getTime()+6e3),elmxf.style.width='1',elmxf.style.height='1',elmxf.setAttribute('src','https://ng.virgul.com/tck/imp/66fd06cde4b00b594f8137c6?r=159828@site_geneli@donanimhaber:site_geneli&scm=https&l=&t=special&userId='+virgulPageAds.noktaId+'&cs='+(new Date).getTime()),document.getElementsByTagName('BODY')[0].appendChild(elmxf);if(typeof noktaad!='undefined'){noktaad.init=function(){};stopVirgulRefresh();delete noktaad;delete empowerad;}}}catch(eghhf){};googletag.enableServices();window.sendGoogleRefreshStarted=false;window.dfpCodePushed=true;googletag.cmd.push(function() {try{postVirgulCallbackOperation();}catch(exp){};});});;window.noktaScriptLoaded=true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(typeof window.virgulAdIntervals=='undefined')window.virgulAdIntervals=new Array();window.virgulAdIntervals.push(setInterval(function(){var el=document.getElementById('a67eae0219398550d20759443');if(el!=null)el.setAttribute('src',el.getAttribute('src')+'&nu=1');},8000))
+window.addEventListener("load", function() {
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mn.nytcdn.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+}); 
+
+		
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '177905808944310',
+				status: true,
+				cookie: true,
+				xfbml: true,
+				version: 'v14.0'
+			});
+		}
+
+		window.nyt_facebook_login_init = function() {
+			FB.login(function (response) {
+				if (response.status !== 'connected') {
+					
+					document.querySelector('#swal2-content .scroll-loading').remove();
+					document.querySelector('#swal2-content .fb-login').classList.remove('hidden');
+					successBottomOn('Giriþ yapýlamadý.');
+
+					
+					return;
+				}
+
+				if (!response.authResponse) {
+					return;
+				}
+
+				let login_form = document.getElementById('nyt-fb-login-form');
+				if (!login_form) {
+					return;
+				}
+
+				let access_token_input = login_form.querySelector('#nyt_fb_access_token');
+				if (!access_token_input) {
+					return;
+				}
+
+				access_token_input.value = response.authResponse.accessToken;
+				login_form.submit();
+			}, {scope: 'email', auth_type: 'rerequest'});
+		}
+	
+
+
+        window.addEventListener('load', function () {
+            if (typeof window.sendEventToAnalytics === 'function') {
+                if (window.nyt_show_ads === undefined) {
+                    sendEventToAnalytics('Adblock', 'block', 'NYT');
+                } else if (window.googletag && window.googletag.pubads === undefined) {
+                    sendEventToAnalytics('Adblock', 'block-googletag', 'NYT');
+                }
+            }
+        });
+    
+(function (a, e) {
+            function f() {
+                var d = 0;
+                if (e.body && e.body.offsetWidth) {
+                    d = e.body.offsetHeight
+                }
+                if (e.compatMode == "CSS1Compat" && e.documentElement && e.documentElement.offsetWidth) {
+                    d = e.documentElement.offsetHeight
+                }
+                if (a.innerWidth && a.innerHeight) {
+                    d = a.innerHeight
+                }
+                return d
+            }
+
+            function b(g) {
+                var d = ot = 0;
+                if (g.offsetParent) {
+                    do {
+                        ot += g.offsetTop
+                    } while (g = g.offsetParent)
+                }
+                return {top: ot}
+            }
+
+			function y() {
+				var l = e.querySelectorAll('.youtube-lazy-embed');
+				if (l.length <= 0) {
+					return;
+				}
+				var j = a.pageYOffset || e.documentElement.scrollTop || e.body.scrollTop;
+				var d = f();
+				for (var k = 0; k < l.length; k++) {
+					var h = l[k];
+					var g = b(h).top;
+					g = g - 200;
+
+					if (g < (d + j) && g > 0) {
+						var i = document.createElement( 'iframe' );
+						i.setAttribute( 'frameborder', '0' );
+						i.setAttribute( 'allowfullscreen', '' );
+						i.setAttribute( 'width', h.dataset.width );
+						i.setAttribute( 'height', h.dataset.height );
+						i.setAttribute( 'allow', 'autoplay' );
+						i.setAttribute( 'src', h.dataset.embed );
+
+						h.classList.remove('youtube-lazy-embed');
+						h.innerHTML = '';
+						h.appendChild( i );
+					}
+				}
+			}
+							a.addEventListener("scroll", y, false);
+			
+						function n() {
+				var l = e.querySelectorAll('.noktaplayer');
+				if (l.length <= 0) {
+					return;
+				}
+				var i = e.getElementById('nokta-player-script');
+				if (i != null) {
+					return false;
+				}
+
+				if (typeof loadNoktaPlayer === 'undefined') {
+					return false;
+				}
+
+				var j = a.pageYOffset || e.documentElement.scrollTop || e.body.scrollTop;
+				var d = f();
+
+				for (var k = 0; k < l.length; k++) {
+					var h = l[k];
+					var g = b(h).top;
+					g = g - 100;
+
+					if (g < (d + j) && g > 0) {
+						loadNoktaPlayer();
+					}
+				}
+			}
+			
+						a.addEventListener("DOMContentLoaded", n, false);
+			a.addEventListener("scroll", n, false);
+			
+			var nyt_lazy_images = {};
+			a.nyt_update_lazy_images_cache = function() {
+				nyt_lazy_images = [].slice.call(e.querySelectorAll('[data-lazy-src]'));
+			}
+
+			e.addEventListener('DOMContentLoaded', function() {
+				nyt_update_lazy_images_cache();
+				var z = false;
+				var usetwox = window.innerWidth > 480;
+
+				var lazyLoad = function() {
+					if (z !== false) {
+						return;
+					}
+					z = true;
+
+					setTimeout(function() {
+						var j = a.pageYOffset || e.documentElement.scrollTop || e.body.scrollTop;
+						var d = f();
+
+						nyt_lazy_images.forEach(function(h) {
+							var s;
+							if ( usetwox == true && h.hasAttribute('data-lazy-src-twox') ) {
+								s = h.getAttribute('data-lazy-src-twox');
+							} else {
+								s = h.getAttribute('data-lazy-src');
+							}
+
+							if (null === s) {
+								nyt_lazy_images = nyt_lazy_images.filter(function(i) {
+									return i !== h;
+								});
+
+								return;
+							}
+							var g = h.getBoundingClientRect().top
+
+							if (g < (d + j) && g > 0) {
+								h.src = s;
+								h.setAttribute('data-lazy-loaded', 'true');
+								h.removeAttribute('data-lazy-src');
+								h.removeAttribute('data-lazy-src-twox');
+
+								nyt_lazy_images = nyt_lazy_images.filter(function(i) {
+									return i !== h;
+								});
+
+								var recipe_image = h.closest('.recipe-image.single');
+								if (recipe_image) {
+									(function(image, recipe_image) {
+										var _img = new Image();
+										_img.src = image.getAttribute('src');
+										_img.onload = function(e) {
+											recipe_image.classList.remove('loading');
+										}
+									})(h, recipe_image);
+								}
+
+								if (nyt_lazy_images.length === 0) {
+									document.removeEventListener('scroll', lazyLoad);
+								}
+							}
+						});
+						z = false;
+					}, 200 );
+				}
+				lazyLoad();
+				e.addEventListener("scroll", lazyLoad);
+
+								a.addEventListener("DOMContentLoaded", n, false);
+				a.addEventListener("scroll", n, false);
+							} );
+
+		})(window, document);
+		
+
+	window.addEventListener('DOMContentLoaded', function() {
+		var script = document.createElement('script');
+		script.src = 'https://mn.nytcdn.com/wp-content/themes/nytheme/script-notlogin.js?v=1744299635';
+		document.getElementsByTagName('body')[0].appendChild(script);
+
+			});
+	
+
+
+!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1877570159153553");fbq("track","PageView");

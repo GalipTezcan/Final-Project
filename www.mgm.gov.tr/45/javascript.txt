@@ -1,0 +1,212 @@
+
+
+
+        
+        $(document).ready(function () {
+            var radTrYil = [], radTrAy = [];
+            $('.map').maphilight({stroke:false});
+            $("#yer").click(function () {
+                
+            });
+            var il = $("#cph_body_ilbilgi").attr("value");
+            $.ajax({
+                type: "GET",
+                url: "https://www.mgm.gov.tr/FTPDATA/arastirma/radyasyon/yillik_ort/" + il + "_yillar.csv",
+                dataType: "text",
+                success: function (data) {
+                    var klm = data.split('\n');
+                    for (var i = 1; i < klm.length; i++) {
+                        var satir = klm[i].split(';');
+                        //alert(satir[8]);
+                        if (satir.length > 0) {
+                            radTrYil[i - 1] = parseFloat(satir[8].replace(',', '.'));
+                            radTrYil[i - 1] = parseFloat(radTrYil[i - 1].toFixed(3));
+                        }
+                    }
+                }
+            });
+            $.ajax({
+                type: "GET",
+                url: "https://www.mgm.gov.tr/FTPDATA/arastirma/radyasyon/aylik_ort/" + il + "_aylar.csv",
+                dataType: "text",
+                success: function (data) {
+                    var klm = data.split('\n');
+                    for (var i = 1; i < klm.length; i++) {
+                        var satir = klm[i].split(';');
+                        if (satir.length > 0) {
+                            radTrAy[i - 1] = parseFloat(satir[8].replace(',', '.'));
+                            radTrAy[i - 1] = parseFloat(radTrAy[i - 1].toFixed(3));
+                        }
+                    }
+                    gCiz();
+                }
+            });
+	        
+	        Highcharts.setOptions({
+	            lang: {
+	                contextButtonTitle: "Global Güneþ Radyasyonu - Meteoroloji Genel Müdürlüðü",
+	                downloadJPEG: "JPEG olarak indir",
+	                downloadPDF: "PDF olarak indir",
+	                downloadPNG: "PNG olarak indir",
+	                downloadSVG: "SVG olarak indir",
+	                printChart: "Yazdýr",
+	                months: ['Ocak', 'Þubat', 'Mart', 'Nisan', 'Mayýs', 'Haziran', 'Temmuz', 'Aðustos', 'Eylül', 'Ekim', 'Kasým', 'Aralýk'],
+	                shortMonths: ['Oca', 'Þub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Aðu', 'Eyl', 'Eki', 'Kas', 'Ara'],
+	                weekdays: ['Pazar', 'Pazartesi', 'Salý', 'Çarþamba', 'Perþembe', 'Cuma', 'Cumartesi'],
+	                thousandsSep: '',
+	                decimalPoint:','
+	            }
+	        });
+	        function gCiz() {
+	            $('#chartYillikOrt').highcharts({
+	                chart: {
+	                    type: 'column',
+	                    width: 550,
+	                    height: 500
+	                },
+	                title: {
+	                    text: 'Yýllýk Ortalama Radyasyon'
+	                },
+	                yAxis: {
+	                    title: {
+	                        text: 'Radyasyon (kWh/m2)'
+	                    }
+	                },
+	                series: [{
+	                    name: 'Radyasyon',
+	                    data: radTrYil,//[5, 7, 3, 2, 6, 4, 5, 9, 2, 3, 5, 4, 3],
+	                    pointStart: 2004
+	                }]
+	            });
+	            $('#chartAylikOrt').highcharts({
+	                chart: {
+	                    type: 'column',
+	                    width: 550,
+	                    height: 500
+	                },
+	                title: {
+	                    text: 'Aylýk Ortalama Radyasyon'
+	                },
+	                yAxis: {
+	                    title: {
+	                        text: 'Radyasyon (kWh/m2)'
+	                    }
+	                },
+	                xAxis: {
+	                    categories: ['Ocak', 'Þubat', 'Mart', 'Nisan', 'Mayýs', 'Haziran', 'Temmuz', 'Aðustos', 'Eylül', 'Ekim', 'Kasým', 'Aralýk']
+	                },
+	                series: [{
+	                    name: 'Radyasyon',
+	                    data: radTrAy //[5, 7, 3, 2, 6, 4, 5, 9, 4, 3, 2, 4]
+	                }]
+	            });
+	        }
+        });
+    
+
+
+    (function (d, w, c) {
+
+        (w[c] = w[c] || []).push(function() {
+
+            try {
+
+                w.yaCounter48997139 = new Ya.Metrika({
+
+                    id:48997139,
+
+                    clickmap:true,
+
+                    trackLinks:true,
+
+                    accurateTrackBounce:true,
+
+                    webvisor:true
+
+                });
+
+            } catch(e) { }
+
+       });
+
+ 
+
+        var n = d.getElementsByTagName("script")[0],
+
+            s = d.createElement("script"),
+
+            f = function () { n.parentNode.insertBefore(s, n); };
+
+        s.type = "text/javascript";
+
+        s.async = true;
+
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+ 
+
+        if (w.opera == "[object Opera]") {
+
+            d.addEventListener("DOMContentLoaded", f, false);
+
+        } else { f(); }
+
+    })(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+        $(function () {
+            $('.hamburger').click(function () { var target = $(this).attr('data-target'); if (target != '') { $(target).toggleClass('active'); } $(this).toggleClass('open'); });
+            $('header nav ul li').click(function () { var isActive = $(this).hasClass('active'); var target = $(this).find('.dropdown'); $('.dropdown.active, li.active').removeClass('active'); if (target != undefined & !isActive) { $(target).addClass('active'); $(this).addClass('active'); } });
+            $('header nav ul li').on('mouseover', function () { $('header nav ul li:hover .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).addClass('droppeddown'); }); $('header nav ul li:hover .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).css('transition-delay', index * 10 + 'ms'); }); });
+            $('header nav ul li').on('mouseout', function () { $('header nav ul li .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).removeClass('droppeddown'); }); });
+        });
+    
+
+          
+        $( document ).ready(function() {
+            $("audio").prop('muted', false);
+
+          
+
+        });
+
+          var sound = new Howl({
+                src: ['/FILES/mp3/e-tahmin-BT.mp3'],
+                autoplay: false,
+                loop: true,
+                volume: 0.5,
+            });
+
+             $('#sesliEBultenG').on({
+                 mouseenter: function () {
+                                sound.play();
+            //var audio = document.getElementById(sesliEBultenSes);
+            
+            //sesliEBultenSes.play();
+            //sesliEBultenSes.muted = false;
+        },
+                 mouseleave: function () {
+                                sound.pause();
+           // sesliEBultenSes.pause();
+        }
+    });
+    
+
+
+
+
+       $(window).scroll(function() {
+
+    if ($(this).scrollTop()>0)
+     {
+        $('.kaybol').fadeOut(0);
+     }
+    else
+     {
+      $('.kaybol').fadeIn(0);
+     }
+ });
+    

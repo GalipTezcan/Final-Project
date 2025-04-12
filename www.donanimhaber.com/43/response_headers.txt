@@ -1,0 +1,14 @@
+Date: Sat, 12 Apr 2025 15:31:59 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Cache-Control: max-age=15
+Expires: Sat, 12 Apr 2025 15:32:14 GMT
+Set-Cookie: __cf_bm=Cs5C9US7XUQkWa3N8cTT_AyV18BTWBal0jfqVdH.oJo-1744471919-1.0.1.1-HCFznwlSf6ObxEsjJp4vZ_kXqFPtsVx6c8UWVLG1NPEcQvyRAvPmcIhYE_fSDeczP_eiKM4WNDKVyN..zjGWccrUZBSj60eTIFZ50qu9TL0; path=/; expires=Sat, 12-Apr-25 16:01:59 GMT; domain=.migros.com.tr; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Server: cloudflare
+CF-RAY: 92f3c61a2fceb655-IST
+Content-Encoding: gzip

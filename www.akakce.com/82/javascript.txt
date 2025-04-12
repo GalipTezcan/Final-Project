@@ -1,0 +1,260 @@
+
+
+	
+	function FillOptionList( t/*targetSelect*/, r/*RawList*/, v/*selectedValue*/, tv/*textValue*/, bRefill, fOnload )
+	{		
+		//alert(fOnload)
+		if (t.tagName !='SELECT'){ alert('Not a select.');return;}
+		if( bRefill ){ var ch = t.childNodes, l = ch.length; for( var j=0; j < l; j++) t.removeChild( ch[0] ); }	
+		if (r==null) return;
+		
+		var a = r.split( ',' ), l = a.length, o, cv/*currentValue*/, ct/*currentText*/, 
+		vtc /*valueToCompare, selectedText gonderilmisse onu, yoksa value'yu compare edecek*/ = (tv != null ?tv :v), vtcShift = (tv != null? 1: 0);		
+		
+		for( var i=0; i<l; i=i+2 )
+		{
+			cv = a[ i ], ct = a[ i+1 ], cvtc = a[ i + vtcShift ];
+			if (typeof ct != 'undefined' && typeof cv != 'undefined') /*bos olmayacak arkadas*/
+			{
+				o = new Option( ct.replace('&#44', ','), cv );
+				if ( vtc == cvtc ) o.selected = true;
+				t.options[ i/2 ] = o;
+			}
+		}			
+		
+		if ( typeof fOnload == 'function' )
+			fOnload();
+	}
+
+	var aRDL/*RawDistrictLists*/ = new Array(); /*global olarak kullaniliyor*/
+	
+	function GetDistrictList( pID/*provinceID*/, t/*target*/, aRDL, sd/*selectedDistrict*/, fOnload )
+	{
+
+			
+		pID = ( pID!=null ? pID.toString().replace( /[^\-0-9]/gi, '' ): '' );
+		
+		if( !( pID!='' && !isNaN(pID) && (pID > 0)) )
+		{
+			FillOptionList( t, null, null, null, true, fOnload );
+			t.disabled = true;
+			return;
+		}
+		
+		if ( typeof aRDL[pID]=='undefined' )
+		{
+			var r = SAD(
+							{ a: {value: 'gdl'}, p: pID },
+							function()
+							{
+								var rdl = ( eval( '(' + r.responseText + ')' ) ).rawDistrictList ;
+								aRDL[ pID ] = rdl;
+								FillOptionList( t, (t.getAttribute('data-empty')?','+t.getAttribute('data-empty')+',': ',Seçin,') + rdl, sd, null, true, fOnload );
+							}
+						);
+		}
+		else
+			FillOptionList( t, ',Lütfen seçin,' + aRDL[pID], sd, null, true, fOnload );
+			
+		t.disabled = false;
+
+	}
+	
+	function InsertProvinceDistrictSelector( pslid/*provinceSelectList*/, dslid/*districtSelectList*/, cp/*currentProvinceId*/ , cd/*currentDistrictId*/, s/*ProvinceRawList*/, fOnload )
+	{
+		
+		var psl = $( pslid ), dsl = $( dslid );
+
+		if(psl==null||dsl==null){alert('psl/dsl?');return;}
+	
+		if ( cp.length > 0 ) { cp = parseInt( cp ) }else{ cp = null };
+	
+		psl.onchange = function(){ GetDistrictList( this.value, dsl, aRDL, fOnload )};
+	
+		FillOptionList( psl, (psl.getAttribute('data-empty')?','+psl.getAttribute('data-empty')+',': ',Seçin,') + s, cp, null, true, fOnload );	
+		//if (cp!=null)
+			GetDistrictList( cp, dsl, aRDL, cd, fOnload );
+	}
+	
+
+		InsertProvinceDistrictSelector( 'locpr', 'locds', '', '', '34,Ýstanbul - Avrupa,85,Ýstanbul - Anadolu,6,Ankara,35,Ýzmir,1,Adana,2,Adýyaman,3,Afyon,4,Aðrý,68,Aksaray,5,Amasya,7,Antalya,75,Ardahan,8,Artvin,9,Aydýn,10,Balýkesir,74,Bartýn,72,Batman,69,Bayburt,11,Bilecik,12,Bingöl,13,Bitlis,14,Bolu,15,Burdur,16,Bursa,17,Çanakkale,18,Çankýrý,19,Çorum,20,Denizli,21,Diyarbakýr,81,Düzce,22,Edirne,23,Elazýð,24,Erzincan,25,Erzurum,26,Eskiþehir,27,Gaziantep,28,Giresun,29,Gümüþhane,30,Hakkari,31,Hatay,76,Iðdýr,32,Isparta,46,Kahramanmaraþ,78,Karabük,70,Karaman,36,Kars,37,Kastamonu,38,Kayseri,71,Kýrýkkale,39,Kýrklareli,40,Kýrþehir,79,Kilis,41,Kocaeli,42,Konya,43,Kütahya,44,Malatya,45,Manisa,47,Mardin,33,Mersin,48,Muðla,49,Muþ,50,Nevþehir,51,Niðde,52,Ordu,80,Osmaniye,53,Rize,54,Sakarya,55,Samsun,56,Siirt,57,Sinop,58,Sivas,63,Þanlýurfa,73,Þýrnak,59,Tekirdað,60,Tokat,61,Trabzon,62,Tunceli,64,Uþak,65,Van,77,Yalova,66,Yozgat,67,Zonguldak' );
+		
+	
+	
+
+	function changeGenderChoice(){	// radio input
+			
+		if(dG('rngm').checked) {
+			dG('rng').setAttribute("value","1"); // Erkek
+		}else if(dG('rngf').checked) {
+			dG('rng').setAttribute("value","0");	// Kadýn
+		}
+		
+	}
+
+	dG('rnufe1').onpaste = function(e) {
+		e.preventDefault();
+	};
+
+	dG('rnufe2').onpaste = function(e) {
+		e.preventDefault();
+	};
+
+	dG('rnufe1').ondrop = function(e) {
+		e.preventDefault();
+	};
+
+	dG('rnufe2').ondrop = function(e) {
+		e.preventDefault();
+	};
+
+
+
+        function dG( s ){ return document.getElementById( s ); }
+
+        var fR = dG('FrmRnuS'), fL = dG('FrmLi'), fP = dG('FrmRpc'), sCN/*classname*/ = '';//'var l4 t2 s3 r1';
+        fR.className	= sCN;
+        fL.className	= sCN;
+        fP.className	= sCN;
+
+        function SetMode( i )
+        {
+            var k = 400 // yukaridaki transition-duration'dan buyuk olsun, transition efekti ile birlikte .focus() kullanimi sorun cikardi.
+            dG('LP_v8').className = 'mode' + i;
+            switch(i)
+            {
+                case 3: setTimeout( 'dG("rnufn").focus()', k ); break; 
+                case 2: setTimeout( 'dG("life").focus()', k ); break;
+                case 1: setTimeout( 'dG("rpcfe").focus()', k); break;
+            }
+            return false;
+        }
+    
+        function AllDone( o )
+        {
+            //try{ 				
+            //top.SetUserHeader( o )
+            var ru = dG('lifrd');
+			//console.log(ru.value)
+            if (ru)
+			{
+				if(ru.value.indexOf('/uyelik-iptali/iptal-tamamlandi/') >= 0 )
+					document.location.href = '/';
+			   	else
+					document.location.href = ru.value;
+			}
+			//top.window.Antre.onLogin(); 
+            //} catch(e){ alert('Bir hata olustu.\nLutfen daha sonra yeniden deneyin.')}
+        }			
+        
+        fR.onsubmit		= function()
+        { 
+			dG('rfb').disabled = true;
+            var req	= SAD( fR, function()
+            {					
+				dG('rfb').disabled = false;
+                var res = eval('('+req.responseText+')') 
+                if(typeof(res.r)!='number') return;
+                switch(res.r)
+                {
+                    case 0:
+                        AllDone( res )
+                        break;
+                    default: 
+                        if(res.m && res.r != -11) AlertX(360, 200, res.m, null, 2);
+                        switch( res.r )
+                        {
+                            case -5: $('rnufe1').focus();break;
+                            case -6: $('rnufn').focus();break;
+                            case -7: $('rnufs').focus();break;
+                            case -11:
+                                ConfirmX(400, 75,  res.m, function() {
+                                    fR.rnufced.value = 1;
+                                    fR.onsubmit();
+                                    return false;
+                                });
+                                break;
+                        }							
+                        break;											
+                }										
+            }
+            );
+            return false;
+        }			
+
+        fL.onsubmit		= function()
+        { 
+			dG('lfb').disabled = true;
+            var req	= SAD( fL, function()
+            {					
+				dG('lfb').disabled = false;
+                var res = eval('('+req.responseText+')') 
+                if(typeof(res.r)!='number') return;
+                switch(res.r)
+                {
+                    case 0:
+						
+                        AllDone( res );
+						
+                        break;
+                    default: 
+                        if(res.m) AlertX(300, 200, res.m.replace(/\\n/g,"\n"), null, 2);
+                        break;											
+                }										
+            }
+            );
+            return false;
+        }
+
+        fP.onsubmit		= function()
+        { 
+			dG('pfb').disabled = true;
+            var req	= SAD( fP, function()
+            {					
+				dG('pfb').disabled = false;
+                var res = eval('('+req.responseText+')') 
+                if(typeof(res.r)!='number') return;
+                switch(res.r)
+                {
+                    case 0:
+						AlertX(300, 170, 'Þifrenizi deðiþtirebilmeniz için size bir eposta gönderdik. Lütfen kontrol edin.', function(){document.location.href = '/akakcem/giris/'; }, 3);		
+                        break;
+                    default: 
+                        if(res.m) AlertX(300, 170, res.m, null, 2);
+                        dG('rpcfe').focus();
+                        break;											
+                }										
+            }
+            );
+            return false;
+        }
+        
+    window.onload = function(){ 
+
+		
+		setTimeout( function(){dG('rnufn').focus();},400 );
+		
+		
+        //checkbox ayarlamasi
+        var input1 = dG('lifr'), inputContainer1 = dG('lifr').parentNode,tempWrapper1 = document.createElement('DIV');
+		var input2 = dG('rnufnee'), inputContainer2 = dG('rnufnee').parentNode,tempWrapper2 = document.createElement('DIV');
+		//var input3 = dG('rnufnec'), inputContainer3 = dG('rnufnec').parentNode,tempWrapper3 = document.createElement('DIV');
+        tempWrapper1.appendChild(input1.cloneNode(true));
+		tempWrapper2.appendChild(input2.cloneNode(true));
+		//tempWrapper3.appendChild(input3.cloneNode(true));
+        var outerHTML1 = tempWrapper1.innerHTML, outerHTML2 = tempWrapper2.innerHTML//,outerHTML3 = tempWrapper3.innerHTML
+        inputContainer1.innerHTML = inputContainer1.innerHTML.replace(outerHTML1, '<span class="checkbox-wrapper">'+outerHTML1+'</span>');
+		inputContainer2.innerHTML = inputContainer2.innerHTML.replace(outerHTML2, '<span class="checkbox-wrapper">'+outerHTML2+'</span>');	
+		//inputContainer3.innerHTML = inputContainer3.innerHTML.replace(outerHTML3, '<span class="checkbox-wrapper">'+outerHTML3+'</span>');	
+		//inputContainer1.style.cssText = 'margin:12px 0';
+
+        //sifremi unuttum ayarlamasi
+        dG('L_h_v8').getElementsByTagName('A')[1].onclick= function(){ return SetMode(1);}
+		if(dG('linfo')) {
+			dG('linfo').getElementsByTagName('A')[0].onclick= function(){ return SetMode(1);}
+		}
+		dG('rb').onclick= function(){ return SetMode(3);}
+		dG('lb').onclick= function(){ return SetMode(2);}
+		dG('ib').onclick= function(){ return SetMode(2);}
+        }
+    

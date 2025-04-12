@@ -1,0 +1,16 @@
+Server: nginx
+Date: Sat, 12 Apr 2025 06:54:20 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: private
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: microphone=(), camera=(), payment=()
+Content-Encoding: gzip

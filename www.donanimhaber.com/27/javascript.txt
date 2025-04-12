@@ -1,0 +1,780 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KDFDQKX');
+    
+
+
+        window.dataLayer = window.dataLayer || [];
+        var dataLayer = [];
+
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-121509-4');
+
+                    googleActionEvent('v2', 'pageLoad', window.location.href);
+
+                    function googleActionEvent(categoryName, actionName, actionValue) {
+                        gtag('event', actionName, {
+                            'event_category': categoryName,
+                'event_label': actionValue,
+                'value': actionValue
+            });
+        }
+
+            function googlePageView() {
+                gtag('event', 'page_view', { page_path: getPagePath() });
+            }
+
+            function getPagePath() {
+                return window.location.pathname.replace('/', '') + window.location.search + window.location.hash;
+            }
+    
+
+        var pp_gemius_identifier = 'nLs6Fg._LxQabcH0boQDRaeifbpIAvrN1yxg858nA4b.a7';
+        // lines below shouldn't be edited
+        function gemius_pending(i) { window[i] = window[i] || function () { var x = window[i + '_pdata'] = window[i + '_pdata'] || []; x[x.length] = arguments; }; };
+        gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+        (function (d, t) {
+            try {
+                var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol == 'https:') ? 's' : ''); gt.setAttribute('async', 'async');
+                gt.setAttribute('defer', 'defer'); gt.src = l + '://gatr.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt, s);
+            } catch (e) { }
+        })(document, 'script');
+    
+
+        function pageViewHit() {
+
+            googlePageView();
+            pp_gemius_hit('nLs6Fg._LxQabcH0boQDRaeifbpIAvrN1yxg858nA4b.a7');
+        }
+
+        function pageScrollHit(scrolldown) {
+            var dir = scrolldown ? 'Down' : 'Up';
+
+            googleActionEvent('Infinite Scroll', dir, getPagePath())
+
+            googlePageView();
+            pp_gemius_hit('nLs6Fg._LxQabcH0boQDRaeifbpIAvrN1yxg858nA4b.a7');
+        }
+    
+
+
+
+
+
+
+{"@context":"http://schema.org","@graph":[{"@id":"https://www.donanimhaber.com#organization","@type":"NewsMediaOrganization","name":"DonanýmHaber","url":"https://www.donanimhaber.com/","masthead":"https://www.donanimhaber.com/hakkimizda","logo":{"@type":"ImageObject","url":"https://www.donanimhaber.com/images/images/112-dh-logo.png","width":"112","height":"112"},"founder":{"@id":"https://www.donanimhaber.com/editor/gun#person","@type":"Person","name":"Gün Oksay","url":"https://www.donanimhaber.com/editor/gun"},"foundingDate":"1999","email":"mailto:iletisim@donanimhaber.com","legalName":"Donaným Haber Elektronik Yayýncýlýk Ltd. Þti.","slogan":"Sýk sýk güncellenen haber sitesi","sameAs":["https://www.facebook.com/donanimhabercom","https://twitter.com/donanimhaber","https://www.instagram.com/donanimhabercom/","https://www.youtube.com/channel/UCfIVTpOAjmeKmaiBd3rfwlA","https://tr.wikipedia.org/wiki/Donanýmhaber","https://news.google.com/publications/CAAqBggKMObqKzCUnQE?hl=tr&gl=TR&ceid=TR%3Atr","https://apps.apple.com/tr/app/dh-teknoloji-haberleri-video/id1342583703?l=tr","https://play.google.com/store/apps/details?id=com.donanimhaber.dhandroid&hl=tr&gl=US","https://tr.linkedin.com/company/donanimhaber.com","https://appgallery.huawei.com/app/C100896339","https://www.wikidata.org/wiki/Q20475006"],"numberOfEmployees":{"@type":"QuantitativeValue","value":114},"areaServed":"TR","taxID":"3100470155","award":["En Ýyi Teknoloji Ýçeriði 2023 (AI Tomorrow Summit)","Yýlýn Teknoloji Haber Sitesi (Boðaziçi Üniversitesi)","En Beðenilen Teknoloji Uygulamasý (Apple App Store)","The Makina Onur Ödülü","En Ýyi Teknoloji Sitesi (GIGABYTE)","Türkiye'nin En Popüler Haber Sitesi (Gemius)"],"knowsAbout":["Bilim","Teknoloji","Gündem","Türkiye","Dünya","Güncel Haberler"]},{"@id":"https://www.donanimhaber.com#website","@type":"WebSite","name":"DonanýmHaber","url":"https://www.donanimhaber.com/","publisher":{"@id":"https://www.donanimhaber.com#organization"},"copyrightHolder":{"@id":"https://www.donanimhaber.com#organization"}},{"@id":"https://www.donanimhaber.com/savunma-sanayi#collectionpage","@type":"CollectionPage","url":"https://www.donanimhaber.com/savunma-sanayi","inLanguage":"tr-TR","name":"Savunma Sanayi Haberleri","description":"Son dakika savunma haberleri burada. Týklayýn, 2025'te Türk yerli ve milli savunma sanayisinde yaþanan tüm haber geliþmelerini DonanýmHaber'le takip edin.","breadcrumb":{"@id":"https://www.donanimhaber.com/savunma-sanayi#breadcrumb"},"isPartOf":{"@id":"https://www.donanimhaber.com#website"}},{"@id":"https://www.donanimhaber.com/savunma-sanayi#breadcrumb","@type":"BreadcrumbList","itemListElement":[{"@id":"https://www.donanimhaber.com/teknoloji-haberleri#collectionpage","@type":"ListItem","position":1,"name":"Teknoloji Haberleri","item":"https://www.donanimhaber.com/teknoloji-haberleri"},{"@id":"https://www.donanimhaber.com/populer-bilim#collectionpage","@type":"ListItem","position":2,"name":"Popüler Bilim Haberleri","item":"https://www.donanimhaber.com/populer-bilim"},{"@type":"ListItem","position":3,"name":"Savunma Sanayi"}]}]}
+{"@context":"http://schema.org","@type":"ItemList","itemListElement":[{"@id":"https://www.donanimhaber.com/endonezya-cumhurbaskani-kaan-projesinde-yer-almak-istiyoruz--190040#article","@type":"ListItem","position":1,"url":"https://www.donanimhaber.com/endonezya-cumhurbaskani-kaan-projesinde-yer-almak-istiyoruz--190040","name":"Endonezya Cumhurbaþkaný: “KAAN projesinde yer almak istiyoruz”"},{"@id":"https://www.donanimhaber.com/havelsan-tusas-ve-aselsan-dan-endonezya-atagi--190033#article","@type":"ListItem","position":2,"url":"https://www.donanimhaber.com/havelsan-tusas-ve-aselsan-dan-endonezya-atagi--190033","name":"HAVELSAN, TUSAÞ ve ASELSAN’dan Endonezya ataðý"},{"@id":"https://www.donanimhaber.com/turkiye-tarihinde-ilk-kez-jet-motoru-ihracati-gerceklestirdi--190019#article","@type":"ListItem","position":3,"url":"https://www.donanimhaber.com/turkiye-tarihinde-ilk-kez-jet-motoru-ihracati-gerceklestirdi--190019","name":"Türkiye, tarihinde ilk kez jet motoru ihracatý gerçekleþtirdi"},{"@id":"https://www.donanimhaber.com/bayraktar-tb2-den-havacilik-tarihinde-bir-ilk-daha--190015#article","@type":"ListItem","position":4,"url":"https://www.donanimhaber.com/bayraktar-tb2-den-havacilik-tarihinde-bir-ilk-daha--190015","name":"Bayraktar TB2’den havacýlýk tarihinde bir ilk daha!"},{"@id":"https://www.donanimhaber.com/baykar-dan-stratejik-kargo-iha-adimi-yuksek-irtifa-nedir--189997#article","@type":"ListItem","position":5,"url":"https://www.donanimhaber.com/baykar-dan-stratejik-kargo-iha-adimi-yuksek-irtifa-nedir--189997","name":"Baykar'dan stratejik Kargo ÝHA adýmý: Yüksek Ýrtifa nedir?"},{"@id":"https://www.donanimhaber.com/aselsan-a-super-tesvik-kritik-oneme-sahip-uc-yatirim-yapilacak--189948#article","@type":"ListItem","position":6,"url":"https://www.donanimhaber.com/aselsan-a-super-tesvik-kritik-oneme-sahip-uc-yatirim-yapilacak--189948","name":"ASELSAN’a “süper teþvik”: Kritik öneme sahip üç yatýrým yapýlacak"},{"@id":"https://www.donanimhaber.com/baykar-simdi-de-kargo-iha-gelistiriyor--189956#article","@type":"ListItem","position":7,"url":"https://www.donanimhaber.com/baykar-simdi-de-kargo-iha-gelistiriyor--189956","name":"Baykar þimdi de kargo ÝHA geliþtiriyor!"},{"@id":"https://www.donanimhaber.com/anka-3-ve-super-simsek-ile-havacilikta-bir-ilke-daha-imza-atildi--189942#article","@type":"ListItem","position":8,"url":"https://www.donanimhaber.com/anka-3-ve-super-simsek-ile-havacilikta-bir-ilke-daha-imza-atildi--189942","name":"ANKA 3 ve Süper Þimþek ile havacýlýkta bir ilke daha imza atýldý"},{"@id":"https://www.donanimhaber.com/milli-elektronik-harp-bilgi-bankasi-kuruldu-ne-ise-yarayacak--189920#article","@type":"ListItem","position":9,"url":"https://www.donanimhaber.com/milli-elektronik-harp-bilgi-bankasi-kuruldu-ne-ise-yarayacak--189920","name":"Milli Elektronik Harp Bilgi Bankasý kuruldu: Ne iþe yarayacak?"},{"@id":"https://www.donanimhaber.com/azerbaycan-icin-modernize-edilen-su-25-ucagindan-som-b1-atisi--189868#article","@type":"ListItem","position":10,"url":"https://www.donanimhaber.com/azerbaycan-icin-modernize-edilen-su-25-ucagindan-som-b1-atisi--189868","name":"Azerbaycan için modernize edilen Su-25 uçaðýndan SOM-B1 atýþý"},{"@id":"https://www.donanimhaber.com/tusas-brezilyali-ucak-sirketi-embraer-in-ile-ortak-uretim-yapacak--189761#article","@type":"ListItem","position":11,"url":"https://www.donanimhaber.com/tusas-brezilyali-ucak-sirketi-embraer-in-ile-ortak-uretim-yapacak--189761","name":"TUSAÞ Brezilyalý uçak þirketi Embraer’in ile ortak üretim yapacak"},{"@id":"https://www.donanimhaber.com/kayseri-deki-hurjet-fabrikasina-tesvik-yilda-12-ucak-uretilecek--189536#article","@type":"ListItem","position":12,"url":"https://www.donanimhaber.com/kayseri-deki-hurjet-fabrikasina-tesvik-yilda-12-ucak-uretilecek--189536","name":"Kayseri'deki Hürjet fabrikasýna teþvik! Yýlda 12 uçak üretilecek"},{"@id":"https://www.donanimhaber.com/bayraktar-tb2-isaretledi-bayraktar-tb3-ise-iha-122-ile-vurdu--189469#article","@type":"ListItem","position":13,"url":"https://www.donanimhaber.com/bayraktar-tb2-isaretledi-bayraktar-tb3-ise-iha-122-ile-vurdu--189469","name":"Bayraktar TB2 iþaretledi, Bayraktar TB3 ise ÝHA-122 ile vurdu"},{"@id":"https://www.donanimhaber.com/maxar-gps-e-alternatif-olan-dron-navigasyon-sistemi-gelistirdi--189455#article","@type":"ListItem","position":14,"url":"https://www.donanimhaber.com/maxar-gps-e-alternatif-olan-dron-navigasyon-sistemi-gelistirdi--189455","name":"Maxar, GPS’e alternatif olan dron navigasyon sistemi geliþtirdi"},{"@id":"https://www.donanimhaber.com/2030-hedefleri-cip-uretimi-nukleer-reaktor-kaan-ve-dahasi--189460#article","@type":"ListItem","position":15,"url":"https://www.donanimhaber.com/2030-hedefleri-cip-uretimi-nukleer-reaktor-kaan-ve-dahasi--189460","name":"2030 hedefleri: Çip üretimi, nükleer reaktör, KAAN ve dahasý"},{"@id":"https://www.donanimhaber.com/yakin-hava-savunma-fuzesi-levent-ilk-kez-gemiden-atildi--189362#article","@type":"ListItem","position":16,"url":"https://www.donanimhaber.com/yakin-hava-savunma-fuzesi-levent-ilk-kez-gemiden-atildi--189362","name":"Yakýn hava savunma füzesi LEVENT ilk kez gemiden atýldý"},{"@id":"https://www.donanimhaber.com/abd-altinci-nesil-savas-ucagini-tanitti-boeing-f-47--189284#article","@type":"ListItem","position":17,"url":"https://www.donanimhaber.com/abd-altinci-nesil-savas-ucagini-tanitti-boeing-f-47--189284","name":"ABD, altýncý nesil savaþ uçaðýný tanýttý: Boeing F-47"},{"@id":"https://www.donanimhaber.com/f-16-dan-atilan-som-j-suustu-hedefini-ilk-kez-vurdu--189262#article","@type":"ListItem","position":18,"url":"https://www.donanimhaber.com/f-16-dan-atilan-som-j-suustu-hedefini-ilk-kez-vurdu--189262","name":"F-16’dan atýlan SOM-J, suüstü hedefini ilk kez vurdu"},{"@id":"https://www.donanimhaber.com/msb-den-f-35-caatsa-f-16-ve-eurofighter-aciklamasi--189223#article","@type":"ListItem","position":19,"url":"https://www.donanimhaber.com/msb-den-f-35-caatsa-f-16-ve-eurofighter-aciklamasi--189223","name":"MSB’den F-35, CAATSA, F-16 ve Eurofighter açýklamasý"},{"@id":"https://www.donanimhaber.com/anka-3-atis-testinde-hedefi-basariyla-vurdu--189174#article","@type":"ListItem","position":20,"url":"https://www.donanimhaber.com/anka-3-atis-testinde-hedefi-basariyla-vurdu--189174","name":"ANKA 3, atýþ testinde hedefi baþarýyla vurdu"}]}
+
+
+
+            window.addEventListener("load", function () {
+                var guidText = window.sessionStorage.HistoryGuid;
+                if (typeof (guidText) == "undefined" || guidText.length == 0) {
+                    window.sessionStorage.HistoryGuid = guid();
+                }
+            });
+        
+
+            // transfers sessionStorage from one tab to another
+            var sessionStorage_transfer = function (event) {
+                if (!event) { event = window.event; } // ie suq
+                if (!event.newValue) return;          // do nothing if no value to work with
+                if (event.key == 'getSessionStorage') {
+                    // another tab asked for the sessionStorage -> send it
+                    localStorage.setItem('sessionStorage', JSON.stringify(sessionStorage));
+                    // the other tab should now have it, so we're done with it.
+                    localStorage.removeItem('sessionStorage'); // <- could do short timeout as well.
+                } else if (event.key == 'sessionStorage' && !sessionStorage.length) {
+                    // another tab sent data <- get it
+                    var data = JSON.parse(event.newValue);
+                    for (var key in data) {
+                        sessionStorage.setItem(key, data[key]);
+                    }
+                }
+            };
+
+            // listen for changes to localStorage
+            if (window.addEventListener) {
+                window.addEventListener("storage", sessionStorage_transfer, false);
+            } else {
+                window.attachEvent("onstorage", sessionStorage_transfer);
+            };
+
+            // Ask other tabs for session storage (this is ONLY to trigger event)
+            if (!sessionStorage.length) {
+                localStorage.setItem('getSessionStorage', 'foobar');
+                localStorage.removeItem('getSessionStorage', 'foobar');
+            };
+        
+
+
+
+
+
+
+
+
+function  setPgCode(){var pgData={};var tagger = Tapad.init({gdpr:typeof noktaad=='undefined'?(noktaConsent==''?null:1):(noktaad.consent==''?null:1),ccpa:null,bp_id: 'noktacommedya',gdpr_consent: typeof noktaad=='undefined'?(noktaConsent==''?null:noktaConsent):(noktaad.consent==''?null:noktaad.consent)},{name:'P&G',pixelUrl:'https:\/\/feed.pghub.io/tag'});pgData.category='site_geneli';tagger.sync(pgData);};var googletag = googletag || {};googletag.cmd=googletag.cmd||[];window.virgulEnableSingleRequest=window.virgulEnableSingleRequest||false;window.empowerEnableNovatiq=false;window.noktaUsedSlots=[];var noktaGSlts=noktaGSlts||[],noktaGBckSlts=noktaGBckSlts||[],noktaDfpSlots=noktaDfpSlots ||[],noktaCuSlts=noktaCuSlts ||[],noktaDisabledGids=noktaDisabledGids ||[],nogrt={},ngcr=false,hasCrite=true;window.checkDomainsForCriteo=[];window.virgulGoogleDisplayed=[];;googletag.cmd.push(function(){if(virgulEnableSingleRequest){googletag.destroySlots(noktaDfpSlots);noktaDfpSlots=[];}});try{noktaad.settings.gamLazyLoad=noktaad.settings.gamLazyLoad||false;}catch(eghhf){window.gamLazyLoad=window.gamLazyLoad||false;};window.empowerGdprApplies=false;if(document.getElementById('dfpHeadScript')==null && (typeof googletag.pubadsReady=='undefined' || !googletag.apiReady)){var gads = document.createElement('script');gads.async = true;gads.type = 'text/javascript';gads.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js';gads.id='dfpHeadScript';var node=document.getElementsByTagName('script')[0];node.parentNode.insertBefore(gads, node);}else ngcr=true;googletag.cmd.push(function() {googletag.pubads().disableInitialLoad();ngcr=true;try{window.empPrO=noktaad.settings.pricingRules;window.tmpemeps={'web_donanimhaber_300x250_sticky':{'r':4},'web_donanimhaber_player_alti':{'r':0},'web_donanimhaber_forum_yorum_alti_320x100':{'r':0},'web_donanimhaber_sidebar_300x250':{'r':0},'web_donanimhaber_forum_970x250_ilk_yorum':{'r':1},'web_donanimhaber_forum_imza_320x100':{'r':0},'web_donanimhaber_forum_right_tower_2':{'r':0},'web_donanimhaber_forum_right_tower_1':{'r':0},'web_donanimhaber_forum_970x250_2':{'r':0},'web_donanimhaber_forum_right_tower_4':{'r':0},'web_donanimhaber_player_yani_ust':{'r':0},'web_donanimhaber_forum_970x250_3':{'r':0},'web_donanimhaber_forum_right_tower_3':{'r':0},'web_donanimhaber_forum_970x250_4':{'r':0},'web_donanimhaber_sidebar_300x600':{'r':0},'web_donanimhaber_forum_right_tower_5':{'r':0},'web_donanimhaber_native':{'r':0},'web_donanimhaber_forum_right_tower_sticky':{'r':0},'web_donanimhaber_masthead_728x90':{'r':0}};window.empowerSetPR(window.tmpemeps);delete window.tmpemeps;}catch(excfg){};window.empowerPushAd=window.empowerPushAd||function(e,t,a,n,o,i,d){e='div-gpt-ad-1455783126174-'+e;try{void 0===noktaGSlts[e]&&(noktaGSlts[e]={targeting:d||[],slot:null,code:t,codes:a,dimension:n,adType:i||''}),noktaGBckSlts[e]=o}catch(e){}};empowerPushAd('15966421728129623web_donanimhaber_forum_970x250_ilk_yorum','/21728129623,53778270/web_donanimhaber_forum_970x250_ilk_yorum',[],[[970,250],[970,120],[970,90],[970,66],[950,90],[930,180],[750,200],[750,100],[728,90],[728,250],[728,100],[468,60],[414,138],[414,100],[412,137],[412,100],[390,130],[390,100],[375,125],[375,100],[360,120],[360,100],[320,250],[320,100],[320,50],[300,250],[300,200],[300,100],[300,50],[250,250],[234,60],[200,200],[180,150],[125,125],[120,60],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966521728129623web_donanimhaber_forum_970x250_2','/21728129623,53778270/web_donanimhaber_forum_970x250_2',[],[[970,250],[970,120],[970,90],[970,66],[950,90],[930,180],[750,200],[750,100],[728,90],[728,250],[728,100],[468,60],[414,138],[414,100],[412,137],[412,100],[390,130],[390,100],[375,125],[375,100],[360,120],[360,100],[320,250],[320,100],[320,50],[300,250],[300,200],[300,100],[300,50],[250,250],[234,60],[200,200],[180,150],[125,125],[120,60],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966621728129623web_donanimhaber_forum_970x250_3','/21728129623,53778270/web_donanimhaber_forum_970x250_3',[],[[970,250],[970,120],[970,90],[970,66],[950,90],[930,180],[750,200],[750,100],[728,90],[728,250],[728,100],[468,60],[414,138],[414,100],[412,137],[412,100],[390,130],[390,100],[375,125],[375,100],[360,120],[360,100],[320,250],[320,100],[320,50],[300,250],[300,200],[300,100],[300,50],[250,250],[234,60],[200,200],[180,150],[125,125],[120,60],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966721728129623web_donanimhaber_forum_970x250_4','/21728129623,53778270/web_donanimhaber_forum_970x250_4',[],[[970,250],[970,120],[970,90],[970,66],[950,90],[930,180],[750,200],[750,100],[728,90],[728,250],[728,100],[468,60],[414,138],[414,100],[412,137],[412,100],[390,130],[390,100],[375,125],[375,100],[360,120],[360,100],[320,250],[320,100],[320,50],[300,250],[300,200],[300,100],[300,50],[250,250],[234,60],[200,200],[180,150],[125,125],[120,60],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15967121728129623web_donanimhaber_forum_imza_320x100','/21728129623,53778270/web_donanimhaber_forum_imza_320x100',[],[[320, 100], [320, 50], [300, 100], [300, 50], [234, 60], [120, 60], [88, 31]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15969521728129623web_donanimhaber_300x250_sticky','/21728129623,53778270/web_donanimhaber_300x250_sticky',[],[[336, 280], [320, 250], [300, 250], [200, 200], [160, 160]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15967921728129623web_donanimhaber_masthead_728x90','/21728129623,53778270/web_donanimhaber_masthead_728x90',[],[[728, 90], [468, 60], [320, 50], [300, 50], [234, 60], [120, 60], [100, 100], [88, 31], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966821728129623web_donanimhaber_forum_yorum_alti_320x100','/21728129623,53778270/web_donanimhaber_forum_yorum_alti_320x100',[],[[320,100],[300,100],[320,50],[300,50],[234,60],[120,60],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966921728129623web_donanimhaber_sidebar_300x600','/21728129623,53778270/web_donanimhaber_sidebar_300x600',[],[[300, 600], [300, 420], [300, 400], [300, 333], [300, 250], [300, 200], [300, 100], [300, 50], [250, 360], [250, 250], [240, 400], [234, 60], [200, 200], [180, 150], [160, 600], [125, 125], [120, 600], [120, 60], [120, 400], [120, 240], [100, 100], [88, 31], [300, 300], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15965721728129623web_donanimhaber_forum_right_tower_1','/21728129623,53778270/web_donanimhaber_forum_right_tower_1',[],[[160, 600], [125, 125], [120, 60], [120, 400], [120, 240], [100, 100], [88, 31], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15967021728129623web_donanimhaber_sidebar_300x250','/21728129623,53778270/web_donanimhaber_sidebar_300x250',[],[[300, 250], [300, 200], [300, 100], [300, 50], [250, 250], [234, 60], [200, 200], [180, 150], [125, 125], [120, 60], [120, 240], [100, 100], [88, 31], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966221728129623web_donanimhaber_forum_right_tower_sticky','/21728129623,53778270/web_donanimhaber_forum_right_tower_sticky',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15967221728129623web_donanimhaber_native','/21728129623,53778270/web_donanimhaber_native',[],['fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966021728129623web_donanimhaber_forum_right_tower_4','/21728129623,53778270/web_donanimhaber_forum_right_tower_4',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15969621728129623web_donanimhaber_player_yani_ust','/21728129623,53778270/web_donanimhaber_player_yani_ust',[],[[300, 250], [200, 200], [160, 160], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966121728129623web_donanimhaber_forum_right_tower_5','/21728129623,53778270/web_donanimhaber_forum_right_tower_5',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15965821728129623web_donanimhaber_forum_right_tower_2','/21728129623,53778270/web_donanimhaber_forum_right_tower_2',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15969721728129623web_donanimhaber_player_alti','/21728129623,53778270/web_donanimhaber_player_alti',[],[[300, 250], [200, 200], [160, 160], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15965921728129623web_donanimhaber_forum_right_tower_3','/21728129623,53778270/web_donanimhaber_forum_right_tower_3',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);try{var tgss={};tgss.category='site_geneli';tgss.plm='null';tgss.viewable='2';tgss.site='donanimhaber';tgss.mt='1744471420170';tgss.pager='1@site_geneli@donanimhaber:site_geneli';tgss.policy='0';tgss.iabcat=[];tgss.iabcat.push('IAB1');tgss.iabcat.push('IAB2');tgss.iabcat.push('IAB9');tgss.iabcat.push('IAB9-1');tgss.iabcat.push('IAB19');tgss.iabcat.push('IAB19-6');tgss.host='www.donanimhaber.com';tgss.url=':  www.donanimhaber.com savunma sanayi';tgss.targetCtr='0';tgss.pid='vnetc091483d-96e0-4c94-b00d-7eb3d87b04d0';tgss.targetCr='0';tgss.Mobile='false';tgss.env='web';tgss.overlay='1';tgss.rc='0';tgss.datasave='0';for(var tgs in tgss){googletag.pubads().setTargeting(tgs,tgss[tgs]);}}catch(excbp){};if(virgulEnableSingleRequest)googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs(true);googletag.pubads().setCentering(true);if(typeof(dfpCodePushed)!='undefined' && dfpCodePushed)setTimeout(function(){for(mm in noktaGSlts)refreshGoogle(mm);},1200);window.getPPID=typeof window.getPPID!='undefined'?window.getPPID:function(){return 'vnetc091483d96e04c94b00d7eb3d87b04d0'};googletag.pubads().setPublisherProvidedId(window.getPPID());try{if((typeof noktaad=='undefined'?cookie:noktaad.cookie)('nonpa')=='1')googletag.pubads().setRequestNonPersonalizedAds(1);}catch(eghhf){};try{if((typeof noktaad=='undefined'?virgulRefreshCount:noktaad.refreshCount)>400){document.removeEventListener('visibilitychange', window.scrChange);window.vrgPw=function(){};window.noktaHeaderBidding={};window.refreshGoogle=function(t){};var elmxf=document.createElement('IMG');elmxf.setAttribute('class','virgulCounter'),elmxf.style.display='none',elmxf.setAttribute('data-time-end',(new Date).getTime()+6e3),elmxf.style.width='1',elmxf.style.height='1',elmxf.setAttribute('src','https://ng.virgul.com/tck/imp/66fd06cde4b00b594f8137c6?r=159828@site_geneli@donanimhaber:site_geneli&scm=https&l=&t=special&userId='+virgulPageAds.noktaId+'&cs='+(new Date).getTime()),document.getElementsByTagName('BODY')[0].appendChild(elmxf);if(typeof noktaad!='undefined'){noktaad.init=function(){};stopVirgulRefresh();delete noktaad;delete empowerad;}}}catch(eghhf){};googletag.enableServices();window.sendGoogleRefreshStarted=false;window.dfpCodePushed=true;googletag.cmd.push(function() {try{postVirgulCallbackOperation();}catch(exp){};});});;window.noktaScriptLoaded=true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28885&z=5534"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+if(typeof window.virgulAdIntervals=='undefined')window.virgulAdIntervals=new Array();window.virgulAdIntervals.push(setInterval(function(){var el=document.getElementById('a67eae0219398550d2075943d');if(el!=null)el.setAttribute('src',el.getAttribute('src')+'&nu=1');},12000))
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28827&z=5569"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+
+
+        var stickyNavTop = $('header.site-header').offset().top;
+
+        function stickyNav() {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > stickyNavTop) {
+                $('header.site-header').addClass('tuttur');
+                $("body").css("padding-top", "10px");
+            } else {
+                $('header.site-header').removeClass('tuttur');
+                $("body").css("padding-top", "");
+            }
+        }
+
+        function adaptivePageSkin() {
+            var topPixel = $('header.site-header:first').offset().top - $(window).scrollTop();
+            topPixel += $('header.site-header:first').height() + parseInt(($('header.site-header:first').css('top').replace('px', '')))
+
+            if (topPixel < 0)
+                topPixel = 0;
+
+            $('.giydirme-container .giydirme-ps-left').css('top', topPixel + 'px');
+            $('.giydirme-container .giydirme-ps-right').css('top', topPixel + 'px');
+        }
+        
+        $(document).ready(function () { 
+            stickyNav();
+            
+            var tepe = $(".tepe-alan").innerHeight();
+            var header = $(".site-header").innerHeight();
+            var totalHeight = tepe + header;
+
+            $(".new-bg-ad .content .left").css("top", totalHeight + "px");
+            $(".new-bg-ad .content .right").css("top", totalHeight + "px");
+
+
+            $(window).scroll(function(){
+                if(window.scrollY > totalHeight){
+                    // $(".new-bg-ad .content .left").css("top", "");
+                    // $(".new-bg-ad .content .right").css("top", "");
+                }
+                else if (window.scrollY === 0){
+                    $(".new-bg-ad .content .left").css("top", totalHeight + "px");
+                    $(".new-bg-ad .content .right").css("top", totalHeight + "px");
+                }
+                else{
+                    $(".new-bg-ad .content .left").css("top", totalHeight-window.scrollY + "px");
+                    $(".new-bg-ad .content .right").css("top", totalHeight-window.scrollY + "px");
+                }
+            });
+        });
+
+        var senseSpeed = 5;
+        var previousScroll = 0;
+
+        $(window).scroll(function (event) {
+
+            stickyNav();
+
+            if ($(this).scrollTop() > 500) {
+                var scroller = $(this).scrollTop();
+                if (scroller - senseSpeed > previousScroll) {
+                    $("header.tuttur").css("top", "-50px");
+                    $('.news-notification').css("top", "0");
+                    $("header.tuttur").css("transition", "all 0.3s");
+                    $(".new-bg-ad .content .left").css("top", "");
+                    $(".new-bg-ad .content .right").css("top", "");
+                    $(".new-news-container a.refresh-news.fixed").css("top", "")
+                } else if (scroller + senseSpeed < previousScroll) {
+                    $("header.tuttur").css("top", "0");
+                    $('.news-notification').css("top", "40px");
+                    $("header.tuttur").css("transition", "all 0.3s");
+                    $(".new-bg-ad .content .left").css("top", "42px");
+                    $(".new-bg-ad .content .right").css("top", "42px");
+                    $(".new-news-container a.refresh-news.fixed").css("top", "50px")
+                }
+                previousScroll = scroller;
+
+            }
+            else {
+                $("header.tuttur").css("transition", "none");
+            }
+            adaptivePageSkin();
+
+        });
+
+    
+
+    var homeSearchBtn = ".HomeSearchButton";
+    var homeSearchInput = "#HomeSearchInput";
+    var homeSearchResult = ".HomeSearchResult";
+    var hash = '';
+    var memberId = '0';
+
+    $(homeSearchInput).click(function () {
+        loadSearchHistory();
+    })
+
+    $(document).on('mousedown', '.search-history ul li a', function (event) {
+        $('#HomeSearchInput').val($(this).text());
+        showSearchPop();
+    })
+
+    $(document).on('mousedown', '.search-history a.clear', function () {
+        clearSearchHistory();
+        $('#HomeSearchInput').focus();
+    });
+
+    $(homeSearchInput).blur(function () {
+        $('.search-history').hide();
+    })
+
+    $(homeSearchInput).keypress(function (e) {
+        if (e.keyCode == 13) {
+            showSearchPop()
+        } else {
+            loadSearchHistory();
+        }
+    });
+
+    function loadSearchHistory() {
+        $.get('https://search.donanimhaber.com' + '/api/history/portal/?h=' + hash + '&m=' + memberId, function (data) {
+            var searchHistoryList = $('.search-history ul:first');
+            searchHistoryList.empty();
+            if (data.length>0) {
+                $.each(data, function (index, value) {
+                    searchHistoryList.append('<li><a href="javascript:void(0)" onclick="document.getElementById(\'HomeSearchInput\').value=this.innerText;showSearchPop();">' + value.searchQuery + '</a></li>')
+                })
+                $('.search-history').show();
+            }
+
+        })
+    }
+
+    function clearSearchHistory() {
+        $.get('https://search.donanimhaber.com' + '/api/history/portal/delete?h=' + hash + '&m=' + memberId, loadSearchHistory);
+    }
+
+    var esClose = document.querySelector('.search-bg');
+    var esSearch = document.querySelector('.arama .buton');
+    var body = document.querySelector('body');
+
+    esClose.onclick = function () {
+        esClose.style.display = 'none';
+        body.classList.remove('no-scroll');
+
+    }
+
+    esSearch.onclick = function () { showSearchPop() };
+
+    function showSearchPop(url) {
+        var iframe = document.getElementById('search-iframe');
+        var key = document.getElementById('HomeSearchInput').value;
+        var src;
+
+        if (url) {
+            src = url;
+        } else if (key) {
+            src = 'https://search.donanimhaber.com/portal?devicetype=0&q=' + key + '&h=' + hash + '&token=' + memberId;
+        } else {
+            return;
+        }
+
+        if (iframe.src != src) {
+            iframe.src = src;
+        }
+
+        esClose.style.display = 'block';
+        body.classList.add('no-scroll');
+    }
+
+
+
+
+            function ToggleNightMode(that, isGuest, settingName,onlyVideo) {
+                var open = $(that).prop('checked');
+
+                var nightModeOnButton = $('#HýzlýTercihNightModeOn');
+                var nightModeOnForVideosButton = $('#HýzlýTercihNightModeOnForVideos');
+
+                var nightModeOn = nightModeOnButton.prop('checked');
+                var nightModeOnForVideos = nightModeOnForVideosButton.prop('checked');
+                var videoPage = $('body').hasClass('video-page');
+
+                var bothClosed = !nightModeOn && !nightModeOnForVideos;
+                var nightModeVideoOpenButPageNotVideo = !nightModeOn && nightModeOnForVideos && !videoPage;
+                var closedStatus = bothClosed || nightModeVideoOpenButPageNotVideo;
+
+                ToogleNightModeResult(!closedStatus);
+
+                nightModeOnForVideosButton.prop('disabled', nightModeOn);
+
+                if (isGuest) {
+                    var cookieValue, expireDay;
+
+                    if (onlyVideo) {
+                        cookieValue = '0';
+                        expireDay = open ? -1 : 365;
+                    } else {
+                        cookieValue = '1';
+                        expireDay = open ? 365 : -1;
+                    }
+
+                    setCookie(settingName, cookieValue, expireDay);
+
+                } else {
+                    $.post("/Api/Members/UpdateSetting", { name: settingName, value: $(that).prop('checked') }, function (data) {});
+                }
+
+                if (!onlyVideo && open == false) {
+                    setCookie('DefaultNightModeOn', '0', 40);
+                }
+            }
+        
+
+                    function addTab(that, tagId) {
+                        $.post("/Api/Tags/AddorRemoveTab", { tagId }, function (response) {
+                            if (response.HasError)
+                                alert('Bir hata oldu ve ekleme iþlemi gerçekleþtirilemedi.');
+                            else
+                                $(that).remove();
+                        }).fail(function (err) {
+                            console.log(err);
+                            alert('Bir hata oldu ve ekleme iþlemi gerçekleþtirilemedi.');
+                        });
+                    }
+                    function toggleFollowResult(that, result) {
+                        $(that).toggleClass('pasif', result.followed);
+                        $(that).next().removeClass('aktif', result.followed);
+                        $(that).find('.sayi').text(result.followerCount);
+                    }
+
+                    function toggleNotifyResult(that, result) {
+                        $(that).toggleClass('aktif', result.notified);
+                    }
+                
+
+                            FollowInfoByToken($('.follow-154'),154, sendTagResult);
+
+                            function sendTagResult(that, result)
+                            {
+                                toggleFollowResult(that, result);
+                                toggleNotifyResult($(that).next(), result);
+                            }
+                    
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28828&z=5535"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28828&z=5535"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28846&z=5564"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+
+        window.onscroll = function () { myFunction() };
+        var banner = document.getElementById("reklam-fix-anasayfa-sag-sutun");
+        var sticky = banner.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                banner.classList.add("fixed");
+
+                if (!window.bannerRefreshTimerId) {
+                    window.bannerRefreshTimerId = setInterval(refreshBanner, 30000);
+                }
+            } else {
+                banner.classList.remove("fixed");
+
+                if (window.bannerRefreshTimerId) {
+                    clearInterval(window.bannerRefreshTimerId);
+                    window.bannerRefreshTimerId = null;
+                }
+            }
+        }
+
+        function refreshBanner() {
+            if (banner.querySelector("iframe"))
+                banner.querySelector("iframe").contentDocument.location.reload(true);
+        }
+    
+
+    $(document).ready(function () {
+
+        lazyLoad();
+
+        $(window).scroll(function () {
+
+            if ($(this).scrollTop() > 300)
+                $('#toplink').fadeIn();
+            else
+                $('#toplink').fadeOut();
+
+            lazyLoad();
+        });
+
+        $('#toplink').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 800, function () {
+                isTop = true;
+            });
+        });
+    });
+
+
+
+
+
+
+
+    var LoadImage = $("#dahafazlayukle");
+    LoadImage.hide();
+
+    var LoadImage2 = $("#dahafazlayukle2");
+    LoadImage2.hide();
+
+    var KapsulDiv = $("#kapsulDiv");
+    var systemScroll = false;
+    var isLoad = false;
+
+    function ToggleVisibilityOfDescriptionBox(isVisible) {
+        if (!$('.category-description'))
+            return;
+
+        if (isVisible)
+            $('.category-description').show();
+        else
+            $('.category-description').remove();
+    }
+
+
+
+
+
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 300) {
+                        $('#toplink').fadeIn();
+                    } else {
+                        $('#toplink').fadeOut();
+                    }
+                });
+                $('#toplink').click(function () {
+                    if (isTop) {
+                        isTop = false;
+                        $('html, body').animate({ scrollTop: 0 }, 800, function () {
+                            isTop = true;
+                        });
+
+                    }
+                });
+            });
+        
+
+        $(document).on('click', '.window-open', function () {
+            var target = $($(this).attr('data-target'));
+            $('.window').hide();
+            target.show();
+
+            var onload = target.attr('data-onload');
+            if (onload)
+                window[onload]();
+        })
+        $(document).on('click', '.window .close', function () { $(this).closest('.window').hide(); })
+    
+
+    $(document).ready(function () {
+
+        $('input[name="resolution"]').val(window.screen.width + 'x' + window.screen.height);
+
+        $(window).scroll(function () {
+            var elems = $('.eski-gorunum.pencere-goster, .geri-bildirim.pencere-goster');
+            if ($(this).scrollTop() > 200)
+                elems.fadeIn();
+            else
+                elems.fadeOut();
+
+        });
+
+    });
+
+
+    var googleSiteKey = '6LcF4u4UAAAAAKIvPKw3OTRVgoXzm6WkcPoUWitY';
+    var greReturnBack, greFeedBack, greAds, greContact, greReport;
+    var CaptchaCallback = function(){
+        greReturnBack = grecaptcha.render('returnBackCaptcha', { 'sitekey': googleSiteKey });
+        greFeedBack = grecaptcha.render('feedBackCaptcha', { 'sitekey': googleSiteKey });
+
+        if ($('#ads-form-captcha').length>0) {
+            greAds = grecaptcha.render('ads-form-captcha', { 'sitekey': googleSiteKey });
+        }
+        if ($('#contact-form-captcha').length > 0) {
+            greContact = grecaptcha.render('contact-form-captcha', { 'sitekey': googleSiteKey });
+        }
+        if ($('#report-form-captcha').length > 0) {
+            greReport = grecaptcha.render('report-form-captcha', { 'sitekey': googleSiteKey });
+        }
+    };
+    var isGuest =true;
+
+    function goBackOnly()
+    {
+        googleActionEvent('Eski Sürüm','Eskiye Dön', 'V1 e geçti');
+        setCookie('backtothefuture', '2', 365);
+        window.location.reload();
+
+        //$.ajax({
+        //    type: "POST",
+        //    url: "/data/ReturnBackDeleteCookie",
+        //    success: function (response) {
+        //        if(response)
+        //        {
+        //            window.location.reload();
+        //        }
+        //    }
+        //});
+    }
+
+    function readResponse(form, response) {
+        form.find('.uyari').hide();
+        if (response.HasError) {
+            if (response.Message) {
+                form.find('.uyari.kirmizi').html('<strong>Hata! </strong>' + response.Message).show();
+            } else {
+                form.find('.uyari.kirmizi').html('<strong>Hata! </strong>').show();
+            }
+            return false;
+        } else {
+            if (response.Message) {
+                form.find('.uyari.yesil').html(response.Message).show();
+            } else {
+                form.find('.uyari.yesil').html('mesajýnýz gönderilmiþtir').show();
+            }
+            return true;
+        }
+    }
+
+    $('#feedBackForm').submit(function(e){
+
+        e.preventDefault();
+        var form=$(this);
+
+        var submitButton = form.find('input[type="submit"]');
+
+        submitButton.attr('disabled', 'disabled');
+        submitButton.addClass('btn-0');
+        toggleInputSending(submitButton);
+
+        $.ajax({
+            url:'/data/FeedBack',
+            type:'post',
+            data : form.serialize(),
+            success: function (response) {
+                readResponse(form, response);
+                if (isGuest) {
+                    grecaptcha.reset(greFeedBack);
+                }
+                submitButton.removeAttr('disabled');
+                submitButton.removeClass('btn-0');
+                toggleInputSending(submitButton);
+                googleActionEvent('Geri Bildirim', 'Gönderildi','');
+            },
+            error:function(){
+                form.find('.uyari.kirmizi').html('bir hata oluþtu!').show();
+                submitButton.removeAttr('disabled');
+                submitButton.removeClass('btn-0');
+                toggleInputSending(submitButton);
+            }
+        });
+
+
+        return false;
+    });
+
+    $('#returnBackForm').submit(function(e){
+
+            e.preventDefault();
+            var form=$(this);
+
+            var submitButton = form.find('input[type="submit"]');
+
+            submitButton.attr('disabled', 'disabled');
+            submitButton.addClass('btn-0');
+            toggleInputSending(submitButton);
+
+            $.ajax({
+                url:'/data/ReturnBack',
+                type:'post',
+                data : form.serialize(),
+                success: function (response) {
+                    if (readResponse(form, response)) {
+                        setTimeout(goBackOnly, 3000);
+                    }
+
+                    submitButton.removeAttr('disabled');
+                    submitButton.removeClass('btn-0');
+                    toggleInputSending(submitButton);
+                },
+                error:function(){
+                    form.find('.uyari.kirmizi').html('bir hata oluþtu!').show();
+
+                    submitButton.removeAttr('disabled');
+                    submitButton.removeClass('btn-0');
+                    toggleInputSending(submitButton);
+                }
+            });
+
+            return false;
+    });
+
+    //$('.pencere-goster').click(function(){
+
+    //    var w=$(this).next('.pencere');
+    //    var onload=w.attr('data-onload');
+
+    //    if (onload)
+    //        window[onload]();
+
+    //});
+
+    var fillFeedBackForm = function()
+    {
+        $('#feedBackForm input[name="page"]').val(location.href);
+        $('#feedBackForm input[name="browser"]').val(navigator.userAgent);
+    }
+    var fillReturnBack = function()
+    {
+        $('#returnBackForm input[name="browser"]').val(navigator.userAgent);
+    }
+
+
+        function notificationPopup() {
+            setCookie("notificationPopupDisabled", 'true', 10);
+        }
+
+
+        var notificationPopupDisabled = false;
+    
+        if (document.cookie.indexOf('cookieUsingNotified') === -1) {
+            document.querySelector(".cookie-kutu").style.display = "inherit";
+        }
+
+        document.querySelector(".cookie-kutu .icon-close")
+            .addEventListener("click", closeCookieUsingPopup);
+        document.querySelector(".cookie-kutu .cookie-buton.onay")
+            .addEventListener("click", closeCookieUsingPopup);
+        function closeCookieUsingPopup() {
+            let cookieKey = 'cookieUsingNotified';
+            if (!getCookie(cookieKey))
+                setCookie(cookieKey, 1, 365);
+            document.querySelector(".cookie-kutu").remove();
+        }
+    
+
+
+        $(document).ready(function () {
+            $(document).on('click', '.galeri-ac', function () {
+                $(this).parent().find('.ilk-gorsel').click();
+            });
+        });
+    
+
+        googleActionEvent('Anasayfa Görünümü', 'Hybrid','Enabled');
+
+        var test = document.createElement('div');
+        test.innerHTML = '&nbsp;';
+        test.className = 'adsbox';
+        document.body.appendChild(test);
+        window.setTimeout(function () {
+            if (test.offsetHeight === 0) {
+                document.body.classList.add('adblock');
+                googleActionEvent('Reklam', 'AdBlock', 'Enabled');
+            } else {
+                googleActionEvent('Reklam', 'AdBlock', 'Disabled');
+            }
+
+            test.remove();
+        }, 400);
+
+
+    
+
+            function switchMainView(viewType) {
+                setCookie("DHMainViewType", viewType, viewType == viewTypes.Hybrid ? -1 : 365);
+                window.location.reload();
+            }
+        
+
+
+
+        $('#kapsulDiv').dhinfinite({
+            pageRequestUrl:'/Api/News/List',
+            pageItem:'.blogItem',
+            tabItem:'.tab-oge',
+            searchInput:'#inputSearchDetail',
+            additionalParams:{ tag: 'savunma-sanayi',
+                ispopular:0,
+                newstype: 3,
+                quizCategoryPage: false
+            }
+        });
+    
+
+        $(document).ready(function () {
+            if (typeof (Storage) !== "undefined") {
+                $.ajax({
+                    type: "GET",
+                    url: "/api/history/AddTag/" + window.sessionStorage.HistoryGuid,
+                    headers: {
+                        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJzaWQiOiIwIiwiZGF0YSI6IntcIlRhZ0lkXCI6MTU0LFwiVGFnTmFtZVwiOlwiU2F2dW5tYSBTYW5heWlcIixcIlRhZ0ljb25cIjpcImh0dHBzOi8vd3d3LmRvbmFuaW1oYWJlci5jb20vaW1hZ2VzL2ltYWdlcy9pY29uc2hkL2FzZWxzYW4ucG5nXCIsXCJUYWdVcmxcIjpcInNhdnVubWEtc2FuYXlpXCIsXCJJc0NhdGVnb3J5XCI6dHJ1ZSxcIk1lbWJlcklkXCI6MCxcIlBsYXRmb3JtVHlwZVwiOjAsXCJEYXRlQ3JlYXRlZFwiOlwiMjAyNS0wNC0xMlQxODoxNTo1NC40MDc2Nzk5KzAzOjAwXCIsXCJJUFwiOlwiODguMjU1LjIwMC41NlwiLFwiVXNlckFnZW50XCI6XCJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjE7IFdPVzY0KSAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS80OS4wLjI2MjMuMTEwIFNhZmFyaS81MzcuMzZcIixcIlNlc3Npb25HdWlkXCI6XCJvM2psdmxsM3diZG5rd3NraHp5bmlqMmNcIn0iLCJpc3MiOiJodHRwczovL2ZvcnVtLmRvbmFuaW1oYWJlci5jb20vIiwiYXVkIjoiaHR0cHM6Ly9mb3J1bS5kb25hbmltaGFiZXIuY29tLyJ9.EAQ--fNGcFsa2G8AJbeqt0AF0nFiD_iGHSx-CN3n3fA"
+                    }
+                });
+            }
+        });
+        
+updateSession(154,'newslist','0')
+ new Blazy({ offset: 500 }); 
+$('.renderTime').text('0,36 saniye');
+$('.renderServer').text('(BR8)')
+(function(b,e,f,g,c,a,d){b[c]=b[c]||function(){(b[c].a=b[c].a||[]).push(arguments)};b[c].l=1*new Date;for(a=0;a<document.scripts.length;a++)if(document.scripts[a].src===g)return;a=e.createElement(f);d=e.getElementsByTagName(f)[0];a.async=1;a.src=g;d.parentNode.insertBefore(a,d)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(24921881,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0});

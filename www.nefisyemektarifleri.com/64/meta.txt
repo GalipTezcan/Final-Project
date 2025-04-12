@@ -1,0 +1,24 @@
+<meta name="referrer" content="origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="google-site-verification" content="sBw2N8uateIzRr93vmFze5MF_35vMk5F1wG04L5JcJE">
+<meta name="google-site-verification" content="PJKdyVFC5jlu_l8Wo_hirJkhs1cmitmn44fgpOc3zFc">
+<meta content="NOODP" name="robots">
+<meta content="website" property="og:type">
+<meta property="og:url" content="https://play.google.com/store/apps/details?id=com.nefisyemektarifleri.android&amp;hl=en_US">
+<meta name="twitter:url" content="https://play.google.com/store/apps/details?id=com.nefisyemektarifleri.android&amp;hl=en_US">
+<meta property="og:title" content="Nefis Yemek Tarifleri - Apps on Google Play">
+<meta name="description" property="og:description" content="More than 800 thousand fully tried recipes. More than 3500 video recipes">
+<meta property="og:image" content="https://play-lh.googleusercontent.com/v_aYBaMNxbNIssCwk5j0TrNFl7GKdKCvpjXIb2B5QzNuMoT5MyE3Q4QB2qLqSmc1nlA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GooglePlay">
+<meta name="twitter:title" content="Nefis Yemek Tarifleri - Apps on Google Play">
+<meta name="twitter:description" content="More than 800 thousand fully tried recipes. More than 3500 video recipes">
+<meta name="twitter:image" content="https://play-lh.googleusercontent.com/v_aYBaMNxbNIssCwk5j0TrNFl7GKdKCvpjXIb2B5QzNuMoT5MyE3Q4QB2qLqSmc1nlA=w600-h300-pc0xffffff-pd">
+<meta name="appstore:developer_url" content="https://www.nefisyemektarifleri.com">
+<meta name="appstore:bundle_id" content="com.nefisyemektarifleri.android">
+<meta name="appstore:store_id" content="com.nefisyemektarifleri.android">
+<meta itemprop="url" content="https://play.google.com/store/apps/details?id=com.nefisyemektarifleri.android&amp;rdid=com.nefisyemektarifleri.android&amp;feature=md&amp;offerId">
+<meta itemprop="price" content="0">
+<meta itemprop="description" content="More than 800 thousand fully tried recipes. More than 3500 video recipes">

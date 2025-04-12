@@ -1,0 +1,66 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=5, minimum-scale=1, width=device-width, height=device-height">
+<meta name="HandheldFriendly" content="true">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Limonlu Kek (Fresh Aromasýyla) Tarifi nasýl yapýlýr? Onlarca kiþinin defterindeki bu tarifin detaylý anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#cc2e38">
+<meta property="fb:app_id" content="177905808944310">
+<meta property="fb:pages" content="34941858100">
+<meta property="og:site_name" content="Nefis Yemek Tarifleri">
+<meta property="article:publisher" content="https://www.facebook.com/nefisyemektarifleri/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.nefisyemektarifleri.com/limonlu-kek-fresh-aromasiyla/">
+<meta property="og:title" content="Limonlu Kek (Fresh Aromasýyla) - Nefis Yemek Tarifleri">
+<meta property="og:description" content="Limonlu Kek (Fresh Aromasýyla) Tarifi nasýl yapýlýr? Onlarca kiþinin defterindeki bu tarifin detaylý anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://i.nefisyemektarifleri.com/2022/01/11/limonlu-kek-fresh-aromasiyla.jpg">
+<meta property="article:published_time" content="2022-01-11T14:10:07+03:00">
+<meta property="article:modified_time" content="2022-01-11T14:10:20+03:00">
+<meta property="og:updated_time" content="2022-01-11T14:10:20+03:00">
+<meta name="twitter:card" content="photo">
+<meta name="twitter:creator" content="@NefisYT">
+<meta name="twitter:site" content="@NefisYT">
+<meta name="twitter:title" content="Limonlu Kek (Fresh Aromasýyla)">
+<meta name="twitter:description" content="Limonlu Kek (Fresh Aromasýyla) Tarifi">
+<meta name="twitter:image" content="https://i.nefisyemektarifleri.com/2022/01/11/limonlu-kek-fresh-aromasiyla.jpg">
+<meta name="twitter:image:width" content="500">
+<meta name="twitter:image:height" content="332">
+<meta name="robots" content="max-image-preview:large">
+<meta name="msapplication-TileImage" content="https://i.nefisyemektarifleri.com/2022/10/19/cropped-nyt-amblem-kare-sari2x-8-270x270.png">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta itemprop="position" content="1">
+<meta itemprop="position" content="2">
+<meta itemprop="position" content="2">
+<meta itemprop="position" content="4">
+<meta itemprop="position" content="5">
+<meta itemprop="commentCount" content="6">
+<meta itemprop="text" content="nifis görnyo ellerinize saðlýq">
+<meta itemprop="datePublished" content="2022-10-06T22:32:49+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="tarifte süt yazmýyor ama">
+<meta itemprop="datePublished" content="2022-01-12T13:49:57+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="url" content="https://i.nefisyemektarifleri.com/2022/01/11/limonlu-kek-fresh-aromasiyla.jpg">
+<meta itemprop="width" content="600">
+<meta itemprop="height" content="400">
+<meta itemprop="name" content="Limonlu Kek (Fresh Aromasýyla)">
+<meta itemprop="mainEntityOfPage" content="https://www.nefisyemektarifleri.com/limonlu-kek-fresh-aromasiyla/">
+<meta itemprop="description" content="Limonlu Kek (Fresh Aromasýyla) Tarifi nasýl yapýlýr? Onlarca kiþinin defterindeki bu tarifin detaylý anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta itemprop="datePublished" content="2022-01-11T00:00:00+03:00">
+<meta itemprop="dateModified" content="2022-01-11T00:00:00+03:00">
+<meta itemprop="recipeCuisine" content="Türk">
+<meta itemprop="recipeCategory" content="Kek Tarifleri">
+<meta itemprop="bestRating" content="5">
+<meta itemprop="worstRating" content="1">
+<meta itemprop="ratingValue" content="4">
+<meta itemprop="ratingCount" content="4">
+<meta itemprop="recipeYield" content="9">
+<meta itemprop="totalTime" content="PT50M">

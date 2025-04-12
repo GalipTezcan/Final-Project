@@ -1,0 +1,17 @@
+Server: nginx
+Date: Sat, 12 Apr 2025 06:40:43 GMT
+Content-Type: application/pdf
+Content-Length: 984327
+Connection: keep-alive
+Last-Modified: Fri, 21 Mar 2025 11:24:28 GMT
+Accept-Ranges: bytes
+ETag: "ad1941cf539adb1:0"
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: microphone=(), camera=(), payment=()

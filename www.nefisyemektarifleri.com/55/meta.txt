@@ -1,0 +1,57 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=5, minimum-scale=1, width=device-width, height=device-height">
+<meta name="HandheldFriendly" content="true">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Bildiðiniz çikolatalarý unutun! Tüm dünyanýn gündeminde ekþimsi, meyve aromalý lezzetiyle ruby çikolata hakkýnda merak ettiðiniz her þeyi burada cevapladýk!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#cc2e38">
+<meta property="fb:app_id" content="177905808944310">
+<meta property="fb:pages" content="34941858100">
+<meta property="og:site_name" content="Nefis Yemek Tarifleri">
+<meta property="article:publisher" content="https://www.facebook.com/nefisyemektarifleri/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.nefisyemektarifleri.com/blog/ruby-cikolata/">
+<meta property="og:title" content="Þaþýrtýcý Aromasýyla 4. Tür Pembe Ruby Çikolata - Nefis Yemek Tarifleri">
+<meta property="og:description" content="Bildiðiniz çikolatalarý unutun! Tüm dünyanýn gündeminde ekþimsi, meyve aromalý lezzetiyle ruby çikolata hakkýnda merak ettiðiniz her þeyi burada cevapladýk!">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://i.nefisyemektarifleri.com/2023/05/16/sasirtici-aromasiyla-4-tur-pembe-ruby-cikolata-10.jpg">
+<meta property="article:published_time" content="2019-06-11T11:02:02+03:00">
+<meta property="article:modified_time" content="2023-05-16T12:48:31+03:00">
+<meta property="og:updated_time" content="2023-05-16T12:48:31+03:00">
+<meta name="twitter:card" content="photo">
+<meta name="twitter:creator" content="@NefisYT">
+<meta name="twitter:site" content="@NefisYT">
+<meta name="twitter:title" content="Þaþýrtýcý Aromasýyla 4. Tür Pembe Ruby Çikolata">
+<meta name="twitter:description" content="Þaþýrtýcý Aromasýyla 4. Tür Pembe Ruby Çikolata Tarifi">
+<meta name="twitter:image" content="https://i.nefisyemektarifleri.com/2023/05/16/sasirtici-aromasiyla-4-tur-pembe-ruby-cikolata-10.jpg">
+<meta name="twitter:image:width" content="500">
+<meta name="twitter:image:height" content="332">
+<meta name="robots" content="max-image-preview:large">
+<meta name="msapplication-TileImage" content="https://i.nefisyemektarifleri.com/2022/10/19/cropped-nyt-amblem-kare-sari2x-8-270x270.png">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta itemprop="url" content="https://i.nefisyemektarifleri.com/2023/05/16/sasirtici-aromasiyla-4-tur-pembe-ruby-cikolata-10.jpg">
+<meta itemprop="width" content="600">
+<meta itemprop="height" content="400">
+<meta itemprop="name" content="Þaþýrtýcý Aromasýyla 4. Tür Pembe Ruby Çikolata">
+<meta itemprop="mainEntityOfPage" content="https://www.nefisyemektarifleri.com/blog/ruby-cikolata/">
+<meta itemprop="description" content="Bildiðiniz çikolatalarý unutun! Tüm dünyanýn gündeminde ekþimsi, meyve aromalý lezzetiyle ruby çikolata hakkýnda merak ettiðiniz her þeyi burada cevapladýk!">
+<meta itemprop="datePublished" content="2019-06-11T00:00:00+03:00">
+<meta itemprop="dateModified" content="2023-05-16T00:00:00+03:00">
+<meta itemprop="author" content="NYT Blog">
+<meta itemprop="headline" content="Þaþýrtýcý Aromasýyla 4. Tür Pembe Ruby Çikolata">
+<meta itemprop="name" content="Nefis Yemek Tarifleri">
+<meta itemprop="url" content="https://www.nefisyemektarifleri.com">
+<meta itemprop="url" content="https://mn.nytcdn.com/wp-content/assets/img/nefis-yemek-tarifleri-logo.svg">
+<meta itemprop="position" content="1">
+<meta itemprop="position" content="2">
+<meta itemprop="position" content="3">
+<meta itemprop="position" content="4">
+<meta itemprop="totalTime" content="PT20M">
+<meta itemprop="totalTime" content="PT35M">

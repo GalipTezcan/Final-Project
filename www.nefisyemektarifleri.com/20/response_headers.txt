@@ -1,0 +1,12 @@
+Date: Sat, 12 Apr 2025 08:12:00 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Cache-Control: max-age=15
+Expires: Sat, 12 Apr 2025 08:12:15 GMT
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 92f1419529a45488-IST
+Content-Encoding: gzip

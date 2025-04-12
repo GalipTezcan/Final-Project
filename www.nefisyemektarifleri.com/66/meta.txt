@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=5, minimum-scale=1, width=device-width, height=device-height">
+<meta name="HandheldFriendly" content="true">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Nefis Yemek Tarifleri sitesinde bulunan yemek tariflerini kategorilerilere bölünmüþ þekilde bulabilirsiniz.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#cc2e38">
+<meta property="fb:app_id" content="177905808944310">
+<meta property="fb:pages" content="34941858100">
+<meta property="og:site_name" content="Nefis Yemek Tarifleri">
+<meta property="article:publisher" content="https://www.facebook.com/nefisyemektarifleri/">
+<meta name="robots" content="max-image-preview:large">
+<meta name="msapplication-TileImage" content="https://i.nefisyemektarifleri.com/2022/10/19/cropped-nyt-amblem-kare-sari2x-8-270x270.png">
+<meta itemprop="totalTime" content="PT10M">
+<meta itemprop="totalTime" content="PT20M">

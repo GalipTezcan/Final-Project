@@ -1,0 +1,90 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=5, minimum-scale=1, width=device-width, height=device-height">
+<meta name="HandheldFriendly" content="true">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Videolu anlatým Mavi Haþhaþlý Þekerpare Tarifi nasýl yapýlýr? Binlerce kiþinin defterindeki bu tarifin videolu anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#cc2e38">
+<meta property="fb:app_id" content="177905808944310">
+<meta property="fb:pages" content="34941858100">
+<meta property="og:site_name" content="Nefis Yemek Tarifleri">
+<meta property="article:publisher" content="https://www.facebook.com/nefisyemektarifleri/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.nefisyemektarifleri.com/video/mavi-hashasli-sekerpare/">
+<meta property="og:title" content="Mavi Haþhaþlý Þekerpare - Nefis Yemek Tarifleri">
+<meta property="og:description" content="Videolu anlatým Mavi Haþhaþlý Þekerpare Tarifi nasýl yapýlýr? Binlerce kiþinin defterindeki bu tarifin videolu anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://i.nefisyemektarifleri.com/2023/06/18/mavi-hashasli-sekerpare.jpg">
+<meta property="article:published_time" content="2023-06-18T12:35:37+03:00">
+<meta property="article:modified_time" content="2024-11-26T17:55:17+03:00">
+<meta property="og:updated_time" content="2024-11-26T17:55:17+03:00">
+<meta name="twitter:card" content="photo">
+<meta name="twitter:creator" content="@NefisYT">
+<meta name="twitter:site" content="@NefisYT">
+<meta name="twitter:title" content="Mavi Haþhaþlý Þekerpare">
+<meta name="twitter:description" content="Mavi Haþhaþlý Þekerpare Tarifi">
+<meta name="twitter:image" content="https://i.nefisyemektarifleri.com/2023/06/18/mavi-hashasli-sekerpare.jpg">
+<meta name="twitter:image:width" content="500">
+<meta name="twitter:image:height" content="332">
+<meta name="robots" content="max-image-preview:large">
+<meta name="msapplication-TileImage" content="https://i.nefisyemektarifleri.com/2022/10/19/cropped-nyt-amblem-kare-sari2x-8-270x270.png">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A9AxgGSwmnfgzzkyJHILUr3H8nJ/3D+57oAsL4DBt4USlng4jZ0weq+fZtHC/Qwwn6gd4QSa5DzT3OBif+kXVA0AAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta itemprop="position" content="1">
+<meta itemprop="position" content="2">
+<meta itemprop="position" content="3">
+<meta itemprop="position" content="4">
+<meta itemprop="position" content="5">
+<meta itemprop="commentCount" content="46">
+<meta itemprop="text" content="merhaba sut alerjimiz varda sadece sivi yag yapsam olur mu olursa ölcusu nedir">
+<meta itemprop="datePublished" content="2024-03-18T17:34:36+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="merhaba serbetini verdikten sonra borcamin üstünü bý tepsiyle kapatmamiz gerekiyor mu?">
+<meta itemprop="datePublished" content="2023-06-28T13:22:06+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="merhabalar ben þeker pareye pudra þekeri koymya unuttum biþey olurmu">
+<meta itemprop="datePublished" content="2025-03-11T18:33:27+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="Bende denedim güzel oldu sadece yorumlarý okuyarak servetinin þekerini 1.5 bardaða düþürdüm daha iyi oldu">
+<meta itemprop="datePublished" content="2024-10-16T14:54:53+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="kaç tane çýkýyor">
+<meta itemprop="datePublished" content="2024-10-12T22:28:17+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="url" content="https://i.nefisyemektarifleri.com/2023/06/18/mavi-hashasli-sekerpare.jpg">
+<meta itemprop="width" content="600">
+<meta itemprop="height" content="400">
+<meta itemprop="name" content="Mavi Haþhaþlý Þekerpare">
+<meta itemprop="mainEntityOfPage" content="https://www.nefisyemektarifleri.com/video/mavi-hashasli-sekerpare/">
+<meta itemprop="description" content="Videolu anlatým Mavi Haþhaþlý Þekerpare Tarifi nasýl yapýlýr? Binlerce kiþinin defterindeki bu tarifin videolu anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta itemprop="datePublished" content="2023-06-18T00:00:00+03:00">
+<meta itemprop="dateModified" content="2024-11-26T00:00:00+03:00">
+<meta itemprop="recipeCuisine" content="Türk">
+<meta itemprop="recipeCategory" content="Þerbetli Tatlý Videolarý">
+<meta itemprop="bestRating" content="5">
+<meta itemprop="worstRating" content="1">
+<meta itemprop="ratingValue" content="4.94">
+<meta itemprop="ratingCount" content="17">
+<meta itemprop="mainEntityOfPage" content="True">
+<meta itemprop="thumbnailUrl" content="https://i.nefisyemektarifleri.com/2023/06/18/mavi-hashasli-sekerpare.jpg">
+<meta itemprop="dateCreated" content="2023-06-18">
+<meta itemprop="uploadDate" content="2023-06-18T12:35:37+03:00">
+<meta itemprop="isFamilyFriendly" content="true">
+<meta itemprop="videoQuality" content="HQ 720p">
+<meta itemprop="playerType" content="HTML5">
+<meta itemprop="width" content="1280">
+<meta itemprop="height" content="720">
+<meta itemprop="name" content="Mavi Haþhaþlý Þekerpare">
+<meta itemprop="description" content="Videolu anlatým Mavi Haþhaþlý Þekerpare Tarifi nasýl yapýlýr? Binlerce kiþinin defterindeki bu tarifin videolu anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta itemprop="duration" content="PT1M">
+<meta itemprop="contentUrl" content="https://istr.empower.net/data/videos/10886/10886811-1080_4-400k.mp4?token=ncBy6Nx5i8KAGqIw5JI_Rw&amp;ts=1745034536&amp;playername=npm_nefisyemektarifleri">
+<meta itemprop="recipeYield" content="5">
+<meta itemprop="totalTime" content="PT45M">

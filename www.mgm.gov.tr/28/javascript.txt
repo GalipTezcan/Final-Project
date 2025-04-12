@@ -1,0 +1,151 @@
+
+
+
+
+
+
+    (function (d, w, c) {
+
+        (w[c] = w[c] || []).push(function() {
+
+            try {
+
+                w.yaCounter48997139 = new Ya.Metrika({
+
+                    id:48997139,
+
+                    clickmap:true,
+
+                    trackLinks:true,
+
+                    accurateTrackBounce:true,
+
+                    webvisor:true
+
+                });
+
+            } catch(e) { }
+
+       });
+
+ 
+
+        var n = d.getElementsByTagName("script")[0],
+
+            s = d.createElement("script"),
+
+            f = function () { n.parentNode.insertBefore(s, n); };
+
+        s.type = "text/javascript";
+
+        s.async = true;
+
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+ 
+
+        if (w.opera == "[object Opera]") {
+
+            d.addEventListener("DOMContentLoaded", f, false);
+
+        } else { f(); }
+
+    })(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+        $(function () {
+            $('.hamburger').click(function () { var target = $(this).attr('data-target'); if (target != '') { $(target).toggleClass('active'); } $(this).toggleClass('open'); });
+            $('header nav ul li').click(function () { var isActive = $(this).hasClass('active'); var target = $(this).find('.dropdown'); $('.dropdown.active, li.active').removeClass('active'); if (target != undefined & !isActive) { $(target).addClass('active'); $(this).addClass('active'); } });
+            $('header nav ul li').on('mouseover', function () { $('header nav ul li:hover .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).addClass('droppeddown'); }); $('header nav ul li:hover .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).css('transition-delay', index * 10 + 'ms'); }); });
+            $('header nav ul li').on('mouseout', function () { $('header nav ul li .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).removeClass('droppeddown'); }); });
+        });
+    
+
+          
+        $( document ).ready(function() {
+            $("audio").prop('muted', false);
+
+          
+
+        });
+
+          var sound = new Howl({
+                src: ['/FILES/mp3/e-tahmin-BT.mp3'],
+                autoplay: false,
+                loop: true,
+                volume: 0.5,
+            });
+
+             $('#sesliEBultenG').on({
+                 mouseenter: function () {
+                                sound.play();
+            //var audio = document.getElementById(sesliEBultenSes);
+            
+            //sesliEBultenSes.play();
+            //sesliEBultenSes.muted = false;
+        },
+                 mouseleave: function () {
+                                sound.pause();
+           // sesliEBultenSes.pause();
+        }
+    });
+    
+
+        $(document).ready(function () {
+
+            var offset = 300,
+           //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+           offset_opacity = 1200,
+           //duration of the top scrolling animation (in ms)
+           scroll_top_duration = 700,
+           //grab the "back to top" link
+           $back_to_top = $('.cd-top');
+
+            if ($('#back-to-top').length) {
+                var scrollTrigger = 100, // px
+                    backToTop = function () {
+                        var scrollTop = $(window).scrollTop();
+                        if (scrollTop > scrollTrigger) {
+                            $('#back-to-top').addClass('show');
+                        } else {
+                            $('#back-to-top').removeClass('show');
+                        }
+                    };
+                backToTop();
+                $(window).on('scroll', function () {
+                    backToTop();
+
+                    ($(this).scrollTop() > offset) ? $('#back-to-top').addClass('cd-is-visible') : $('#back-to-top').removeClass('cd-is-visible cd-fade-out');
+                    if ($(this).scrollTop() > offset_opacity) {
+                        $('#back-to-top').addClass('cd-fade-out');
+                    }
+
+                });
+                $('#back-to-top').on('click', function (e) {
+                    e.preventDefault();
+                    $('html,body').animate({
+                        scrollTop: 0
+                    }, 700);
+                });
+            }
+
+        });
+
+    
+
+
+       $(window).scroll(function() {
+
+    if ($(this).scrollTop()>0)
+     {
+        $('.kaybol').fadeOut(0);
+     }
+    else
+     {
+      $('.kaybol').fadeIn(0);
+     }
+ });
+    

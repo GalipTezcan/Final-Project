@@ -1,0 +1,15 @@
+<meta charset="utf-8">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Ürünleri Takip Et, Fýrsatlarý Yakala">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.akakce.com/en-cok-takip-edilen-urunler/">
+<meta property="og:title" content="Ürünleri Takip Et, Fýrsatlarý Yakala">
+<meta property="og:image" content="//cdn.akakce.com/i/akakce-logo-32.png">
+<meta property="og:description" content="Ürünleri Takip Et, Fýrsatlarý Yakala">
+<meta property="og:site_name" content="akakce.com">
+<meta name="yandex-verification" content="e0deab145ce136eb">
+<meta itemprop="position" content="1">
+<meta itemprop="position" content="2">

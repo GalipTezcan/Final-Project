@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="MGM">
+<meta name="keywords" content="mgm.gov.tr: Hava, Hava Durumu, Hava Tahmini, Sýcaklýk, Yaðmur, Kar, Dolu, Þimþek, Gökgürültüsü, Rüzgar, Fýrtýna, Denizcilik, Havacýlýk, Tarým">
+<meta name="description" content="mgm.gov.tr Hava, Hava Durumu Hava Tahmini Sýcaklýk, Yaðmur Kar Dolu Þimþek Gökgürültüsü Rüzgar Fýrtýna Denizcilik Havacýlýk Tarým">
+<meta name="generator" content="Microsoft Visual Studio .NET 14.0">
+<meta name="copyright" content="MGM">
+<meta name="robots" content="all">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">

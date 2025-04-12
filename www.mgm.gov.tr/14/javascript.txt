@@ -1,0 +1,146 @@
+
+
+
+    (function (d, w, c) {
+
+        (w[c] = w[c] || []).push(function() {
+
+            try {
+
+                w.yaCounter48997139 = new Ya.Metrika({
+
+                    id:48997139,
+
+                    clickmap:true,
+
+                    trackLinks:true,
+
+                    accurateTrackBounce:true,
+
+                    webvisor:true
+
+                });
+
+            } catch(e) { }
+
+       });
+
+ 
+
+        var n = d.getElementsByTagName("script")[0],
+
+            s = d.createElement("script"),
+
+            f = function () { n.parentNode.insertBefore(s, n); };
+
+        s.type = "text/javascript";
+
+        s.async = true;
+
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+ 
+
+        if (w.opera == "[object Opera]") {
+
+            d.addEventListener("DOMContentLoaded", f, false);
+
+        } else { f(); }
+
+    })(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+        $(function () {
+            $('.hamburger').click(function () { var target = $(this).attr('data-target'); if (target != '') { $(target).toggleClass('active'); } $(this).toggleClass('open'); });
+            $('header nav ul li').click(function () { var isActive = $(this).hasClass('active'); var target = $(this).find('.dropdown'); $('.dropdown.active, li.active').removeClass('active'); if (target != undefined & !isActive) { $(target).addClass('active'); $(this).addClass('active'); } });
+            $('header nav ul li').on('mouseover', function () { $('header nav ul li:hover .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).addClass('droppeddown'); }); $('header nav ul li:hover .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).css('transition-delay', index * 10 + 'ms'); }); });
+            $('header nav ul li').on('mouseout', function () { $('header nav ul li .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).removeClass('droppeddown'); }); });
+        });
+    
+
+          
+        $( document ).ready(function() {
+            $("audio").prop('muted', false);
+
+          
+
+        });
+
+          var sound = new Howl({
+                src: ['/FILES/mp3/e-tahmin-BT.mp3'],
+                autoplay: false,
+                loop: true,
+                volume: 0.5,
+            });
+
+             $('#sesliEBultenG').on({
+                 mouseenter: function () {
+                                sound.play();
+            //var audio = document.getElementById(sesliEBultenSes);
+            
+            //sesliEBultenSes.play();
+            //sesliEBultenSes.muted = false;
+        },
+                 mouseleave: function () {
+                                sound.pause();
+           // sesliEBultenSes.pause();
+        }
+    });
+    
+
+
+        $(document).on("ready", function () {
+            map_tr_svg_1();
+            var toplamd = 0.0, toplame = 0.0, toplamf = 0.0, toplamg = 0.0;
+            var toplamh = 0.0, toplami = 0.0, toplamj = 0.0, toplamk = 0.0;
+            var enb = -99.9, enk = 100.0,enbk=-99.9;
+            var zero = "0";
+            for (var i = 1; i <= 12; i++) {
+                if (i > 9) zero = "";
+
+                toplamd = toplamd + parseFloat(parseFloat($("#d" + zero + i).text().replace(",",".")).toFixed(2));
+                toplame = toplame + parseFloat(parseFloat($("#e" + zero + i).text().replace(",",".")).toFixed(2));
+                toplamf = toplamf + parseFloat(parseFloat($("#f" + zero + i).text().replace(",",".")).toFixed(2));
+                toplamg = toplamg + parseFloat(parseFloat($("#g" + zero + i).text().replace(",",".")).toFixed(2));
+                toplamh = toplamh + parseFloat(parseFloat($("#h" + zero + i).text().replace(",",".")).toFixed(2));
+                toplami = toplami + parseFloat(parseFloat($("#i" + zero + i).text().replace(",",".")).toFixed(2));
+
+                if (enb < parseFloat($("#j" + zero + i).text().replace(",","."))) enb = parseFloat($("#j" + zero + i).text().replace(",","."));
+                if (enk > parseFloat($("#k" + zero + i).text().replace(",","."))) enk = parseFloat($("#k" + zero + i).text().replace(",","."));
+                if (enbk < parseFloat($("#l" + zero + i).text().replace(",","."))) enbk = parseFloat($("#l" + zero + i).text().replace(",","."));
+                //toplamj = toplamj + parseFloat($("#j" + zero + i).text());
+                toplamk = toplamk + parseFloat(parseFloat($("#m" + zero + i).text().replace(",",".")).toFixed(2));
+                if(parseFloat($("#l" + zero + i).text()) == 0)  $("#l" + zero + i)[0].innerHTML="";
+                if(parseFloat($("#m" + zero + i).text()) == 0)  $("#m" + zero + i)[0].innerHTML="";
+
+            }
+
+           
+            $("#d_top").text((toplamd / 12).toFixed(1));
+            $("#d_top2").text((toplame / 12).toFixed(1));
+            $("#d_top3").text((toplamf / 12).toFixed(1));
+            $("#d_top4").text((toplamg / 12).toFixed(1));
+            $("#d_top5").text((toplamh).toFixed(1));
+            $("#d_top6").text((toplami).toFixed(1));
+            $("#d_top7").text((enb).toFixed(1));
+            $("#d_top8").text((enk).toFixed(1));
+            $("#d_top9").text((enbk).toFixed(1));
+            $("#d_top10").text((toplamk).toFixed(1));
+        });
+    
+
+       $(window).scroll(function() {
+
+    if ($(this).scrollTop()>0)
+     {
+        $('.kaybol').fadeOut(0);
+     }
+    else
+     {
+      $('.kaybol').fadeIn(0);
+     }
+ });
+    

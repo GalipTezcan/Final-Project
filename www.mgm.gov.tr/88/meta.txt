@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="MGM">
+<meta name="keywords" content="Kýbrýs, Hava Durumu, Tahmin, Anlýk Durum, Saatlik Tahmin, Aylýk Tahmin, Mevsimlik, Geçmiþ Deðerler, Sýcaklýk, Nem, Basýnç, Yaðmur, Kar, Sis, Pus, Rüzgar, Gündoðumu, Günbatýmý">
+<meta name="description" content="Kýbrýs için detaylý hava durumu, sýcaklýk, nem ve yaðýþ bilgisi, saatlik ve 5 günlük hava tahmini veren web sitesi.">
+<meta name="generator" content="Microsoft Visual Studio .NET 14.0">
+<meta name="copyright" content="MGM">
+<meta name="robots" content="all">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta http-equiv="refresh" content="300;URL=kibris.aspx">

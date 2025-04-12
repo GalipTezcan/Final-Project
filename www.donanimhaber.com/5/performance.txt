@@ -1,0 +1,1 @@
+Average Duration: 322.88936170212764 ms

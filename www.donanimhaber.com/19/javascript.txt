@@ -1,0 +1,2798 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KDFDQKX');
+    
+
+
+        window.dataLayer = window.dataLayer || [];
+        var dataLayer = [];
+
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-121509-4');
+
+                    googleActionEvent('v2', 'pageLoad', window.location.href);
+
+                    function googleActionEvent(categoryName, actionName, actionValue) {
+                        gtag('event', actionName, {
+                            'event_category': categoryName,
+                'event_label': actionValue,
+                'value': actionValue
+            });
+        }
+
+            function googlePageView() {
+                gtag('event', 'page_view', { page_path: getPagePath() });
+            }
+
+            function getPagePath() {
+                return window.location.pathname.replace('/', '') + window.location.search + window.location.hash;
+            }
+    
+
+        var pp_gemius_identifier = 'nLs6Fg._LxQabcH0boQDRaeifbpIAvrN1yxg858nA4b.a7';
+        // lines below shouldn't be edited
+        function gemius_pending(i) { window[i] = window[i] || function () { var x = window[i + '_pdata'] = window[i + '_pdata'] || []; x[x.length] = arguments; }; };
+        gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+        (function (d, t) {
+            try {
+                var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol == 'https:') ? 's' : ''); gt.setAttribute('async', 'async');
+                gt.setAttribute('defer', 'defer'); gt.src = l + '://gatr.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt, s);
+            } catch (e) { }
+        })(document, 'script');
+    
+
+        function pageViewHit() {
+
+            googlePageView();
+            pp_gemius_hit('nLs6Fg._LxQabcH0boQDRaeifbpIAvrN1yxg858nA4b.a7');
+        }
+
+        function pageScrollHit(scrolldown) {
+            var dir = scrolldown ? 'Down' : 'Up';
+
+            googleActionEvent('Infinite Scroll', dir, getPagePath())
+
+            googlePageView();
+            pp_gemius_hit('nLs6Fg._LxQabcH0boQDRaeifbpIAvrN1yxg858nA4b.a7');
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"http://schema.org","@graph":[{"@id":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250#article","author":{"@id":"https://www.donanimhaber.com/editor/metin-akpinar#person","@type":"Person","name":"Metin Akpýnar","description":"Teknoloji ve bilim dünyasýný seven ve takip etmekten büyük zevk alan Metin, öðrendiklerini ise DonanýmHaber okuyucularý ile paylaþýr.","url":"https://www.donanimhaber.com/editor/metin-akpinar","email":"mailto:metinakpinar@donanimhaber.com","jobTitle":"Teknoloji Editörü","image":{"@type":"ImageObject","url":"https://www.donanimhaber.com/images/images/editor/c6d7c35d4c7f42f6a03ce8db9d94262a.jpg","width":"200","height":"200"},"sameAs":["https://twitter.com/MtnAKPINAR","https://www.linkedin.com/in/metin-yasir-akp%C4%B1nar/","https://www.instagram.com/metoakpinar/"],"honorificPrefix":"Esteemed","alumniOf":{"@type":"CollegeOrUniversity","name":"Recep Tayyip Erdoðan Üniversitesi","url":"https://www.erdogan.edu.tr/","department":{"@type":"Organization","name":"Ýþletme"}},"worksFor":{"@type":"Organization","name":"DonanýmHaber"},"knowsAbout":["Yapay Zeka","Otomobil Teknolojileri","Uzay"]},"publisher":{"@id":"https://www.donanimhaber.com#organization","@type":"NewsMediaOrganization","name":"DonanýmHaber","logo":{"@type":"ImageObject","url":"https://www.donanimhaber.com/images/images/112-dh-logo.png","width":"112","height":"112"},"url":"https://www.donanimhaber.com/","founder":{"@id":"https://www.donanimhaber.com/editor/gun#person","@type":"Person","name":"Gün Oksay","url":"https://www.donanimhaber.com/editor/gun"},"foundingDate":"1999","email":"mailto:iletisim@donanimhaber.com","legalName":"Donaným Haber Elektronik Yayýncýlýk Ltd. Þti.","slogan":"Sýk sýk güncellenen haber sitesi","sameAs":["https://www.facebook.com/donanimhabercom","https://twitter.com/donanimhaber","https://www.instagram.com/donanimhabercom/","https://www.youtube.com/channel/UCfIVTpOAjmeKmaiBd3rfwlA","https://tr.wikipedia.org/wiki/Donanýmhaber","https://news.google.com/publications/CAAqBggKMObqKzCUnQE?hl=tr&gl=TR&ceid=TR%3Atr","https://apps.apple.com/tr/app/dh-teknoloji-haberleri-video/id1342583703?l=tr","https://play.google.com/store/apps/details?id=com.donanimhaber.dhandroid&hl=tr&gl=US","https://tr.linkedin.com/company/donanimhaber.com","https://appgallery.huawei.com/app/C100896339","https://www.wikidata.org/wiki/Q20475006"],"masthead":"https://www.donanimhaber.com/hakkimizda","numberOfEmployees":{"@type":"QuantitativeValue","value":114},"knowsAbout":["Bilim","Teknoloji","Gündem","Türkiye","Dünya","Güncel Haberler"],"areaServed":"TR","taxID":"3100470155","award":["En Ýyi Teknoloji Ýçeriði 2023 (AI Tomorrow Summit)","Yýlýn Teknoloji Haber Sitesi (Boðaziçi Üniversitesi)","En Beðenilen Teknoloji Uygulamasý (Apple App Store)","The Makina Onur Ödülü","En Ýyi Teknoloji Sitesi (GIGABYTE)","Türkiye'nin En Popüler Haber Sitesi (Gemius)"]},"name":"Google'ýn yeni yapay zeka projesi \"Mariner\": Ýnternet, artýk insanlarýn yeri deðil!","genre":"news","mainEntityOfPage":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250","description":"Google, daha önce \"Project Jarvis\" olarak bilinen Project Mariner'ý tanýttý. Mariner, Chrome ile entegre olacak ve kullanýcýlar için internette aramalar gerçekleþtirebilecek.","headline":"Google'ýn yeni yapay zeka projesi \"Mariner\": Ýnternet, artýk insanlarýn yeri deðil!","url":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250","image":[{"@type":"ImageObject","url":"https://www.donanimhaber.com/images/images/haber/185250/1400x1400google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti.jpg","width":"1400","height":"1400"},{"@type":"ImageObject","url":"https://www.donanimhaber.com/images/images/haber/185250/1400x1050google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti.jpg","width":"1400","height":"1050"},{"@type":"ImageObject","url":"https://www.donanimhaber.com/images/images/haber/185250/1400x788google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti.jpg","width":"1400","height":"788"}],"@type":"NewsArticle","wordcount":"623","datePublished":"2024-12-12T11:07:00+03:00","dateModified":"2024-12-12T11:07:00+03:00","articleBody":"Google, DeepMind bölümünden geliþtirilen ve web üzerindeki deneyimleri yeniden þekillendirebilecek devrim niteliðinde bir yapay zeka projesini duyurdu. \"Project Mariner\" adý verilen bu yeni teknoloji, kullanýcýlar adýna internette gezinip iþlem yapabilen bir AI ajaný (aracýsý) sunuyor. Bu proje daha önce \"Project Jarvis\" olarak biliniyordu. Gemini 2.0 destekli bu yapay zeka ajaný, Chrome tarayýcýnýzý kontrol ederek ekranýnýzda imleci hareket ettiriyor, butonlara týklýyor ve formlarý dolduruyor. Böylece, web sitelerini insan kullanýcýlar gibi kullanýp gezinebiliyor. Ýnternette yapay zekalar gezecek, insanlar deðil  Google, çok modlu (görsel, ses, video) Project Mariner’ý þimdilik önceden seçilmiþ bir kullanýcý grubuna açmýþ durumda. Bu küçük ölçekli test süreci, yapay zeka ajanýnýn performansýný ve kullanýcý deneyimini deðerlendirmek için kritik bir adým olarak görülüyor. Google, bunu “kullanýcý deneyiminde paradigma deðiþimi” olarak görüyor: Kullanýcýlarý web siteleriyle doðrudan etkileþimden uzaklaþtýrmak ve bunun yerine bunu sizin için yapan üretken bir yapay zeka sistemiyle etkileþim kurmak. Google, Project Mariner ile aslýnda en temelinde interneti insansýzlaþtýrmayý hedefliyor.  Google’ýn bu projesi elbette gerçek insanlarýn trafiðine ihtiyaç duyan DonanýmHaber gibi yayýncýlardan Amazon gibi devlere kadar milyonlarca web sitesini ve iþletmeyi radikal düzeyde etkileyebilir. Project Mariner nasýl çalýþýyor? Mariner, Chrome tarayýcýnýza bir eklenti olarak entegre ediliyor ve ekranýn saðýnda bir sohbet penceresi açýlýyor. Kullanýcýlar bu pencere üzerinden AI ajanýna komut verebiliyor. Örneðin, \"Bu listeye göre bir market alýþveriþ sepeti oluþtur\" komutunu verdiðinizde, yapay zeka bir market sitesine giriyor, ürünleri arýyor ve sepete ekliyor. Ancak, sistem henüz tam anlamýyla akýcý deðil. Ýmleç hareketleri arasýnda yaklaþýk 5 saniyelik gecikmeler yaþanýyor. Ayrýca ajan, bazý durumlarda kullanýcýdan ek açýklamalar talep edebiliyor. Örneðin, \"Kaç adet havuç?\" gibi sorular yöneltebiliyor.  Project Mariner þu anda ödeme iþlemleri yapamýyor ve kredi kartý bilgilerini giremiyor. Ayrýca, çerez kabul etmek veya kullaným þartlarýný onaylamak gibi iþlemleri de gerçekleþtiremiyor. Google, bu sýnýrlamalarýn kullanýcýlarýn kontrolünü artýrmak için bilinçli olarak koyulduðunu belirtiyor. Ayrýca, sistem arka planda ekran görüntüleri alýyor ve bunlarý Gemini bulutuna göndererek analiz ediyor. Gemini ise web sayfasýnda gezinmek için bilgisayarýnýza talimatlar geri gönderiyor. Project Mariner, uçuþ ve otel bulma, ev eþyalarý alýþveriþi, tarif arama gibi kullanýcýlarýn web üzerinde týklamalarýný gerektiren çeþitli görevlerde de kullanýlabiliyor. Ancak, Project Mariner sadece Chrome tarayýcýsýnýn en ön planda aktif olan sekmesinde çalýþabiliyor. Bu da, ajan arka planda çalýþýrken bilgisayarýnýzý baþka iþler için kullanamayacaðýnýz anlamýna geliyor. Google DeepMind’in baþ teknoloji sorumlusu Koray Kavukcuoðlu, bu kararýn, kullanýcýlarýn yapay zeka ajanýnýn ne yaptýðýný bilmesi için bilinçli bir seçim olduðunu belirtti. Mariner'ýn gelecekte nasýl bir þeye evrileceðini hayal etmek hiç de zor deðil. Bugün, Chrome ve arama motorlarýna ihtiyaç duysa da gelecekte ondan sadece bir þey istemeniz yeterli olacak. Gelecekte internet sitelerine girmesine gerek kalmayacak veya ödeme bilgilerini doldurmanýzý istemeyecek. Bu gelecek tasviri ise bizden eskisi kadar uzakta deðil. Daha fazlasý da yolda Project Mariner’ýn yaný sýra Google, daha spesifik görevler için birkaç yapay zeka ajanýný daha tanýttý.  Bunlardan biri olan Deep Research, kullanýcýlarýn karmaþýk konularý keþfetmelerine yardýmcý olmak için çok adýmlý araþtýrma planlarý oluþturmayý hedefliyor. OpenAI’ýn çok adýmlý akýl yürütme yapabilen o1 modeline rakip gibi görünen Deep Research, matematik ve mantýksal akýl yürütme problemlerini çözmek, kod yazmak veya veri analizi yapmak için tasarlandý. Deep Research, Gemini Advanced’de kullanýma alýnmýþ durumda ve 2025 yýlýnda Gemini uygulamasýnda yer alacak.  Google’ýn bir diðer yeni yapay zeka ajaný Jules, geliþtiricilere kodlama görevlerinde yardýmcý olmayý amaçlýyor. GitHub iþ akýþlarýna doðrudan entegre olan Jules, mevcut çalýþmanýzý görüp doðrudan GitHub’da deðiþiklik yapabiliyor. Jules, halihazýrda beta statüsünde küçük bir test grubuna sunulmuþ durumda. 2025’te ise genel kullanýma açýlacak. Son olarak, Google DeepMind, video oyunlarýnda gezinmeye yardýmcý olacak bir yapay zeka oyun ajaný üzerinde çalýþtýðýný açýkladý. Uzun süredir oyun oynayan yapay zekalar geliþtiren Google, Gemini’nin Clash of Clans gibi oyun dünyalarýný yorumlama yeteneðini test etmek için Supercell gibi oyun geliþtiricileriyle iþ birliði yapýyor. Bu prototipin piyasaya sürülme tarihi henüz açýklanmazken, bu çalýþmanýn yapay zeka ajanlarýnýn hem fiziksel hem de sanal dünyalarda gezinmelerine yardýmcý olacaðý belirtiliyor.","articleSection":"Yapay Zeka","speakable":{"@type":"SpeakableSpecification","xpath":["/html/head/title","/html/head/meta[@name='description']/@content"]},"citation":{"url":["https://www.engadget.com/ai/jarvis-googles-web-browsing-ai-is-now-officially-known-as-project-mariner-191603929.html","https://deepmind.google/technologies/project-mariner/","https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-mariner"],"@type":"WebPage"},"inLanguage":"tr-TR","isFamilyFriendly":true,"typicalAgeRange":"7-","publishingPrinciples":"https://forum.donanimhaber.com/gizlilik","alternativeHeadline":"Google, yapay zeka projesi Mariner ile yeni bir dönem baþlattý | DonanýmHaber","copyrightYear":2024,"copyrightHolder":{"@id":"https://www.donanimhaber.com#organization"},"isAccessibleForFree":true,"isPartOf":{"@id":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250#webpage"}},{"@id":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250#webpage","@type":"WebPage","url":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250","breadcrumb":{"@id":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250#breadcrumb"},"image":[{"@id":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250#post-image0"},{"@id":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250#post-image1"}],"significantLink":["https://www.donanimhaber.com/google-robotlari-kontrol-edebilen-yeni-yapay-zekalar-tanitti--188910","https://www.donanimhaber.com/google-in-gemini-reklamlari-icin-cok-iyi-fikirleri-var--187387","https://www.donanimhaber.com/google-2025-yilinda-yapay-zekaya-75-milyar-dolar-harcayacak--187383","https://www.donanimhaber.com/google-dan-oyunlar-ve-robotlar-icin-yapay-zeka-dunya-modeli-adimi--186249"],"isPartOf":{"@id":"https://www.donanimhaber.com#website"}},{"@id":"https://www.donanimhaber.com#website","@type":"WebSite","name":"DonanýmHaber","url":"https://www.donanimhaber.com/","publisher":{"@id":"https://www.donanimhaber.com#organization"},"copyrightHolder":{"@id":"https://www.donanimhaber.com#organization"}},{"@id":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250#breadcrumb","@type":"BreadcrumbList","itemListElement":[{"@id":"https://www.donanimhaber.com/teknoloji-haberleri#collectionpage","@type":"ListItem","position":1,"name":"Teknoloji Haberleri","item":"https://www.donanimhaber.com/teknoloji-haberleri"},{"@id":"https://www.donanimhaber.com/yazilim#collectionpage","@type":"ListItem","position":2,"name":"Yazýlým","item":"https://www.donanimhaber.com/yazilim"},{"@id":"https://www.donanimhaber.com/yapay-zeka#collectionpage","@type":"ListItem","position":3,"name":"Yapay Zeka Haberleri","item":"https://www.donanimhaber.com/yapay-zeka"},{"@type":"ListItem","position":4,"name":"Google, yapay zeka projesi Mariner ile yeni bir dönem baþlattý"}]},[{"@id":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250#post-image0","@type":"ImageObject","contentUrl":"https://www.donanimhaber.com/images/images/haber/185250/src/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti185250_0.jpg","license":"https://www.donanimhaber.com/hakkimizda","acquireLicensePage":"https://www.donanimhaber.com/iletisim","creator":{"@id":"https://www.donanimhaber.com/editor/metin-akpinar#person"},"caption":"Google, yapay zeka projesi Mariner ile yeni bir dönem baþlattý"},{"@id":"https://www.donanimhaber.com/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti--185250#post-image1","@type":"ImageObject","contentUrl":"https://www.donanimhaber.com/images/images/haber/185250/src/google-yapay-zeka-projesi-mariner-ile-yeni-bir-donem-baslatti185250_1.jpg","license":"https://www.donanimhaber.com/hakkimizda","acquireLicensePage":"https://www.donanimhaber.com/iletisim","creator":{"@id":"https://www.donanimhaber.com/editor/metin-akpinar#person"},"caption":"Google, yapay zeka projesi Mariner ile yeni bir dönem baþlattý"}]]}
+
+
+
+            window.addEventListener("load", function () {
+                var guidText = window.sessionStorage.HistoryGuid;
+                if (typeof (guidText) == "undefined" || guidText.length == 0) {
+                    window.sessionStorage.HistoryGuid = guid();
+                }
+            });
+        
+
+            // transfers sessionStorage from one tab to another
+            var sessionStorage_transfer = function (event) {
+                if (!event) { event = window.event; } // ie suq
+                if (!event.newValue) return;          // do nothing if no value to work with
+                if (event.key == 'getSessionStorage') {
+                    // another tab asked for the sessionStorage -> send it
+                    localStorage.setItem('sessionStorage', JSON.stringify(sessionStorage));
+                    // the other tab should now have it, so we're done with it.
+                    localStorage.removeItem('sessionStorage'); // <- could do short timeout as well.
+                } else if (event.key == 'sessionStorage' && !sessionStorage.length) {
+                    // another tab sent data <- get it
+                    var data = JSON.parse(event.newValue);
+                    for (var key in data) {
+                        sessionStorage.setItem(key, data[key]);
+                    }
+                }
+            };
+
+            // listen for changes to localStorage
+            if (window.addEventListener) {
+                window.addEventListener("storage", sessionStorage_transfer, false);
+            } else {
+                window.attachEvent("onstorage", sessionStorage_transfer);
+            };
+
+            // Ask other tabs for session storage (this is ONLY to trigger event)
+            if (!sessionStorage.length) {
+                localStorage.setItem('getSessionStorage', 'foobar');
+                localStorage.removeItem('getSessionStorage', 'foobar');
+            };
+        
+
+
+
+
+
+
+
+
+
+function  setPgCode(){var pgData={};var tagger = Tapad.init({gdpr:typeof noktaad=='undefined'?(noktaConsent==''?null:1):(noktaad.consent==''?null:1),ccpa:null,bp_id: 'noktacommedya',gdpr_consent: typeof noktaad=='undefined'?(noktaConsent==''?null:noktaConsent):(noktaad.consent==''?null:noktaad.consent)},{name:'P&G',pixelUrl:'https:\/\/feed.pghub.io/tag'});pgData.category='site_geneli';tagger.sync(pgData);};var googletag = googletag || {};googletag.cmd=googletag.cmd||[];window.virgulEnableSingleRequest=window.virgulEnableSingleRequest||false;window.empowerEnableNovatiq=false;window.noktaUsedSlots=[];var noktaGSlts=noktaGSlts||[],noktaGBckSlts=noktaGBckSlts||[],noktaDfpSlots=noktaDfpSlots ||[],noktaCuSlts=noktaCuSlts ||[],noktaDisabledGids=noktaDisabledGids ||[],nogrt={},ngcr=false,hasCrite=true;window.checkDomainsForCriteo=[];window.virgulGoogleDisplayed=[];;googletag.cmd.push(function(){if(virgulEnableSingleRequest){googletag.destroySlots(noktaDfpSlots);noktaDfpSlots=[];}});try{noktaad.settings.gamLazyLoad=noktaad.settings.gamLazyLoad||false;}catch(eghhf){window.gamLazyLoad=window.gamLazyLoad||false;};window.empowerGdprApplies=false;if(document.getElementById('dfpHeadScript')==null && (typeof googletag.pubadsReady=='undefined' || !googletag.apiReady)){var gads = document.createElement('script');gads.async = true;gads.type = 'text/javascript';gads.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js';gads.id='dfpHeadScript';var node=document.getElementsByTagName('script')[0];node.parentNode.insertBefore(gads, node);}else ngcr=true;googletag.cmd.push(function() {googletag.pubads().disableInitialLoad();ngcr=true;try{window.empPrO=noktaad.settings.pricingRules;window.tmpemeps={'web_donanimhaber_300x250_sticky':{'r':4},'web_donanimhaber_player_alti':{'r':0},'web_donanimhaber_forum_yorum_alti_320x100':{'r':0},'web_donanimhaber_sidebar_300x250':{'r':0},'web_donanimhaber_forum_970x250_ilk_yorum':{'r':1},'web_donanimhaber_forum_imza_320x100':{'r':0},'web_donanimhaber_forum_right_tower_2':{'r':0},'web_donanimhaber_forum_right_tower_1':{'r':0},'web_donanimhaber_forum_970x250_2':{'r':0},'web_donanimhaber_forum_right_tower_4':{'r':0},'web_donanimhaber_player_yani_ust':{'r':0},'web_donanimhaber_forum_970x250_3':{'r':0},'web_donanimhaber_forum_right_tower_3':{'r':0},'web_donanimhaber_sidebar_300x600':{'r':0},'web_donanimhaber_forum_970x250_4':{'r':0},'web_donanimhaber_forum_right_tower_5':{'r':0},'web_donanimhaber_native':{'r':0},'web_donanimhaber_forum_right_tower_sticky':{'r':0},'web_donanimhaber_masthead_728x90':{'r':0}};window.empowerSetPR(window.tmpemeps);delete window.tmpemeps;}catch(excfg){};window.empowerPushAd=window.empowerPushAd||function(e,t,a,n,o,i,d){e='div-gpt-ad-1455783126174-'+e;try{void 0===noktaGSlts[e]&&(noktaGSlts[e]={targeting:d||[],slot:null,code:t,codes:a,dimension:n,adType:i||''}),noktaGBckSlts[e]=o}catch(e){}};empowerPushAd('15969521728129623web_donanimhaber_300x250_sticky','/21728129623,53778270/web_donanimhaber_300x250_sticky',[],[[336, 280], [320, 250], [300, 250], [200, 200], [160, 160]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966921728129623web_donanimhaber_sidebar_300x600','/21728129623,53778270/web_donanimhaber_sidebar_300x600',[],[[300, 600], [300, 420], [300, 400], [300, 333], [300, 250], [300, 200], [300, 100], [300, 50], [250, 360], [250, 250], [240, 400], [234, 60], [200, 200], [180, 150], [160, 600], [125, 125], [120, 600], [120, 60], [120, 400], [120, 240], [100, 100], [88, 31], [300, 300], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966421728129623web_donanimhaber_forum_970x250_ilk_yorum','/21728129623,53778270/web_donanimhaber_forum_970x250_ilk_yorum',[],[[970,250],[970,120],[970,90],[970,66],[950,90],[930,180],[750,200],[750,100],[728,90],[728,250],[728,100],[468,60],[414,138],[414,100],[412,137],[412,100],[390,130],[390,100],[375,125],[375,100],[360,120],[360,100],[320,250],[320,100],[320,50],[300,250],[300,200],[300,100],[300,50],[250,250],[234,60],[200,200],[180,150],[125,125],[120,60],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15967921728129623web_donanimhaber_masthead_728x90','/21728129623,53778270/web_donanimhaber_masthead_728x90',[],[[728, 90], [468, 60], [320, 50], [300, 50], [234, 60], [120, 60], [100, 100], [88, 31], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966521728129623web_donanimhaber_forum_970x250_2','/21728129623,53778270/web_donanimhaber_forum_970x250_2',[],[[970,250],[970,120],[970,90],[970,66],[950,90],[930,180],[750,200],[750,100],[728,90],[728,250],[728,100],[468,60],[414,138],[414,100],[412,137],[412,100],[390,130],[390,100],[375,125],[375,100],[360,120],[360,100],[320,250],[320,100],[320,50],[300,250],[300,200],[300,100],[300,50],[250,250],[234,60],[200,200],[180,150],[125,125],[120,60],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966621728129623web_donanimhaber_forum_970x250_3','/21728129623,53778270/web_donanimhaber_forum_970x250_3',[],[[970,250],[970,120],[970,90],[970,66],[950,90],[930,180],[750,200],[750,100],[728,90],[728,250],[728,100],[468,60],[414,138],[414,100],[412,137],[412,100],[390,130],[390,100],[375,125],[375,100],[360,120],[360,100],[320,250],[320,100],[320,50],[300,250],[300,200],[300,100],[300,50],[250,250],[234,60],[200,200],[180,150],[125,125],[120,60],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966821728129623web_donanimhaber_forum_yorum_alti_320x100','/21728129623,53778270/web_donanimhaber_forum_yorum_alti_320x100',[],[[320,100],[300,100],[320,50],[300,50],[234,60],[120,60],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966721728129623web_donanimhaber_forum_970x250_4','/21728129623,53778270/web_donanimhaber_forum_970x250_4',[],[[970,250],[970,120],[970,90],[970,66],[950,90],[930,180],[750,200],[750,100],[728,90],[728,250],[728,100],[468,60],[414,138],[414,100],[412,137],[412,100],[390,130],[390,100],[375,125],[375,100],[360,120],[360,100],[320,250],[320,100],[320,50],[300,250],[300,200],[300,100],[300,50],[250,250],[234,60],[200,200],[180,150],[125,125],[120,60],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15967121728129623web_donanimhaber_forum_imza_320x100','/21728129623,53778270/web_donanimhaber_forum_imza_320x100',[],[[320, 100], [320, 50], [300, 100], [300, 50], [234, 60], [120, 60], [88, 31]],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966121728129623web_donanimhaber_forum_right_tower_5','/21728129623,53778270/web_donanimhaber_forum_right_tower_5',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15967221728129623web_donanimhaber_native','/21728129623,53778270/web_donanimhaber_native',[],['fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966221728129623web_donanimhaber_forum_right_tower_sticky','/21728129623,53778270/web_donanimhaber_forum_right_tower_sticky',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15965921728129623web_donanimhaber_forum_right_tower_3','/21728129623,53778270/web_donanimhaber_forum_right_tower_3',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15966021728129623web_donanimhaber_forum_right_tower_4','/21728129623,53778270/web_donanimhaber_forum_right_tower_4',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15969621728129623web_donanimhaber_player_yani_ust','/21728129623,53778270/web_donanimhaber_player_yani_ust',[],[[300, 250], [200, 200], [160, 160], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15965721728129623web_donanimhaber_forum_right_tower_1','/21728129623,53778270/web_donanimhaber_forum_right_tower_1',[],[[160, 600], [125, 125], [120, 60], [120, 400], [120, 240], [100, 100], [88, 31], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15965821728129623web_donanimhaber_forum_right_tower_2','/21728129623,53778270/web_donanimhaber_forum_right_tower_2',[],[[160,600],[125,125],[120,60],[120,400],[120,240],[88,31],'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15969721728129623web_donanimhaber_player_alti','/21728129623,53778270/web_donanimhaber_player_alti',[],[[300, 250], [200, 200], [160, 160], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);empowerPushAd('15967021728129623web_donanimhaber_sidebar_300x250','/21728129623,53778270/web_donanimhaber_sidebar_300x250',[],[[300, 250], [300, 200], [300, 100], [300, 50], [250, 250], [234, 60], [200, 200], [180, 150], [125, 125], [120, 60], [120, 240], [100, 100], [88, 31], 'fluid'],'','',[{'k':'lazyload','v':'0'},{'k':'floortest','v':'0'}]);try{var tgss={};tgss.category='site_geneli';tgss.plm='null';tgss.viewable='2';tgss.site='donanimhaber';tgss.mt='1744471239434';tgss.pager='1@site_geneli@donanimhaber:site_geneli';tgss.policy='0';tgss.iabcat=[];tgss.iabcat.push('IAB1');tgss.iabcat.push('IAB2');tgss.iabcat.push('IAB9');tgss.iabcat.push('IAB9-1');tgss.iabcat.push('IAB19');tgss.iabcat.push('IAB19-6');tgss.host='www.donanimhaber.com';tgss.url='er ile yeni bir donem baslatti  185250';tgss.targetCtr='0';tgss.pid='vnetdd8ae441-2cff-4886-b1b1-5587837b4880';tgss.targetCr='0';tgss.Mobile='false';tgss.env='web';tgss.overlay='1';tgss.rc='0';tgss.datasave='0';for(var tgs in tgss){googletag.pubads().setTargeting(tgs,tgss[tgs]);}}catch(excbp){};if(virgulEnableSingleRequest)googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs(true);googletag.pubads().setCentering(true);if(typeof(dfpCodePushed)!='undefined' && dfpCodePushed)setTimeout(function(){for(mm in noktaGSlts)refreshGoogle(mm);},1200);window.getPPID=typeof window.getPPID!='undefined'?window.getPPID:function(){return 'vnetdd8ae4412cff4886b1b15587837b4880'};googletag.pubads().setPublisherProvidedId(window.getPPID());try{if((typeof noktaad=='undefined'?cookie:noktaad.cookie)('nonpa')=='1')googletag.pubads().setRequestNonPersonalizedAds(1);}catch(eghhf){};try{if((typeof noktaad=='undefined'?virgulRefreshCount:noktaad.refreshCount)>400){document.removeEventListener('visibilitychange', window.scrChange);window.vrgPw=function(){};window.noktaHeaderBidding={};window.refreshGoogle=function(t){};var elmxf=document.createElement('IMG');elmxf.setAttribute('class','virgulCounter'),elmxf.style.display='none',elmxf.setAttribute('data-time-end',(new Date).getTime()+6e3),elmxf.style.width='1',elmxf.style.height='1',elmxf.setAttribute('src','https://ng.virgul.com/tck/imp/66fd06cde4b00b594f8137c6?r=159828@site_geneli@donanimhaber:site_geneli&scm=https&l=&t=special&userId='+virgulPageAds.noktaId+'&cs='+(new Date).getTime()),document.getElementsByTagName('BODY')[0].appendChild(elmxf);if(typeof noktaad!='undefined'){noktaad.init=function(){};stopVirgulRefresh();delete noktaad;delete empowerad;}}}catch(eghhf){};googletag.enableServices();window.sendGoogleRefreshStarted=false;window.dfpCodePushed=true;googletag.cmd.push(function() {try{postVirgulCallbackOperation();}catch(exp){};});});;window.noktaScriptLoaded=true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28885&z=5534"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+if(typeof window.virgulAdIntervals=='undefined')window.virgulAdIntervals=new Array();window.virgulAdIntervals.push(setInterval(function(){var el=document.getElementById('a67eae0229398550d20759481');if(el!=null)el.setAttribute('src',el.getAttribute('src')+'&nu=1');},2000))
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28827&z=5569"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+
+
+        var stickyNavTop = $('header.site-header').offset().top;
+
+        function stickyNav() {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > stickyNavTop) {
+                $('header.site-header').addClass('tuttur');
+                $("body").css("padding-top", "10px");
+            } else {
+                $('header.site-header').removeClass('tuttur');
+                $("body").css("padding-top", "");
+            }
+        }
+
+        function adaptivePageSkin() {
+            var topPixel = $('header.site-header:first').offset().top - $(window).scrollTop();
+            topPixel += $('header.site-header:first').height() + parseInt(($('header.site-header:first').css('top').replace('px', '')))
+
+            if (topPixel < 0)
+                topPixel = 0;
+
+            $('.giydirme-container .giydirme-ps-left').css('top', topPixel + 'px');
+            $('.giydirme-container .giydirme-ps-right').css('top', topPixel + 'px');
+        }
+        
+        $(document).ready(function () { 
+            stickyNav();
+            
+            var tepe = $(".tepe-alan").innerHeight();
+            var header = $(".site-header").innerHeight();
+            var totalHeight = tepe + header;
+
+            $(".new-bg-ad .content .left").css("top", totalHeight + "px");
+            $(".new-bg-ad .content .right").css("top", totalHeight + "px");
+
+
+            $(window).scroll(function(){
+                if(window.scrollY > totalHeight){
+                    // $(".new-bg-ad .content .left").css("top", "");
+                    // $(".new-bg-ad .content .right").css("top", "");
+                }
+                else if (window.scrollY === 0){
+                    $(".new-bg-ad .content .left").css("top", totalHeight + "px");
+                    $(".new-bg-ad .content .right").css("top", totalHeight + "px");
+                }
+                else{
+                    $(".new-bg-ad .content .left").css("top", totalHeight-window.scrollY + "px");
+                    $(".new-bg-ad .content .right").css("top", totalHeight-window.scrollY + "px");
+                }
+            });
+        });
+
+        var senseSpeed = 5;
+        var previousScroll = 0;
+
+        $(window).scroll(function (event) {
+
+            stickyNav();
+
+            if ($(this).scrollTop() > 500) {
+                var scroller = $(this).scrollTop();
+                if (scroller - senseSpeed > previousScroll) {
+                    $("header.tuttur").css("top", "-50px");
+                    $('.news-notification').css("top", "0");
+                    $("header.tuttur").css("transition", "all 0.3s");
+                    $(".new-bg-ad .content .left").css("top", "");
+                    $(".new-bg-ad .content .right").css("top", "");
+                    $(".new-news-container a.refresh-news.fixed").css("top", "")
+                } else if (scroller + senseSpeed < previousScroll) {
+                    $("header.tuttur").css("top", "0");
+                    $('.news-notification').css("top", "40px");
+                    $("header.tuttur").css("transition", "all 0.3s");
+                    $(".new-bg-ad .content .left").css("top", "42px");
+                    $(".new-bg-ad .content .right").css("top", "42px");
+                    $(".new-news-container a.refresh-news.fixed").css("top", "50px")
+                }
+                previousScroll = scroller;
+
+            }
+            else {
+                $("header.tuttur").css("transition", "none");
+            }
+            adaptivePageSkin();
+
+        });
+
+    
+
+    var homeSearchBtn = ".HomeSearchButton";
+    var homeSearchInput = "#HomeSearchInput";
+    var homeSearchResult = ".HomeSearchResult";
+    var hash = '';
+    var memberId = '0';
+
+    $(homeSearchInput).click(function () {
+        loadSearchHistory();
+    })
+
+    $(document).on('mousedown', '.search-history ul li a', function (event) {
+        $('#HomeSearchInput').val($(this).text());
+        showSearchPop();
+    })
+
+    $(document).on('mousedown', '.search-history a.clear', function () {
+        clearSearchHistory();
+        $('#HomeSearchInput').focus();
+    });
+
+    $(homeSearchInput).blur(function () {
+        $('.search-history').hide();
+    })
+
+    $(homeSearchInput).keypress(function (e) {
+        if (e.keyCode == 13) {
+            showSearchPop()
+        } else {
+            loadSearchHistory();
+        }
+    });
+
+    function loadSearchHistory() {
+        $.get('https://search.donanimhaber.com' + '/api/history/portal/?h=' + hash + '&m=' + memberId, function (data) {
+            var searchHistoryList = $('.search-history ul:first');
+            searchHistoryList.empty();
+            if (data.length>0) {
+                $.each(data, function (index, value) {
+                    searchHistoryList.append('<li><a href="javascript:void(0)" onclick="document.getElementById(\'HomeSearchInput\').value=this.innerText;showSearchPop();">' + value.searchQuery + '</a></li>')
+                })
+                $('.search-history').show();
+            }
+
+        })
+    }
+
+    function clearSearchHistory() {
+        $.get('https://search.donanimhaber.com' + '/api/history/portal/delete?h=' + hash + '&m=' + memberId, loadSearchHistory);
+    }
+
+    var esClose = document.querySelector('.search-bg');
+    var esSearch = document.querySelector('.arama .buton');
+    var body = document.querySelector('body');
+
+    esClose.onclick = function () {
+        esClose.style.display = 'none';
+        body.classList.remove('no-scroll');
+
+    }
+
+    esSearch.onclick = function () { showSearchPop() };
+
+    function showSearchPop(url) {
+        var iframe = document.getElementById('search-iframe');
+        var key = document.getElementById('HomeSearchInput').value;
+        var src;
+
+        if (url) {
+            src = url;
+        } else if (key) {
+            src = 'https://search.donanimhaber.com/portal?devicetype=0&q=' + key + '&h=' + hash + '&token=' + memberId;
+        } else {
+            return;
+        }
+
+        if (iframe.src != src) {
+            iframe.src = src;
+        }
+
+        esClose.style.display = 'block';
+        body.classList.add('no-scroll');
+    }
+
+
+
+
+            function ToggleNightMode(that, isGuest, settingName,onlyVideo) {
+                var open = $(that).prop('checked');
+
+                var nightModeOnButton = $('#HýzlýTercihNightModeOn');
+                var nightModeOnForVideosButton = $('#HýzlýTercihNightModeOnForVideos');
+
+                var nightModeOn = nightModeOnButton.prop('checked');
+                var nightModeOnForVideos = nightModeOnForVideosButton.prop('checked');
+                var videoPage = $('body').hasClass('video-page');
+
+                var bothClosed = !nightModeOn && !nightModeOnForVideos;
+                var nightModeVideoOpenButPageNotVideo = !nightModeOn && nightModeOnForVideos && !videoPage;
+                var closedStatus = bothClosed || nightModeVideoOpenButPageNotVideo;
+
+                ToogleNightModeResult(!closedStatus);
+
+                nightModeOnForVideosButton.prop('disabled', nightModeOn);
+
+                if (isGuest) {
+                    var cookieValue, expireDay;
+
+                    if (onlyVideo) {
+                        cookieValue = '0';
+                        expireDay = open ? -1 : 365;
+                    } else {
+                        cookieValue = '1';
+                        expireDay = open ? 365 : -1;
+                    }
+
+                    setCookie(settingName, cookieValue, expireDay);
+
+                } else {
+                    $.post("/Api/Members/UpdateSetting", { name: settingName, value: $(that).prop('checked') }, function (data) {});
+                }
+
+                if (!onlyVideo && open == false) {
+                    setCookie('DefaultNightModeOn', '0', 40);
+                }
+            }
+        
+
+    function lastNewsClick(url, order) {
+        googleActionEvent('Haber Detay','Ýlgili Son Gönderiler','Týklama: ' + order + '. Sýra - Haber');
+        location.href = url;
+    }
+
+
+                        function toggleFollowResult(that, result) {
+                            $(that).toggleClass('pasif', result.followed);
+                            $(that).next().addClass('pasif', result.followed);
+                            $(that).find('.sayi').text(result.followerCount);
+                        }
+
+                        function toggleNotifyResult(that, result) {
+                            $(that).toggleClass('pasif', !result.notified);
+                        }
+                    
+
+                            FollowInfoByToken($('.follow-712'),712, sendTagResult);
+                            function sendTagResult(that, result) {
+                                toggleFollowResult(that, result);
+                                toggleNotifyResult($(that).next(), result);
+                            }
+                        
+
+                        function toggleEditorFollowResult(that, result) {
+                            $(that).toggleClass('alt', result.followed);
+                            $(that).next().removeClass('active', !result.followed);
+                        }
+
+                        function toggleEditorNotifyResult(that, result) {
+                            $(that).toggleClass('active', result.notified);
+                        }
+                    
+
+                            FollowInfoByToken($('.follow-79657'),79657, sendEditorTagResult);
+                            function sendEditorTagResult(that, result) {
+                                toggleEditorFollowResult(that, result);
+                                toggleEditorNotifyResult($(that).next(), result);
+                            }
+                        
+
+                $(document).ready(function () {
+                    $(window).scroll(function () {
+                        var startPosition = $('.post').position().top;
+
+                        if ($(this).scrollTop() > startPosition) {
+                            $('.gundem-yap').addClass("fixed");
+                        } else {
+                            $('.gundem-yap').removeClass("fixed");
+                        }
+
+                    });
+                });
+            
+
+    function focusEditor160222893() {
+        var editor = $('#comments-thread-160222893 textarea:last');
+        $('.show-comments-and-others-160222893').remove();
+        ShowComments(160222893)
+        scrollToElement(editor, null, function () { editor.focus() });
+    }
+
+
+    function setSocialMedia() {
+
+        var content = $('.icerik.detail:in-viewport:first');
+        var shortUrl = content.attr("data-short-Url");
+        var newsType = content.attr("data-news-Type");
+        var title = content.attr("data-title");
+
+
+
+        var facebookLink = "window.open('http://www.facebook.com/sharer.php?u='+ window.location ,'facebook-share-dialog','width=600,height=260');return false;";
+        var twitterLink = "window.open('http://twitter.com/home?status=" + title + " http://dhbr.co/" + shortUrl + " @Donanimhaber','twitter-share-dialog','width=600,height=260');return false;";
+
+        var socialShares = " <a href=\"javascript:void(0)\" onclick=\"shareOnFacebook();\" class=\"lnk-paylas facebook\"><span class=\"simge\"><span class=\"icon-facebook\"></span></span></a>";
+        socialShares += " <a href=\"javascript:void(0)\" onclick=\"tweet();\" class=\"lnk-paylas twitter\"><span class=\"simge\"><span class=\"icon-twitter\"></span></span></a>";
+
+        //function GooglePlusShareCreateHtml() {
+        //    return "<a href=\"javascript:void(0)\" onclick=\"javascript: window.open('https://plus.google.com/share?url='+ window.location , '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;\" class=\"lnk-paylas google\"><span class=\"simge\"><span class=\"icon-google-plus\"></span></span></a>";
+        //}
+        //function MailShareCreateHtml(type) {
+        //    return " <a href=\"javascript:void(0)\" onclick=\"OpenMailShare('" + newsType + "','" + title +"')\" class=\"lnk-paylas posta\"><span class=\"simge\"><span class=\"icon-envelope\"></span></span></a>";
+        //}
+
+
+
+
+
+        $("#NavMenuIcerikSosyal").html(socialShares);
+
+    }
+    setSocialMedia();
+
+    function shareOnFacebook()
+    {
+        var content = $('.icerik.detail:in-viewport:first');
+        var shortUrl = content.attr("data-short-Url");
+        var newsType = content.attr("data-news-Type");
+        var title = content.attr("data-title");
+
+        window.open("http://www.facebook.com/sharer.php?u="+ window.location ,"facebook-share-dialog","width=600,height=260");
+    }
+
+    function tweet()
+    {
+        var content = $('.icerik.detail:in-viewport:first');
+        var shortUrl = content.attr("data-short-Url");
+        var newsType = content.attr("data-news-Type");
+        var title = content.attr("data-title");
+
+        window.open("http://twitter.com/home?status=" + title + " http://dhbr.co/" + shortUrl + " @Donanimhaber", "twitter-share-dialog", "width=600,height=260");
+    }
+
+function supports_h264_baseline_video() {   if (!Modernizr.video) { return false; }   var v = document.createElement("video");   return v.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"');}videoContainer12928.innerHTML = '<video id="playerf6ed2a89a27c4c8cbf9d69cb7bd6eaea" width="208" height="368" poster="https://www.donanimhaber.com/images/images/videostartimage/videoid12928_220x391.jpg" controls muted autoplay=true><source src="https://stream-240p.donanimhaber.com/8b757240-6dcb-4dd8-a94e-b9aa9d4f1cc0_240p.mp4" type="video/mp4"><source src="https://stream-240p.donanimhaber.com/8b757240-6dcb-4dd8-a94e-b9aa9d4f1cc0_240p.mp4" type="video/mp4"></video>';document.addEventListener('DOMContentLoaded', init, false); function init(){var video = document.getElementById('playerf6ed2a89a27c4c8cbf9d69cb7bd6eaea');video.addEventListener('play', videoPlay, false);video.addEventListener('pause', videoPause, false);video.addEventListener('ended', videoEnd, false);video.addEventListener('error', videoError, false);video.addEventListener('seeked', videoSeeked, false);video.addEventListener('waiting', videoBuffer, false);}function videoPlay(event) {var video = document.getElementById('playerf6ed2a89a27c4c8cbf9d69cb7bd6eaea');trackEvent('Play', video.currentSrc);}function videoPause(event) {var video = document.getElementById('playerf6ed2a89a27c4c8cbf9d69cb7bd6eaea');trackEvent('Pause', video.currentSrc);}function videoEnd(event) {var video = document.getElementById('playerf6ed2a89a27c4c8cbf9d69cb7bd6eaea');trackEvent('Complete', video.currentSrc);}function videoError(event) {var video = document.getElementById('playerf6ed2a89a27c4c8cbf9d69cb7bd6eaea');trackEvent('Error', video.currentSrc);}function videoSeeked(event) {var video = document.getElementById('playerf6ed2a89a27c4c8cbf9d69cb7bd6eaea');trackEvent('Seek', video.currentSrc);}function videoBuffer(event) {var video = document.getElementById('playerf6ed2a89a27c4c8cbf9d69cb7bd6eaea');trackEvent('Buffer', video.currentSrc);}function trackEvent(action, title) {ga('send', { hitType: 'event', eventCategory: 'HTML5 Videos', eventAction: action,  eventLabel:  title });}
+
+    var player = document.getElementById("playerf6ed2a89a27c4c8cbf9d69cb7bd6eaea");
+    var interval = 0;
+    var remainingWatch = 10
+    var $feedWrapper = $("#instagram-feed-189929");
+    var showEventTriggered = false;
+    var silentVideoPlayLog = {};
+    calculateCommentWrapperHeight();
+    
+    player.addEventListener('play',function (){
+        if (!showEventTriggered) {
+            showEventTriggered = true;
+            googleActionEvent('Haber Detay', 'Sessiz Video Modülü', 'Gösterim');
+        }
+
+        if (interval === 0)
+            interval = setInterval(function (){
+                setVideoWatch(12928);
+            }, 1000);
+    });
+    
+    player.addEventListener('pause',function (){
+        if (interval > 0) {
+            clearInterval(interval);
+            interval = 0;
+        }
+    });
+    
+    player.addEventListener("ended", function (){
+        googleActionEvent('Haber Detay', 'Sessiz Video Modülü', 'Tam Oynat');
+    
+        var activePlayer = getActivePlayer();
+        var howManyPlayed = silentVideoPlayLog[activePlayer.id] ? silentVideoPlayLog[activePlayer.id] : 0;
+        howManyPlayed++;
+        if (howManyPlayed >= 2) {
+            instagramFeedCarousel.trigger('next.owl.carousel');
+            silentVideoPlayLog[activePlayer.id] = 0;
+        } else {
+            activePlayer.play();
+            silentVideoPlayLog[activePlayer.id] = howManyPlayed;
+        }
+    });
+    
+    function getWrapper(newsId){
+        return $("#instagram-feed-" + newsId);
+    }
+
+    $feedWrapper.find(".feed-comments")[0].addEventListener("scroll", function () {
+        let scrollHeight = $(this)[0].scrollHeight;
+        if ($(this).scrollTop() + $(this).innerHeight() >= scrollHeight - (scrollHeight / 4)) {
+            var loadingIndicator = getWrapper(189929).find(".daha-fazla");
+            feedCommentManager.Load(loadingIndicator, 161096041, 2);
+        }
+    });
+
+    $feedWrapper.find(".btnSendFeedComment").on("click", function () {
+        reply($feedWrapper.find(".txtFeedComment").val(), 189929, 161096041, 'Binilebilir robot at: Kawasaki Corleo');
+    });
+
+    $feedWrapper.find(".txtFeedComment").on("keypress", function (event) {
+        if(event.keyCode === 13 && !event.shiftKey)
+            reply($(this).val(), 189929, 161096041, 'Binilebilir robot at: Kawasaki Corleo');
+            
+    });
+    
+    function reply(value, newsId, threadId, title) {
+        var wrapper = getWrapper(newsId);
+        var loadingIndicator = wrapper.find(".daha-fazla");
+        var commentsWrapper = wrapper.find(".feed-comments");
+        var commentWrappers = wrapper.find(".feed-comments .feed-comment");
+        var commentInputElement = wrapper.find(".txtFeedComment");
+        feedCommentManager.Reply(value, loadingIndicator, commentWrappers, commentsWrapper, commentInputElement, threadId, title);
+    }
+
+    $feedWrapper.find(".txtFeedComment").focus(function() {
+        this.rows = "3";
+        this.style.height = "auto";
+    });
+
+    $feedWrapper.find(".txtFeedComment").blur(function() {
+        if (!this.value || this.value.trim().length === 0) {
+            this.value = '';
+            this.rows = "1";
+            this.style.height = "17px";
+        }
+    });
+
+    function calculateCommentWrapperHeight(){
+        var playerHeight = 370;
+        var feedContentOuterHeight = $feedWrapper.find(".feed-content").outerHeight();
+        var newCommentOuterHeight = $feedWrapper.find(".feed-new-comment").outerHeight();
+        var padding = 4;
+        $feedWrapper.find(".feed-comments").height(playerHeight - feedContentOuterHeight - newCommentOuterHeight - padding);
+    }
+
+
+
+
+
+        new Blazy({
+            offset: 500 // Loads images 500px before they're visible
+        });
+    
+
+
+        var userIsGuest =true,
+            viewType = 'Nested',
+            guestLoginned = false,
+            userImage = 'https://www.donanimhaber.com/icon/avatar-yok.jpg',
+            userName = 'Misafir?',
+            isSending = false,
+            isDeleting = false;
+
+        googleActionEvent('comment-view-type', 'Nested', 'Desc');
+
+        function mozWrap(txtareat, open, close)
+        {
+            var selLength = txtareat.textLength;
+            var selStart = txtareat.selectionStart;
+            var selEnd = txtareat.selectionEnd;
+            if (selEnd == 1 || selEnd == 2)
+                selEnd = selLength;
+
+            var s1 = (txtareat.value).substring(0,selStart);
+            var s2 = (txtareat.value).substring(selStart, selEnd);
+            var s3 = (txtareat.value).substring(selEnd, selLength);
+
+            txtareat.value = s1 + open + s2 + close + s3;
+
+            return;
+        }
+
+        var bbcode = {
+            FindEditor : function(that){
+                return $(that).closest('.bbcode').siblings('.mesajiniz').find('textarea');
+            },
+            Wrap : function(that,code){
+                var bbcodes = [ 'b','i','u','quote','mention' ];
+                if (bbcodes.indexOf(code)>-1) {
+                    mozWrap(bbcode.FindEditor(that)[0],"["+code+"]","[/"+code+"]");
+                }
+            },
+            InputWrap : function(that,code){
+                var bbcodes = [ 'image' ];
+                if (bbcodes.indexOf(code)>-1) {
+                    var input = prompt("Baðlantýyý giriniz.", "");
+                    if (input != null) {
+                        mozWrap(bbcode.FindEditor(that)[0],'['+code+']'+input,'[/'+code+']');
+                    }
+                }
+            },
+            Input : function(that,code){
+                var bbcodes = [ 'IMDB','bscfp','DHvine','DHgram','DHVideo','DHTUBE','twitter','Kunye','hvp'];
+                if (bbcodes.indexOf(code)>-1) {
+                    var input = prompt("Baðlantýyý giriniz.", "");
+                    if (input != null) {
+                        mozWrap(bbcode.FindEditor(that)[0],'['+code+'='+input+']','');
+                    }
+                }
+            },
+            InputNameValue : function (that,code) {
+                var bbcodes = [ 'link' ];
+                if (bbcodes.indexOf(code)>-1) {
+                    var input = prompt("Baðlantýyý giriniz.", "");
+                    if (input != null) {
+                        mozWrap(bbcode.FindEditor(that)[0],'['+code+'='+ input +']'+input,'[/'+code+']');
+                    }
+                }
+            },
+            Append : function (that,code) {
+                var bbcodes = [ 'hr' ];
+                if (bbcodes.indexOf(code)>-1) {
+                    mozWrap(bbcode.FindEditor(that)[0],'','['+code + ']');
+                }
+            }
+        }
+
+        var login = {
+            ShowDefault : function (parent)
+            {
+                var editor = $('#comment-editor-'+parent);
+                editor.find('.comment-action-default').show();
+                editor.find('.comment-login,.comment-guest,.hidden-guest').hide();
+            },
+            ShowGuest: function (parent) {
+                var editor = $('#comment-editor-' + parent);
+                editor.find('.comment-action-default').hide();
+                editor.find('.comment-guest').show();
+            }
+        }
+
+        var commentSortCompleted = true;
+        var loadRepliesBussy = false;
+        var comment = {
+            Send : function (threadId,parent,that) {
+
+                var editor = $(that).closest('#comment-editor-'+parent);
+                var previewTemplate = editor.prev();
+                var body = editor.find('.mesajiniz > textarea').val().trim();
+
+                if (body.length==0) {
+                    editor.find('.mesajiniz > textarea').addClass('hata');
+                    showWarning(3,"Yorum alaný boþ geçilemez.");
+                    return;
+                }
+
+                editor.find('.mesajiniz > textarea').removeClass("hata");
+
+                var email = editor.find('.satirkapsam > .yorum-giris > .istenen > .eposta').val();
+                var name = editor.find('.satirkapsam > .yorum-giris > .istenen > .ad').val();
+                var password = editor.find('.satirkapsam > .yorum-giris > .istenen > .parola').val();
+
+                if (userIsGuest && !guestLoginned) {
+
+                    var validEmail = validateEmail(email);
+                    var guestActive = editor.find('.comment-guest').css('display')!='none';
+
+                    if (guestActive && !validEmail) {
+                        return showWarning(3,'Lütfen geçerli bir email adresi giriniz.');
+                    }
+                }
+
+                if (!isSending) {
+                    isSending=true;
+
+                    if (userIsGuest) {
+                        $(that).parent().toggle();
+                        $(that).parent().next().toggle();
+                    }
+
+                    var notifyInput = editor.find(".mesajgonder > .cb > input");
+                    var notify = notifyInput.length==0?'':notifyInput.val().trim()=="on";
+
+                    $.post("/Api/Comments/Reply", {
+                        threadId: threadId,
+                        forumId: 0,
+                        body: body,
+                        email: email,
+                        notify: notify,
+                        userName: name,
+                        password: password,
+                        parentId: parent,
+                        title: $("title").text(),
+                        url: window.location.href
+                    }).done(function (response) {
+                        previewTemplate.css("display", "none")
+                        if (response.HasError) {
+                            showWarning(3, (response.Message != null && response.Message.trim().length > 0) ? response.Message : "Bir hata oluþtu! Yorumunuzu tekrar göndermeyi deneyin.");
+                        }
+                        else {
+                            if (userIsGuest) //email ile gönderiyorsa
+                            {
+                                //canlý eklemememiz gerekiyor!!!!!!!!!!
+                                editor.find(".mesajiniz > textarea").val("");
+                                editor.find('.yorum-gosteri-merkezi').hide().children(".mesaj").html("");
+
+                                $(that).parent().toggle();
+                                $(that).parent().next().toggle();
+                                editor.find('.email-comment-success').show();
+                                setTimeout(function () { editor.find('.email-comment-success').hide() }, 3000);
+                            }
+                            else //zaten login ise
+                            {
+                                if (editor.closest('.comments-wrapper').length > 0) {
+                                    editor.prev().before(response.Data);
+                                    editor.remove();
+                                } else {
+                                    var wrapper = $('#comments-editor-' + threadId).prev().find('.comments-content .comments');
+                                    if (wrapper.length > 0) {
+                                        var sort = $('#comment-sort-' + threadId).find('option:checked').val();
+                                        var commentList = $('#comments-editor-' + threadId).prev().find('.comments-content:first .comments:first')[0];
+                                        if (sort === "0") {
+                                            if(commentList.children.length > 0 && commentList.children[0].className !== "item") { //sayfalý modda en basta pagination geliyor
+                                                $(commentList.children[0]).after(response.Data);
+                                            } else {
+                                                $(commentList).prepend(response.Data);
+                                            }
+                                            var messageId = $(commentList.querySelector(".item .yorum")).attr("data-id");
+                                            comment.Focus(messageId);                                            
+                                        } else {
+                                            $(commentList).append(response.Data);
+                                        }
+                                    } else {
+                                        window.location.reload();
+                                    }
+                                }
+
+                                editor.find(".mesajiniz > textarea").val('');
+                                editor.find('.yorum-gosteri-merkezi').hide().find(".mesaj").empty();
+
+                                showWarning(1, "Yorumunuz gönderilmiþtir.");
+                            }
+                        }
+
+                        isSending = false;
+                    }).fail(function (err) { 
+                        console.log(err);
+                        showWarning(3, "Bir hata oluþtu! Yorumunuzu tekrar göndermeyi deneyin.");
+                        isSending = false;
+                    });
+                }
+            },
+            Save: function (that, parent) {
+
+                var editor = $(that).closest('#comment-editor-' + parent);
+                var body = editor.find('.mesajiniz > textarea').val().trim();
+
+                if (body.length == 0) {
+                    editor.find('.mesajiniz > textarea').addClass('hata');
+                    showWarning(3, "Yorum alaný boþ geçilemez.");
+                    return;
+                }
+
+                editor.find('.mesajiniz > textarea').removeClass("hata");
+
+                if (!isSending) {
+                    isSending = true;
+
+                    $.post("/Api/Comments/Edit/" + parent, {
+                        body: body
+                    }, function (response) {
+
+                        if (response.HasError) {
+                            showWarning(3, (response.Message != null && response.Message.trim().length > 0) ? response.Message : "Bir hata oluþtu!");
+                        }
+                        else {
+
+                            var comments = $('.comment-' + parent);
+                            comments.find('.mesaj').html(response.Data);
+                            comments.show();
+
+                            editor.prev().remove();
+                            editor.remove()
+
+                            showWarning(1, "Yorumunuz kaydedilmiþtir.");
+                        }
+
+                        isSending = false;
+                    });
+                }
+            },
+            Reply : function (username,parent,threadId,level,isBest) {
+                var wrapper= isBest ? '#best-comments-wrapper-' + threadId :'#comments-wrapper-' + threadId;
+                if ($(wrapper + ' #comment-editor-' + parent).length==0) {
+
+                    var replyButton=$(wrapper + ' #comment-' + parent).find('a.reply');
+                    if (replyButton.attr('disabled')!='disabled') {
+                        replyButton.attr('disabled','disabled');
+                        $.get("/Api/Comments/GetReplyEditor", { ThreadId: threadId, ParentId: parent, Level: level + 1 }, function (response) {
+                            if (response.HasError)
+                                showError();
+                            else {
+                                $(wrapper + ' #comment-' + parent).after(response.Data);
+                                $(wrapper + ' #comment-editor-' + parent)
+                                    .find('.kim')
+                                    .html("Yanýt <strong><a href=\"javascript:void(0)\" onclick=\"comment.Focus(".concat(parent, ")\">@").concat(username, "</a></strong>"));
+
+                                replyButton.removeAttr('disabled', 'disabled');
+                            }
+                        })
+                    }else
+                        console.error('reply button disabled');
+                }
+                else
+                    $(wrapper + ' #comment-editor-'+parent).remove();
+
+            },
+            Edit: function (that,username,parent,threadId,level,isBest) {
+                var wrapper = isBest ? '#best-comments-wrapper-' + threadId : '#comments-wrapper-' + threadId;
+
+                $(that).parent().parent().removeClass('acilsin');
+
+                if ($(wrapper + ' #comment-editor-' + parent).length == 0) {
+
+
+
+                    var replyButton = $(wrapper + ' #comment-' + parent).find('a.reply');
+
+                    if (replyButton.attr('disabled') != 'disabled') {
+                        replyButton.attr('disabled', 'disabled');
+                        $.get("/Api/Comments/GetEditEditor", { ThreadId: threadId, ParentId: parent, Level: level }, function (response) {
+                            if (response.HasError)
+                                showError();
+                            else {
+                                $(wrapper + ' #comment-' + parent).hide();
+                                $(wrapper + ' #comment-' + parent).after(response.Data);
+                                $(wrapper + ' #comment-editor-' + parent)
+                                    .find('.kim')
+                                    .html("Yanýt <strong><a href=\"javascript:void(0)\" onclick=\"comment.Focus(".concat(parent, ")\">@").concat(username, "</a></strong>"));
+
+                                replyButton.removeAttr('disabled', 'disabled');
+                            }
+                        })
+                    } else
+                        console.error('reply button disabled');
+                }
+                else
+                    $(wrapper + ' #comment-editor-' + parent).remove();
+            },
+            EditCancel: function (that,parent) {
+                $(that).closest('.yorum').hide().siblings('#comment-' + parent).show();
+            },
+            Preview : function (that,parent) {
+
+                var editor = $(that).closest('#comment-editor-' + parent);
+
+                var previewTemplate = editor.prev();
+                var text = editor.find('.mesajiniz > textarea').val().trim();
+
+                if (text.length>0) {
+
+                    $.get("/Api/Comments/Preview", { text: text }, function (response) {
+                        if (response.HasError)
+                            showError('Hata oluþtu!');
+                        else {
+                            previewTemplate.css('display','block').children(".mesaj").html(response.Data);
+                        }
+                    });
+
+                } else {
+                    previewTemplate.css("display","none").children(".mesaj").empty();
+                }
+
+            },
+            Load : function (threadId,pageNumber,commentId) {
+
+                var selected = $('#comment-sort-' + threadId).find('option:checked');
+                var sortName = selected.attr('data-name');
+                var sort = selected.val();
+
+                var wrapper = $('#comments-wrapper-' + threadId);
+                var allContents = $('#comments-wrapper-' + threadId + ' .comments-content');
+
+                scrollEnabled = false;
+
+                $.get("/Api/Comments/Load", { threadId: threadId, commentId: commentId, sort: sort, viewType: viewType, pageNumber: pageNumber }, function (response) {
+                    if (!response.HasError) {
+
+                        setCookie('dhcommentsort', sort, sort == 'desc' ? -1 : 365);
+
+                        allContents.remove();
+                        wrapper.append(response.Data);
+
+                        var expectedContent = $(document).find('#comments-wrapper-' + threadId + ' .comments-content-' + sortName);
+
+                        if (commentId) {
+                            comment.Focus(commentId);
+                        }
+                        else {
+                            scrollToElement(expectedContent);
+                        }
+                        
+                        //kullanýcý kartlarý için tarama
+                        if (window.MemberCard)
+                            window.MemberCard.DetectMembers();
+                    } else {
+                        showError('Hata Oluþtu!');
+                    }
+
+                    scrollEnabled = true;
+                });
+
+            },
+            LoadMore: function (that, parent) {
+                //! hem yorumlarýn devamýný hemde yanýtlarýn devamýný yükler
+
+                $(that).parent().find('img').show();
+                $(that).hide();
+
+                var index=parseInt($(that).attr('data-index'));
+                var firstLoad = parseInt($(that).attr('data-firstLoad'))==1;
+                var sort = parseInt($(that).attr('data-sort'));
+                var sortName = $(that).attr('data-sortName');
+                var total =  parseInt($(that).attr('data-total'));
+
+                index = firstLoad ? 1 : index+1;
+
+                $.get("/Api/Comments/GetMore", { threadId: parent, index : index, sort : sort }, function (response) {
+                    if (!response.HasError) {
+
+                        var container = $('#comments-wrapper-' + parent + ' > .comments-content-' + sortName + ' > .comments');
+                        if (firstLoad) {
+                            container.empty().append(response.Data);
+                            $(that).attr('data-firstLoad','0')
+                        }else{
+                            container.append(response.Data);
+                        }
+
+                        if ((index) * 10 >= total) {
+                            $(that).parent().parent().find('.daha-fazla-yok').show();
+                            $(that).parent().remove();
+                        }else
+                        {
+                            $(that).attr('data-index',index).show();
+                        }
+
+                        //kullanýcý kartlarý için tarama
+                        if (window.MemberCard)
+                            window.MemberCard.DetectMembers();
+                    }
+                    $(that).parent().find('img').hide();
+                });
+            },
+            LoadReplies: function (that, parent, threadId) {
+                //! yanýtlarý yükleme
+                var firstLoad = parseInt($(that).attr('data-firstLoad'))==1;
+                var index = firstLoad?1: parseInt($(that).attr('data-index'))+1;
+                var dataTotal = parseInt($(that).attr('data-total'));
+
+                var parentComment = $(that).closest('.yorum[data-id=' + parent + ']');
+                var commentsWrapper = parentComment.siblings('#comments-wrapper-' + parent);
+                var wrapperExists = commentsWrapper.find(' .comments-content').length > 0;
+
+                if (wrapperExists) {
+                    var comments = commentsWrapper.find('.comments-content > .comments > .item > .yorum');
+
+                    comments.addClass('vurgula');
+                    setTimeout(function () { comments.removeClass('vurgula'); }, 500);
+                }
+                else/* if (firstLoad || !wrapperExists)*/ {
+                    if (loadRepliesBussy){
+                        return;
+                    }
+                    loadRepliesBussy = true;
+                    $.get("/Api/Comments/GetReplies", { threadId: threadId, parentId: parent, pageNumber: index }, function (response) {
+                        loadRepliesBussy = false;
+                        if (!response.HasError) {
+                            if (firstLoad) {//ilk defa yanýt yükleniyorsa
+                                commentsWrapper.remove();
+                                parentComment.after(response.Data);
+                                parentComment.next().find('.cevapaltikapsam').show();
+                                $(that).attr('data-firstLoad', 0);
+                            }else {
+                                if (commentsWrapper.length == 0) { //yanýta yanýt gelmiþse
+                                    parentComment.after(response.Data);
+                                    parentComment.next().find('.cevapaltikapsam').show();
+                                } else {
+                                    commentsWrapper.find('.comments').append(response.Data);
+                                }
+                            }
+                            
+                            //kullanýcý kartlarý için tarama
+                            if (window.MemberCard)
+                                window.MemberCard.DetectMembers();
+                            //$(document).find('#comments-wrapper-' + parent + ' .cevapaltikapsam').show();
+                        }
+                    });
+                }
+                //else{
+                //    var comments = commentsWrapper.find('.comments-content-' + $(that).attr('data-sortName') +' > .comments > .item > .yorum');
+                //    comments.addClass('vurgula');
+                //    setTimeout(function(){ comments.removeClass('vurgula'); },500);
+                //}
+            },
+            LoadMoreReplies: function (that, parent,threadId) {
+
+                $(that).parent().find('img').show();
+                $(that).hide();
+                var index=parseInt($(that).attr('data-index'));
+                var firstLoad = parseInt($(that).attr('data-firstLoad'))==1;
+                var sort = parseInt($(that).attr('data-sort'));
+                var sortName = $(that).attr('data-sortName');
+                var total =  parseInt($(that).attr('data-total'));
+
+                index = firstLoad ? 1 : index+1;
+
+                $.get("/Api/Comments/GetMoreReplies", { parentId: parent, threadId: threadId, pageNumber: index }, function (response) {
+                    if (!response.HasError) {
+
+                        var container = $('#comments-wrapper-' + parent + ' > .comments-content-' + sortName + ' > .comments');
+                        if (firstLoad) {
+                            container.empty().append(response.Data);
+                            $(that).attr('data-firstLoad','0')
+                        }else{
+                            container.append(response.Data);
+                        }
+
+                        if ((index) * 10 >= total) {
+                            $(that).parent().parent().find('.daha-fazla-yok').show();
+                        }else
+                        {
+                            $(that).attr('data-index',index).show();
+                        }
+
+                        //kullanýcý kartlarý için tarama
+                        if (window.MemberCard)
+                            window.MemberCard.DetectMembers();
+                    }
+                    $(that).parent().find('img').hide();
+                });
+            },
+            LoadMoreBest: function (that, threadId) {
+
+                $(that).parent().find('img').show();
+                $(that).hide();
+
+                var index = parseInt($(that).attr('data-index')) + 1;
+
+                $.get('/Api/Comments/GetBestMore',{ threadId:threadId, index: index },function(response) {
+                    if (response.Data) {
+
+                        $('#best-comments-wrapper-' + threadId + ' .comments:first').append(response.Data);
+
+                        if ((index)*3 >= parseInt($(that).attr('data-total'))) {
+                            $(that).parent().remove();
+                        }else
+                        {
+                            $(that).attr('data-index',index).show();
+                        }
+                        ExpandBestMessages();
+
+                        //kullanýcý kartlarý için tarama
+                        if (window.MemberCard)
+                            window.MemberCard.DetectMembers();
+                    }else {
+                        $(that).parent().remove();
+                    }
+
+                    $(that).parent().find('img').hide();
+                });
+
+            },
+            Like : function (id) {
+
+                if (userIsGuest)
+                    showError("Bu iþlemi yapmak için giriþ yapmanýz gerekiyor.");
+
+                else
+                {
+                    var container = '.dev-reps-' + id;
+                    var commentRepTotal = $(container + ' > .anlik');
+                    var commentRepThumbs = $(container + ' > .ver > a');
+                    var point=0;
+
+                    if (!commentRepThumbs.hasClass("aktif"))
+                        point=1;
+
+                    $.get("/Api/Comments/ToggleLike", { id: id, point: point }, function (response) {
+                        if (response.HasError)
+                            showWarning(3,  response.Message && response.Message.length > 0 ? response.Message : "Hata Oluþtu");
+
+                        else
+                        {
+                            if (response.Data.TotalPoints == 0) {
+                                commentRepTotal
+                                    .removeClass("pozitif")
+                                    .text("0")
+                                    .hide()
+                                    .find('span:first')
+                                    .attr('class', 'icon-thumbs-up');
+
+                                commentRepThumbs
+                                    .removeClass("aktif")
+                                    .find('span:first')
+                                    .attr('class', 'icon-thumbs-o-up');
+                            }
+                            else
+                            {
+                                commentRepTotal
+                                    .text("+" + response.Data.TotalPoints)
+                                    .addClass("pozitif")
+                                    .attr("data-title", 'Yorumu '.concat(response.Data.TotalPoints, 'kiþi beðendi.'))
+                                    .show()
+
+                                if (point==1)
+                                    commentRepThumbs
+                                        .addClass("aktif")
+                                        .find('span:first')
+                                        .attr('class', 'icon-thumbs-up');
+
+                                else
+                                    commentRepThumbs
+                                        .removeClass("aktif")
+                                        .find('span:first')
+                                        .attr('class', 'icon-thumbs-o-up');
+
+                            }
+                        }
+
+                    });
+                }
+            },
+            Report: function (id) {
+                window.open("http://forum.donanimhaber.com/report.asp?messageID=" + id, "_blank", "width=600,height=700,left=50,top=100", false);
+            },
+            Focus : function(parent){
+
+                var comment = $('.yorum[data-id=' + parent + ']:visible');
+
+                var focused = false;
+
+                if (comment.length > 0) {
+                    scrollEnabled = false;
+                    scrollToElement(comment, 500, function () {
+                        comment.addClass('vurgula');
+                        setTimeout(function () { comment.removeClass('vurgula'); }, 1500);
+                        scrollEnabled = true;
+                    });
+                    focused = true;
+                }
+
+                return focused;
+            },
+            TryFocus: function (commentId) {
+                if (!comment.Focus(commentId)) {
+                    viewType = 'Paging';
+                    comment.Load(160222893,null,commentId);
+                }
+            },
+            EditorsChoose: function (that, threadId, messageId) {
+                $.get("/Api/Comments/EditorsChooseToggle", { threadId: threadId, messageId: messageId }, function (response) {
+                    if (response.HasError) {
+                        showError(response.Message);
+                    } else {
+
+                        $('#comments-thread-' + threadId).find(".editors-choose:not(#editors-choose-".concat(messageId, ")")).css('display', 'none');
+                        $('#comment-' + messageId).find('.editors-choose').toggle();
+
+                        $(that).find('.text').text(response.Data === true ? "Editörün Seçimini Ýptal Et" : "Editörün Seçimi Yap")
+
+                    }
+                })
+            },
+
+            DhLike: function (that, messageId) {
+                $.post("/Api/Comments/DhLikeToggle", { messageId: messageId })
+                    .done(function (response) {
+                        if (response.HasError) {
+                            alert(response.Message);
+                            console.log(response);
+                        } else {
+                            $(that).find("a").toggleClass("hide");
+                        }
+                    })
+                    .fail(function (err) {
+                        console.log(err);
+                        alert('Bir iç hata oluþtu ve iþlem tamamlanamadý.');
+                    });
+            },
+
+            Delete: function (messageId) {
+                if (isDeleting || messageId <= 0) {
+                    return;
+                }
+                isDeleting = true;
+
+                $.post("/Api/Comments/Delete", { MessageId: messageId })
+                .done(function (response) {
+                    if (response.HasError) {
+                        showWarning(3, (response.Message != null && response.Message.trim().length > 0) ? response.Message : "Bir hata oluþtu!");
+                    } else {
+                        $("#comment-" + messageId).parent().remove();
+                    }
+                    isDeleting = false;
+                })
+                .fail(function (err) {
+                    console.log(err);
+                    showWarning(3, "Bir hata oluþtu!");
+                    isDeleting = false;
+                });
+            },
+
+            BlockMember: function (blockMemberId) {
+                if (!confirm("Üyeyi bloklamak istediðinize emin misiniz?"))
+                    return;
+
+                $.post('/Api/Members/BlockMember?blockMemberId=' + blockMemberId)
+                    .done(function (response) {
+                        if (response.HasError) {
+                            alert(response.Message);
+                            return;
+                        }
+
+                        location.reload();
+                    }
+                );
+            },
+
+            UnblockMember: function (blockedMemberId) {
+                if (!confirm("Üyenin bloðunu kaldýrmak istediðinize emin misiniz?"))
+                    return;
+
+                $.post('/Api/Members/UnblockMember?blockedMemberId=' + blockedMemberId)
+                    .done(function (response) {
+                        if (response.HasError) {
+                            alert(response.Message);
+                            return;
+                        }
+
+                        location.reload();
+                    }
+                );
+            }
+        }
+
+        var expandBestMessages = false;
+        function ExpandBestMessages() {
+            if (expandBestMessages) {
+                $(".best-comments-wrapper .item").each(function (idx, val) {
+                    if ($(val).find(".mesaj").length > 1) {
+                        $($(val).find(".mesaj")[0]).removeClass("hide");
+                        $($(val).find(".mesaj")[1]).addClass("hide");
+                    }
+                })
+            }
+        }
+
+        $('input[type="email"]').keyup(function()
+        {
+            if(!validateEmail($(this).val())){
+                $(this).addClass('hata');
+            }else{
+                $(this).removeClass('hata');
+            }
+        });
+
+        var hash = window.location.hash;
+
+        if (hash) {
+            var commentId = hash.split('&')[0].split('#')[1];
+
+            if (isNumeric(commentId)) {
+                comment.TryFocus(commentId);
+            }
+        }
+
+        $(".mesajiniz textarea").keyup(function (e) {
+            var line = countLines(e.target);
+            var currentHeight = (e.target.clientHeight - 20) / 20;
+            if (currentHeight - line <= 4) {
+                $(e.target).css({ "height": e.target.clientHeight + 60 + "px" });
+            }
+        });
+
+        function countLines(textarea) {
+            var previous_height = textarea.style.height, lines
+            textarea.style.height = 0
+            lines = parseInt(textarea.scrollHeight / parseInt(getComputedStyle(textarea).lineHeight))
+            textarea.style.height = previous_height
+            return lines
+        }
+
+        function toggleBlockedMemberMessage(warningContainerSelector, messageContainerSelector) {
+            if ($(warningContainerSelector).is(":visible")) {
+                $(warningContainerSelector).hide();
+                $(messageContainerSelector).show();
+            } else {
+                $(messageContainerSelector).hide();
+                $(warningContainerSelector).show();
+            }
+        }
+    
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28828&z=5375"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+
+        $("#rising-posts").owlCarousel({
+            loop: true,
+            items: 4,
+            nav: true,
+            dotsSpeed: 100,
+            margin: 30,
+            onChanged: carouselChanged
+        });
+
+
+        function carouselChanged() {
+            setTimeout(function () {
+                lazyLoad();
+            }, 300)
+        }
+    
+
+    var editorLinksPageNumber = 1;
+    var editorLinksPageSize = 6;
+
+    var url = 'https://api.donanimhaber.com/prod/web/api/ListEditorsChooseOrderedLinks?pageNumber=' + editorLinksPageNumber + '&pageSize=' + editorLinksPageSize;
+    $.get(url, function (response) {
+        var dataList = response.Data.ExternalLinks;
+
+        var templateHtml = $('#editorsChooseLinkTemplate').html();
+        for (var i = 0; i < dataList.length; i++) {
+            var item = dataList[i];
+
+            var itemHtml = templateHtml.replace('{{Title}}', item.Title);
+            itemHtml = itemHtml.replace('{{Favicon}}', item.Favicon);
+            itemHtml = itemHtml.replace('{{Url}}', item.Url);
+            itemHtml = itemHtml.replace('{{Title}}', item.Title);
+            itemHtml = itemHtml.replace('{{Description}}', item.Description);
+            itemHtml = itemHtml.replace('{{Price}}', item.Price);
+            itemHtml = itemHtml.replace('{{PriceUnit}}', item.PriceUnit);
+            itemHtml = itemHtml.replace('{{RowCount}}', i + 1);
+            itemHtml = itemHtml.replace('{{Id}}', item.Id);
+            if (item.DiscountInformation)
+                itemHtml = itemHtml.replace('{{DiscountInformation}}', '(' + item.DiscountInformation + ')');
+            else
+                itemHtml = itemHtml.replace('{{DiscountInformation}}', '');
+
+            $('#editorsChooseLinksContentContainer').append("<li>" + itemHtml + "</li>");
+        }
+    });
+
+    addEventForChild(document, 'click', '#detailPopularLinksContainer a', function (childElement) {
+        if (childElement.href.indexOf('/harici-baglanti') === -1) {
+            urlClickLog(childElement.href);
+        }
+    });
+
+    addEventForChild(document, 'click', '#editorsChooseLinksContentContainer a', function (childElement) {
+        if (childElement.href.indexOf('/harici-baglanti') === -1) {
+            urlClickLog(childElement.href);
+        }
+
+        var id = parseInt(childElement.getAttribute('editorContentId'));
+        if (id > 0)
+            clickAction(id);
+    });
+
+    function clickAction(id) {
+        $.post('https://api.donanimhaber.com/prod/web/api/EditorsChooseLinkClick', { Id: id, ClickVersion: 0 });
+    }
+
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28857&z=7479"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+
+            loadCommentContainer(160222893, 189, 1704);
+
+            function loadCommentContainer(threadId, forumId, editorId) {
+                $.get("/Api/Comments/LoadCommentContainer", { threadId, forumId, editorId }).done(function (response) {
+                    if (response.HasError) {
+                        alert(response.Message);
+                        return;
+                    }
+                    $("#comments-thread-" + threadId).find(".yorumlar").html(response.Data);
+                })
+            }
+
+            function ShowComments(threadId, element, forumId, editorId) {
+                new Blazy();
+                $(element).hide();
+                    
+                        login.ShowGuest(threadId);
+                    
+                $("#comments-thread-" + threadId).show();
+                $("#similarContent-" + threadId).show();
+                if(threadId && forumId && editorId)
+                    loadCommentContainer(threadId, forumId, editorId);
+            }
+
+            $(document).ready(function () {
+                if (!window.socket) {
+                    window.socket = io("https://socket.donanimhaber.com", { path: '/v4/portal/', transports: ['websocket', 'flashsocket', 'polling'] });
+                }
+
+                window.socket.on("newsPublished", showNewsPublishedPopup);
+                window.socket.on("notificationSent", showNotificationBar);
+            });
+
+            var urlValid = /^(http(s)?:\/\/)(.+\.)?(.+)\.(.+)/i;
+            addEventForChild(document, 'click', '.kolon.yazi a', function (childElement) {
+                if (urlValid.test(childElement.href)
+                    && childElement.href.indexOf('donanimhaber.com') === -1
+                    && childElement.href.indexOf('/harici-baglanti') === -1) {
+                    urlClickLog(childElement.href);
+                }
+            });
+
+            document.addEventListener('click', function (event) {
+            
+                if (!event.target.matches('.editor-yan .user-info') && !event.target.matches('.editor-yan .user-info *')) {
+                    $(".editor-yan .user-info .user-tooltip").removeClass("active")
+                }
+
+            }, false);
+        
+
+    function tryAutoPlay(id) {
+        var firstFocusKey = "first-focus";
+        if (!$('body').hasClass(firstFocusKey)) {
+            playVideo(id);
+            $('body').addClass(firstFocusKey);
+        }
+    }
+
+    function playVideo(id) {
+        eval('playerInstance' + id).play()
+    }
+
+    function stopVideo(id) {
+        eval('playerInstance' + id).stop();
+    }
+
+    function stopAllVideos() {
+        $('.icerik.detail:not([data-video-id=0])').each(function (index, val) {
+            stopVideo($(val).attr('data-id'));
+        })
+    }
+
+    var defaultValueOperation = 0;
+    var scrollOldPosition = 0;
+
+    var nextNewsLoading = false;
+
+
+    function isScrolledIntoView(elem) {
+        return $(elem).offset().top < $(window).scrollTop() + 200 && $(elem).offset().top + $(elem).height() > $(window).scrollTop();
+    }
+
+    var systemLoadTimer = setInterval(function () {
+        scrollOldPosition = $(window).scrollTop();
+        clearInterval(systemLoadTimer);
+    }, 1000);
+
+    function toggleFeaturedVoteDetailVideo(that, id, liked, likeClass) {
+        var totalLike = '.sayi, .vote';
+
+        LikeMessage(id, liked, function (total) {
+            $(that).toggleClass(likeClass);
+
+            if (total == 0) {
+                $(that).find(totalLike).empty();
+                $(that).find('.vote').text('Oy Ver');
+            }
+            else {
+                $(that).find(totalLike).text(total);
+            }
+        })
+    }
+
+    function toggleFeaturedVoteDetail(that, id, liked, likeClass) {
+        var totalLike = '.sayi, .vote';
+
+        LikeMessage(id, liked, function (total) {
+            $(that).toggleClass(likeClass);
+
+            if (total == 0) {
+                $(that).find(totalLike).empty();
+                $(that).find(totalLike).hide();
+                $(that).find('.eylem').show();
+            }
+            else {
+                $(that).find(totalLike).text(total);
+                $(that).find(totalLike).show();
+                $(that).find('.eylem').hide();
+            }
+        })
+    }
+
+
+        var isGuest =true;
+
+        function updateHeaderTitle() {
+            var content = $('.icerik.detail:in-viewport:first');
+            var title = content.attr("data-title");
+
+            if (title)
+                $('#NavMenuIcerikTitle').text(title);
+
+        }
+
+        updateHeaderTitle();
+
+        $(window).scroll(function () {
+
+
+            var notHomePage = $('.icerik.home').css('display') == 'none' || $('.icerik.home').length == 0;
+
+            if (notHomePage) {
+
+
+
+                if (!nextNewsLoading) {
+                    if ($(window).scrollTop() + ($(window).height() + 600) >= $(document).height()) {
+                        $("#NewsDefaultGif").show();
+                        nextNewsLoading = true;
+                        var id = $("#NextNewsId").val();
+                        var currentId = $("#CurrentNewsId").val();
+                        var tagId = $("#NextNewsId").attr("news-tag");
+
+                        $.get("/Data/GetNewsDetailLoad", { id: id, tagId: tagId, currentId: currentId }, function (data) {
+                            $("#NextNewsId").remove();
+                            $("#NewsDefaultGif").remove();
+                            var Data = JSON.parse(data);
+                            //$("#DetayKapsulTasiyici").append(Data);
+                            $(".icerik.detail:last").after(Data);
+                            nextNewsLoading = false;
+                        });
+
+                    }
+                }
+
+
+
+                if (scrollOldPosition == 0 || ((scrollOldPosition + 200) < $(window).scrollTop()) || ((scrollOldPosition - 200) > $(window).scrollTop())) {
+
+                    var scrollDown = scrollOldPosition < $(window).scrollTop();
+                    scrollOldPosition = $(window).scrollTop();
+
+                    var content = $('.icerik.detail:in-viewport:first');
+
+                    if (content.length > 0 && content.attr("data-Url") != window.location.pathname) {
+
+                        replaceHistory(content.attr("data-Title"), content.attr("data-Url"));
+
+                        var videoId = parseInt(content.attr('data-video-id'));
+                        var newsId = parseInt(content.attr('data-id'));
+
+                        if (videoId > 0)
+                            updateSession(videoId, 'video', newsId);
+                        else
+                            updateSession(newsId, 'news', newsId);
+
+                        pageScrollHit(scrollDown);
+
+                        setSocialMedia();
+                        updateHeaderTitle();
+
+                    }
+                }
+
+            }
+        });
+
+
+
+    
+updateSession(185250,'news','185250')
+
+setTimeout(function(){
+window.empowerStickyWidth=300;
+window.empowerContentWidth=200;
+window.empowerStickyHeight=250;
+if(window.empowerad.settings.video){
+ window.empowerad.settings.video.stickyWidth= window.empowerStickyWidth;
+ window.empowerad.settings.video.contentWidth=window.empowerContentWidth;
+ window.empowerad.settings.video.stickyHeight=window.empowerStickyHeight;
+}
+empowerad.addCssRules({'#empowerplayercontainer':'width:300px!important;height:250px!important','#tip_text_content, #noktaplayer0, #noktaplayercontainer':'width: 300px !important;height: 250px !important;','#empButCls':'opacity:1!important;height:19px!important'},true);
+
+empowerad.ads.disableAdRefresh(document.querySelector('div[data-empower-zone="159681"]'),159681);
+empowerad.settings.video.options='onDesktop';
+initWebPlayerCheckNokta();
+empowerad.initDataAttr('empower-ad');
+setTimeout(function(){
+try{
+	var lxtt=document.getElementById('lx159697');
+var xet=document.getElementById('emplpldvia').getBoundingClientRect().width;
+if(xet<920) empowerad.ads.remElm(lxtt);
+	 else {
+	lxtt.setAttribute('data-empower-zone',"159697");
+	lxtt.style.marginLeft=((xet-900)/2)+'px';
+}
+}catch(exfd){
+
+}
+empowerad.initDataAttr('empower-ad');
+document.getElementById('empButCls').addEventListener('click',function(){
+document.getElementById('zn159695').getElementsByClassName('empowerBannerClose')[0].click();
+});
+},2000);
+console.log('remploaded');
+},1250);
+
+ (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "/ads/j.js?i=28839&z=6895"; var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x); })(); 
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var bar = $('.news-notification.thumbnail');
+                if (bar.length > 0) {
+                    var startPosition = bar.position().top + 100;
+                    if ($(this).scrollTop() > startPosition) {
+                        $('.news-notification.fixed').addClass("display");
+                    } else {
+                        $('.news-notification.fixed').removeClass("display");
+                    }
+                }
+
+            });
+        });
+
+        var table = $(".post .kolon.yazi .tablo");
+
+        for (var i = 0; i < table.length; i++) {
+            var e = table.eq(i);
+            $(e.css("width", "auto").css("display", "inline"));
+            var width = e.find("table").width();
+            $(e.css("width", "").css("display", ""));
+            if (width > e.width()) {
+                e.addClass("hasScroll");
+            }
+        }
+
+
+
+        $(".post .kolon.yazi .tablo").scroll(function () {
+
+            var widthDifference = $(this).find("table").width() - $(this).width();
+
+            if ($(this).scrollLeft() >= widthDifference) {
+                $(this).removeClass("hasScroll");
+            }
+            else {
+                $(this).addClass("hasScroll");
+            }
+        });
+
+        $(".editor-yan .user-info .button").off("click");
+        $(".editor-yan .user-info .button").click(function(){
+            var tooltip = $(this).parent().find(".user-tooltip");
+            tooltip.toggleClass("active")
+        });
+
+        $(".editor-yan .user-info .user-tooltip .tabs .tab").off("click");
+        $(".editor-yan .user-info .user-tooltip .tabs .tab").click(function(){
+            var userTooltip = $(".editor-yan .user-info .user-tooltip");
+            userTooltip.find(".tabs .tab").removeClass("active")
+            $(this).addClass("active");
+
+            userTooltip.find(".tab-content").removeClass("active");
+            if($(this).hasClass("items")){
+                userTooltip.find(".tab-content.items").addClass("active");
+            }
+            else{
+                userTooltip.find(".tab-content:not(.items)").addClass("active")
+            }
+        });
+    
+
+        $(document).ready(function () {
+            if (typeof (Storage) !== "undefined") {
+                $.ajax({
+                    type: "GET",
+                    url: "/Api/history/AddNews/" + window.sessionStorage.HistoryGuid,
+                    headers: {
+                        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJzaWQiOiIwIiwiZGF0YSI6IntcIklzVmlkZW9OZXdzXCI6ZmFsc2UsXCJIYXNHYWxsZXJ5XCI6ZmFsc2UsXCJOZXdzSWRcIjoxODUyNTAsXCJOZXdzVGl0bGVcIjpcIkdvb2dsZSfEsW4geWVuaSB5YXBheSB6ZWthIHByb2plc2kgXFxcIk1hcmluZXJcXFwiOiDEsG50ZXJuZXQsIGFydMSxayBpbnNhbmxhcsSxbiB5ZXJpIGRlxJ9pbCFcIixcIk5ld3NJbWFnZVwiOlwiaHR0cHM6Ly93d3cuZG9uYW5pbWhhYmVyLmNvbS9jYWNoZS12Mi8_dD0yMDI0MTIxMjEwMDUwMSZ3aWR0aD0tMSZ0ZXh0PTAmcGF0aD1odHRwczovL3d3dy5kb25hbmltaGFiZXIuY29tL2ltYWdlcy9pbWFnZXMvaGFiZXIvMTg1MjUwLzYwMHgzMzhnb29nbGUteWFwYXktemVrYS1wcm9qZXNpLW1hcmluZXItaWxlLXllbmktYmlyLWRvbmVtLWJhc2xhdHRpLmpwZ1wiLFwiTmV3c1VybFwiOlwiZ29vZ2xlLXlhcGF5LXpla2EtcHJvamVzaS1tYXJpbmVyLWlsZS15ZW5pLWJpci1kb25lbS1iYXNsYXR0aVwiLFwiTmV3c0RhdGVDcmVhdGVkXCI6XCIyMDI0LTEyLTEyVDExOjA3OjAwXCIsXCJNZW1iZXJJZFwiOjAsXCJQbGF0Zm9ybVR5cGVcIjowLFwiRGF0ZUNyZWF0ZWRcIjpcIjIwMjUtMDQtMTJUMTg6MjA6MzYuMzUwMDY5NyswMzowMFwiLFwiSVBcIjpcIlwiLFwiVXNlckFnZW50XCI6XCJcIixcIlNlc3Npb25HdWlkXCI6XCI1aDBzeXkwYm40YjV5d2hpYjFxbW1iZzBcIn0iLCJpc3MiOiJodHRwczovL2ZvcnVtLmRvbmFuaW1oYWJlci5jb20vIiwiYXVkIjoiaHR0cHM6Ly9mb3J1bS5kb25hbmltaGFiZXIuY29tLyJ9.gqJ_vquV_ZjiHvncLNI1hvj9T1iABaFQSEz5O1WmiCI"
+                    }
+                });
+            }
+        });
+        
+
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 300) {
+                        $('#toplink').fadeIn();
+                    } else {
+                        $('#toplink').fadeOut();
+                    }
+                });
+                $('#toplink').click(function () {
+                    if (isTop) {
+                        isTop = false;
+                        $('html, body').animate({ scrollTop: 0 }, 800, function () {
+                            isTop = true;
+                        });
+
+                    }
+                });
+            });
+        
+
+        $(document).on('click', '.window-open', function () {
+            var target = $($(this).attr('data-target'));
+            $('.window').hide();
+            target.show();
+
+            var onload = target.attr('data-onload');
+            if (onload)
+                window[onload]();
+        })
+        $(document).on('click', '.window .close', function () { $(this).closest('.window').hide(); })
+    
+
+    $(document).ready(function () {
+
+        $('input[name="resolution"]').val(window.screen.width + 'x' + window.screen.height);
+
+        $(window).scroll(function () {
+            var elems = $('.eski-gorunum.pencere-goster, .geri-bildirim.pencere-goster');
+            if ($(this).scrollTop() > 200)
+                elems.fadeIn();
+            else
+                elems.fadeOut();
+
+        });
+
+    });
+
+
+    var googleSiteKey = '6LcF4u4UAAAAAKIvPKw3OTRVgoXzm6WkcPoUWitY';
+    var greReturnBack, greFeedBack, greAds, greContact, greReport;
+    var CaptchaCallback = function(){
+        greReturnBack = grecaptcha.render('returnBackCaptcha', { 'sitekey': googleSiteKey });
+        greFeedBack = grecaptcha.render('feedBackCaptcha', { 'sitekey': googleSiteKey });
+
+        if ($('#ads-form-captcha').length>0) {
+            greAds = grecaptcha.render('ads-form-captcha', { 'sitekey': googleSiteKey });
+        }
+        if ($('#contact-form-captcha').length > 0) {
+            greContact = grecaptcha.render('contact-form-captcha', { 'sitekey': googleSiteKey });
+        }
+        if ($('#report-form-captcha').length > 0) {
+            greReport = grecaptcha.render('report-form-captcha', { 'sitekey': googleSiteKey });
+        }
+    };
+    var isGuest =true;
+
+    function goBackOnly()
+    {
+        googleActionEvent('Eski Sürüm','Eskiye Dön', 'V1 e geçti');
+        setCookie('backtothefuture', '2', 365);
+        window.location.reload();
+
+        //$.ajax({
+        //    type: "POST",
+        //    url: "/data/ReturnBackDeleteCookie",
+        //    success: function (response) {
+        //        if(response)
+        //        {
+        //            window.location.reload();
+        //        }
+        //    }
+        //});
+    }
+
+    function readResponse(form, response) {
+        form.find('.uyari').hide();
+        if (response.HasError) {
+            if (response.Message) {
+                form.find('.uyari.kirmizi').html('<strong>Hata! </strong>' + response.Message).show();
+            } else {
+                form.find('.uyari.kirmizi').html('<strong>Hata! </strong>').show();
+            }
+            return false;
+        } else {
+            if (response.Message) {
+                form.find('.uyari.yesil').html(response.Message).show();
+            } else {
+                form.find('.uyari.yesil').html('mesajýnýz gönderilmiþtir').show();
+            }
+            return true;
+        }
+    }
+
+    $('#feedBackForm').submit(function(e){
+
+        e.preventDefault();
+        var form=$(this);
+
+        var submitButton = form.find('input[type="submit"]');
+
+        submitButton.attr('disabled', 'disabled');
+        submitButton.addClass('btn-0');
+        toggleInputSending(submitButton);
+
+        $.ajax({
+            url:'/data/FeedBack',
+            type:'post',
+            data : form.serialize(),
+            success: function (response) {
+                readResponse(form, response);
+                if (isGuest) {
+                    grecaptcha.reset(greFeedBack);
+                }
+                submitButton.removeAttr('disabled');
+                submitButton.removeClass('btn-0');
+                toggleInputSending(submitButton);
+                googleActionEvent('Geri Bildirim', 'Gönderildi','');
+            },
+            error:function(){
+                form.find('.uyari.kirmizi').html('bir hata oluþtu!').show();
+                submitButton.removeAttr('disabled');
+                submitButton.removeClass('btn-0');
+                toggleInputSending(submitButton);
+            }
+        });
+
+
+        return false;
+    });
+
+    $('#returnBackForm').submit(function(e){
+
+            e.preventDefault();
+            var form=$(this);
+
+            var submitButton = form.find('input[type="submit"]');
+
+            submitButton.attr('disabled', 'disabled');
+            submitButton.addClass('btn-0');
+            toggleInputSending(submitButton);
+
+            $.ajax({
+                url:'/data/ReturnBack',
+                type:'post',
+                data : form.serialize(),
+                success: function (response) {
+                    if (readResponse(form, response)) {
+                        setTimeout(goBackOnly, 3000);
+                    }
+
+                    submitButton.removeAttr('disabled');
+                    submitButton.removeClass('btn-0');
+                    toggleInputSending(submitButton);
+                },
+                error:function(){
+                    form.find('.uyari.kirmizi').html('bir hata oluþtu!').show();
+
+                    submitButton.removeAttr('disabled');
+                    submitButton.removeClass('btn-0');
+                    toggleInputSending(submitButton);
+                }
+            });
+
+            return false;
+    });
+
+    //$('.pencere-goster').click(function(){
+
+    //    var w=$(this).next('.pencere');
+    //    var onload=w.attr('data-onload');
+
+    //    if (onload)
+    //        window[onload]();
+
+    //});
+
+    var fillFeedBackForm = function()
+    {
+        $('#feedBackForm input[name="page"]').val(location.href);
+        $('#feedBackForm input[name="browser"]').val(navigator.userAgent);
+    }
+    var fillReturnBack = function()
+    {
+        $('#returnBackForm input[name="browser"]').val(navigator.userAgent);
+    }
+
+
+        function notificationPopup() {
+            setCookie("notificationPopupDisabled", 'true', 10);
+        }
+
+
+        var notificationPopupDisabled = false;
+    
+        if (document.cookie.indexOf('cookieUsingNotified') === -1) {
+            document.querySelector(".cookie-kutu").style.display = "inherit";
+        }
+
+        document.querySelector(".cookie-kutu .icon-close")
+            .addEventListener("click", closeCookieUsingPopup);
+        document.querySelector(".cookie-kutu .cookie-buton.onay")
+            .addEventListener("click", closeCookieUsingPopup);
+        function closeCookieUsingPopup() {
+            let cookieKey = 'cookieUsingNotified';
+            if (!getCookie(cookieKey))
+                setCookie(cookieKey, 1, 365);
+            document.querySelector(".cookie-kutu").remove();
+        }
+    
+
+
+        $(document).ready(function () {
+            $(document).on('click', '.galeri-ac', function () {
+                $(this).parent().find('.ilk-gorsel').click();
+            });
+        });
+    
+
+        googleActionEvent('Anasayfa Görünümü', 'Hybrid','Enabled');
+
+        var test = document.createElement('div');
+        test.innerHTML = '&nbsp;';
+        test.className = 'adsbox';
+        document.body.appendChild(test);
+        window.setTimeout(function () {
+            if (test.offsetHeight === 0) {
+                document.body.classList.add('adblock');
+                googleActionEvent('Reklam', 'AdBlock', 'Enabled');
+            } else {
+                googleActionEvent('Reklam', 'AdBlock', 'Disabled');
+            }
+
+            test.remove();
+        }, 400);
+
+
+    
+
+            function switchMainView(viewType) {
+                setCookie("DHMainViewType", viewType, viewType == viewTypes.Hybrid ? -1 : 365);
+                window.location.reload();
+            }
+        
+
+
+        var popUp = $('#news-published');
+
+        function showNewsPublishedPopup(data) {
+            $.get('/Api/news/published/' + data.Id, function (response) {
+                if (handleAjaxError(response)) {
+                    popUp.find('a.overlay-link').attr('href', response.Data.Url);
+                    popUp.find('.content').html(response.Data.Title);
+                    popUp.find('img').attr('src', response.Data.Image);
+                    popUp.find('.new-news-body');
+                    popUp.attr('data-id', data.Id);
+                    popUp.removeClass('hide');
+                    addPopUpEvent(false, false);
+                }
+            })
+        }
+
+        function showNotificationBar(data) {
+            console.log('bildirim gönderildi', data);
+            if (data) {
+                var allBars = $('.news-notification');
+                var thumbBar = $('a.news-notification');
+                var fixedBar = $('div.news-notification');
+                var url = '/yonlen--' + data.NewsId;
+
+                fixedBar.find('a.notification-text').attr('href', url).text(data.Title);
+
+                thumbBar.attr('href', url);
+                thumbBar.find('.thumb').css('background-image', 'url(' + data.Image + ')');
+                thumbBar.find('.notification-text').text(data.Title);
+
+                allBars.removeClass('hide');
+
+                addNotificationBarEvent(false);
+            }
+        }
+
+        function addPopUpEvent(isAction, isClose) {
+
+            var action = isAction ? 'Action' : 'View';
+            var tag = action;
+
+            if (isAction) {
+                tag = isClose ? 'Close' : 'Open';
+            }
+
+            googleActionEvent('PopUpNewsOnDetail', action, tag)
+        }
+
+        function addNotificationBarEvent(isAction, isClose) {
+            var action = isAction ? 'Action' : 'View';
+            var tag;
+
+            if (isAction) {
+                tag = isClose ? 'Close' : 'Open';
+            }
+
+            googleActionEvent('NotificationBarOnDetail', action, tag)
+        }
+
+        function closePopUpNews() {
+            addPopUpEvent(true, true);
+            popUp.remove();
+        }
+
+        function closeNewsNotificationBar(that) {
+            $(that).closest('.news-notification').prev().remove();
+            $(that).closest('.news-notification').remove();
+            addNotificationBarEvent(true, true);
+        }
+
+        function refreshBreakingNewsButton(data) {
+            countNewsPublished++;
+
+            if (countNewsPublished > 0) {
+                $('#news-published-refresh').removeClass('hide').find('.amount').text(countNewsPublished);
+
+                if (countNewsPublished == 1) {
+                    googleActionEvent('FreshNews', 'View', data.Id)
+                    $('#news-published-refresh a').attr("onclick", "googleActionEvent('FreshNews', 'Click', '" + data.Id + "'); window.location.href='/'");
+                } else {
+                    $('#news-published-refresh a').attr("onclick", "window.location.href='/'");
+                }
+            }
+        }
+
+        var countNewsPublished = 0;
+
+        $(document).ready(function () {
+            if (!window.socket) {
+                window.socket = io("https://socket.donanimhaber.com", { path: '/v4/portal/', transports: ['websocket', 'flashsocket', 'polling'] });
+            }
+            window.socket.on("newsPublished", refreshBreakingNewsButton);
+
+            window.onbeforeunload = function () {
+                window.socket.disconnect();
+                window.socket.close();
+            };
+
+            $(window).scroll(function () {
+                var newNewsContainer = $(".new-news-container").position().top;
+                if ($(this).scrollTop() >= (newNewsContainer - 40)) {
+                    $(".refresh-news").addClass("fixed");
+                }
+                else {
+                    $(".refresh-news").removeClass("fixed");
+                    $(".refresh-news").css("top", "")
+                }
+            });
+
+        });
+    
+
+                $('#ilgili-gonderiler').owlCarousel({
+                    loop: true,
+                    items: 5,
+                    nav: true,
+                    dotsSpeed: 100,
+                    lazyLoad: true
+                });
+
+                $('#NavMenuIcerikTitle').html('Google&#39;ýn yeni yapay zeka projesi &quot;Mariner&quot;: Ýnternet, artýk insanlarýn yeri deðil!');
+
+                newsHistoryAdd(185250);
+        
+
+        var LoadImage2 = $('.doseme-yuklenirken');
+
+        var scrollEnabled = true;
+        var LoadImage = $("#dahafazlayukle");
+        LoadImage2.hide();
+
+        var isLoad = true;
+        var isDetailLoaded = true;
+
+        var view=2;
+
+        var viewTypes={
+            Masonry: 0,
+            List: 1,
+            Hybrid: 2,
+            ListSlim: 3,
+            Blog: 4,
+            LightMasonry: 5
+        }
+
+        $(document).ready(function () {
+
+            if(!isDetailLoaded){
+
+                $('#toplink,.toplink').click(function () {
+                    if (isTop) {
+                        isTop = false;
+                        $('html, body').animate({ scrollTop: 0 }, 800, function () {
+                            isTop = true;
+                            var firstPage = page.FindFirstPage();
+                            page.ChangeHistory(false,firstPage);
+                        });
+                    }
+                });
+
+            }
+            hidePopulars();
+        });
+
+        function findPageTag() {
+            return location.pathname.split('/').pop();
+        }
+
+        function LoadHomeData(callback) {
+            $('#tabLoading').show();
+
+            $("#kapsulDiv").html('');
+            $("#kapsulDiv").css("min-height", "1000px");
+
+            $.get("/Data/GetHomeData", { tag: findPageTag(), pageNumber: location.search.search(/sayfa=(\d+)/) }, function (data) {
+                var Data = data;
+
+                $("#kapsulDiv").append(Data);
+
+                if (!page.IsLoadMoreEnabled())
+                    $('#loadMoreTwenty').show();
+
+                LoadImage = $("#dahafazlayukle");
+
+                if (view == viewTypes.Masonry || view == viewTypes.Hybrid || view == viewTypes.LightMasonry) {
+
+                    $(document).find('.masonry:visible').masonry({
+                        itemSelector: '.oge'
+                    });
+                }
+
+                new Blazy({
+                    offset: 500 // Loads images 500px before they're visible
+                });
+
+                isLoad = false;
+
+                $('#tabLoading').hide();
+
+                scrollEnabled = true;
+                callback();
+
+                VideoPreview.CheckBlogNewsVideoPreviewInView();
+
+                newsHistoryCheck();
+            });
+
+        }
+
+        var pageSeo='Google, yapay zeka projesi Mariner ile yeni bir d&#246;nem baþlattý | DonanýmHaber';
+
+        var pageCount = 1;
+        var pageNextLocked = false;
+
+        //for firefox vb
+        var lastScrollTop=0;
+        var loadingPageId=0;
+
+        var page = {
+            Scroll: function (e) {
+
+                if (!scrollEnabled)
+                    return;
+
+                var scrollTop = $(window).scrollTop();
+
+                //wheel de sadece scroll çalýþsýn
+                if (e != undefined && e.type=='wheel') {
+
+                    if (e.originalEvent.deltaY < 0 && scrollTop==0) {
+                        lastScrollTop=-1;
+                        page.Scroll();
+                    }
+                    return;
+                }
+
+                if (scrollTop > 300)
+                    $('#toplink,.toplink').fadeIn();
+                else
+                    $('#toplink,.toplink').fadeOut();
+
+
+                if(!isDetailLoaded){
+
+                    var scrollDown = (scrollTop >= lastScrollTop && lastScrollTop!=-1);
+                    lastScrollTop = scrollTop;
+
+                    if (page.IsLoadMoreEnabled())
+                        scrollDown ? page.Next() : page.Previous();
+
+                    var targetPage = scrollDown ? (page.CurrentPage() + 1) : (page.CurrentPage() - 1);
+
+                    //ik sayfadayken yukarý scroll kontrolü
+                    if (targetPage>0) {
+                        page.ChangeHistory(scrollDown,targetPage);
+                    }
+                }
+
+
+            },
+            CurrentPage: function () {
+                var currentPage = parseInt(QueryString("sayfa"));
+                currentPage = !currentPage ? 1 : currentPage;
+
+                return currentPage;
+            },
+            FindFirstPage: function(){
+                if (page.CurrentView == viewTypes.Masonry || page.CurrentView == viewTypes.Hybrid || page.CurrentView == viewTypes.LightMasonry){
+                    var element = $('.masonry .oge[data-page-num]:first');
+                    var pageNumber = parseInt(element.attr('data-page-num'));
+
+                    return isNaN(pageNumber) ? 0 : pageNumber;
+
+                }else{
+                    var element = $('#BlogLoadContent .blogItem[data-page]:first')
+                    var pageNumber = parseInt(element.attr('data-page'));
+
+                    return isNaN(pageNumber) ? 0 : pageNumber;
+                }
+            },
+            FindLastPage: function(){
+                if (page.CurrentView == viewTypes.Masonry || page.CurrentView == viewTypes.Hybrid || page.CurrentView == viewTypes.LightMasonry){
+                    var element = $('.masonry .oge[data-page-num]:last');
+                    var pageNumber = parseInt(element.attr('data-page-num'));
+
+                    return isNaN(pageNumber) ? 0 : pageNumber;
+                }else{
+                    var element = $('#BlogLoadContent .blogItem[data-page]:last')
+                    var pageNumber = parseInt(element.attr('data-page'));
+
+                    return isNaN(pageNumber) ? 0 : pageNumber;
+                }
+            },
+            CurrentView: 2,
+            Previous: function () {
+
+                var currentPage = page.CurrentPage();
+                var prevPage = currentPage-1;
+                var prevPageExists = false;
+
+
+                if (prevPage==loadingPageId)
+                    return;
+
+                var wrapper = '';
+
+                if(page.CurrentView==viewTypes.Masonry || page.CurrentView==viewTypes.Hybrid || page.CurrentView == viewTypes.LightMasonry)
+                    prevPageExists = $(".hybrid-masonry > .wrapper .oge[data-page-num=" + prevPage + "]").length > 0
+                else
+                    prevPageExists = $("#BlogLoadContent .blogItem[data-page=" + prevPage + "]").length > 0;
+
+
+                if (prevPage == 1)
+                    GetSlider();
+
+                if (!prevPageExists && currentPage > 1) {
+
+                    isLoad = true;
+                    loadingPageId=prevPage;
+
+                    $.get("/Data/GetIndex", { pageNumber: prevPage, tag: findPageTag(), scrollUp: true }, function (data) {
+
+                        if(page.CurrentView==viewTypes.Masonry || page.CurrentView==viewTypes.Hybrid || page.CurrentView == viewTypes.LightMasonry) {
+                            masonry.Prepend(data, currentPage);
+                            isLoad = false;
+                            LoadImage2.hide();
+
+                        }else {
+
+                            $('#BlogLoadContent .tab-container').prepend(data);
+
+                            var previousPage = $("#BlogLoadContent  .pageWrapper:first").height();
+
+                            if ($(document).scrollTop()==0) {
+                                var scrollTopValue = $(document).scrollTop();
+                                $(document).scrollTop(scrollTopValue + previousPage);
+                            }
+
+                            isLoad = false;
+                            LoadImage2.hide();
+                        }
+
+                        new Blazy({
+                            offset: 500 // Loads images 500px before they're visible
+                        });
+
+                        newsHistoryCheck();
+
+                    });
+                }
+            },
+            Next: function () {
+
+                var currentPage = page.CurrentPage();
+                var nextPage = currentPage+1;
+                var nextPageExists = false;
+
+                if (nextPage==loadingPageId)
+                    return;
+
+                if (nextPage<5) // kullanýcý haberleri ilk sayfayý dolduramadýðýnda
+                    return;
+
+                nextPageExists = page.CurrentView == viewTypes.Masonry || page.CurrentView == viewTypes.Hybrid || page.CurrentView == viewTypes.LightMasonry
+                    ? $(".hybrid-masonry > .wrapper  .oge[data-page-num=" + (nextPage) + "]").length > 0
+                    : $("#BlogLoadContent .blogItem[data-page=" + (nextPage) + "]").length > 0;
+
+                if (!nextPageExists && !pageNextLocked) {
+
+                    LoadImage.show();
+                    isLoad = true;
+                    loadingPageId=nextPage;
+                    new Blazy({
+                        offset: 500 // Loads images 500px before they're visible
+                    });
+
+                    $.get("/Data/GetIndex", { pageNumber: nextPage, tag: findPageTag(), scrollUp: false }, function (data) {
+
+                        if (page.CurrentView==viewTypes.Masonry || page.CurrentView==viewTypes.Hybrid || page.CurrentView == viewTypes.LightMasonry) {
+                            masonry.Append(data);
+                        }
+                        else {
+                            $("#BlogLoadContent .tab-container").append(data);
+                            isLoad = false;
+                        }
+
+                        LoadImage.hide();
+
+
+                        new Blazy({
+                            offset: 500 // Loads images 500px before they're visible
+                        });
+
+
+                        if (++pageCount%20==0)
+                            pageNextLocked=true;
+                        if (!page.IsLoadMoreEnabled())
+                            $('#loadMoreTwenty').show();
+
+                        newsHistoryCheck();
+
+                    });
+                }
+            },
+            ChangeHistory: function (scrolldown,pageIndex) {
+
+                var changeEnable = false;
+                var title = '';
+                var url = '';
+
+                var nearUp = $(window).scrollTop() <= 100;//home tuþu vb ile sayfanýn en baþýna atlanýmýþsa
+                var nearBottom = $(window).scrollTop() + $(window).height() >= $(document).height() - 300;//end tuþu vb ile sayfanýn altýna inilmiþse
+
+                var currentPage = page.CurrentPage();
+
+                var firstPage = nearUp ? page.FindFirstPage() : 0;
+                var lastPage = nearBottom ? page.FindLastPage() : 0;
+
+                if (nearUp)
+                    changeEnable = (pageIndex = firstPage) != currentPage;
+
+                else if (nearBottom)
+                    changeEnable = (pageIndex = lastPage) != currentPage;
+
+                else if (page.CurrentView == viewTypes.List || page.CurrentView == viewTypes.ListSlim || page.CurrentView == viewTypes.Blog)
+                    changeEnable = $('#BlogLoadContent .blogItem[data-page="' + pageIndex + '"]').filter(':in-viewport:eq(0)').length > 0;
+
+                else
+                    changeEnable = $('.masonry .oge[data-page-num="'+ pageIndex +'"]').filter(':in-viewport:eq(0)').length>0;
+
+
+                if (changeEnable) {
+
+                    var tab = $('#home-tabs .tab-oge a[data-url="' + window.location.pathname + '"]');
+                    var tag = tab.attr('data-tag');
+
+                    url = tab.attr('data-url');
+                    title = tab.attr('data-title');
+
+                    if (pageIndex > 1) {
+
+                        title = tag.trim() == ''
+                            ? "DonanýmHaber >> Sayfa ".concat(pageIndex)
+                            : "".concat(tag, " >> Sayfa ").concat(pageIndex);
+
+                        url = "".concat(url, "?sayfa=").concat(pageIndex);
+                    }
+
+                    if (title != '' && url != '') {
+                        replaceHistory(title, url);
+
+                        pageScrollHit(scrolldown);
+                    }
+                }
+
+            },
+            IsLoadMoreEnabled: function (){
+                return $('#isLoadMoreEnabled').val() !== undefined;
+            }
+        };
+
+        var masonry = {
+            Add: function (wrapper,onCompleted) {
+
+                var $grid = $(wrapper).masonry({ itemSelector: '.oge', initLayout: false });
+
+                $grid.masonry('on','layoutComplete', function () {
+                        $(wrapper).addClass('masonryLoaded');
+
+                        if (onCompleted)
+                            onCompleted();
+
+                    });
+
+                $grid.masonry();
+            },
+            Prepend : function (elems, currentPage) {
+                if (elems != undefined) {
+
+                    if (!$('header.site-header').hasClass('tuttur'))
+                        $('header.site-header').addClass('tuttur')
+
+
+                    var wrapper ='.hybrid-masonry > .wrapper';
+
+                    $(wrapper).append(elems);
+
+                    masonry.Add($(wrapper + ' > div:last'));
+
+                    var heightTime = 0;
+                    var intervalTime = 50;
+                    var heightInterval = setInterval(cloneUp, intervalTime)
+
+
+                    var cloneUp = (function () {
+                        heightTime += intervalTime;
+
+                        var previousPageHeight = $(wrapper + " > div:last").height();
+
+                        if (previousPageHeight > 0) {
+
+
+
+                            clearInterval(heightInterval);
+
+                            var previousScrollTop = $(document).scrollTop();
+
+                            $('.wrapper').prepend($(wrapper + ' > div:last').clone())
+                            $(wrapper + ' > div:last').remove();
+
+                            //clone iþlemi carousel i bozuyor; o yüzden tekrar çalýþtýrýyoruz
+                            $(document).find('.medya-dev-kapsam').owlCarousel({
+                                loop: true,
+                                items: 1,
+                                nav: true,
+                                lazyLoad: true
+                            });
+
+                            $(document).scrollTop(previousScrollTop + previousPageHeight);
+                        }
+                    })();
+
+                }
+            },
+            Append: function (elems) {
+                if (elems != undefined) {
+                    $('.hybrid-masonry > .wrapper').append(elems);
+                    masonry.Add('.hybrid-masonry > .wrapper .masonry:not(.masonryLoaded)');
+                }
+            }
+        };
+
+        $(window).bind('mousewheel wheel scroll', page.Scroll);
+
+
+    $(document).on('click', '#home-tabs .tab-oge:not(.ekle) > a:not(.carpi)', function () {
+
+        var url = $(this).attr('data-url');
+        var title = $(this).attr('data-title');
+
+        replaceHistory(title, url);
+
+        findActiveTab();
+
+        LoadHomeData(function(){
+            hidePopulars();
+            });
+    });
+
+        function findActiveTab() {
+            $('#home-tabs .tab-oge').removeClass('aktif');
+            $('#home-tabs .tab-oge a[data-url="' + window.location.pathname + '"]')
+                .parent()
+                .addClass('aktif');
+        }
+
+        function hidePopulars()
+        {
+            var url = "/gundem/populer";
+            var popularNews = $('#popularNews');
+
+            var popularNewsNextAd = page.CurrentView != viewTypes.Blog && page.CurrentView != viewTypes.BlogSlim
+                ? popularNews.parent().next().filter('[partial-name=Reklam]')
+                : popularNews.next().filter('.reklam-kare');
+
+            if (window.location.pathname === url) {
+                popularNews.hide();
+                popularNewsNextAd.hide();
+            }
+            else {
+                popularNews.show();
+                popularNewsNextAd.show();
+            }
+
+            resortMasonry();
+        }
+
+        findActiveTab();
+        replaceHistory(document.title, null);
+
+        var sliderPending = false;
+
+        function GetSlider() {
+            if ($(document).find("#slider-wrapper").length == 0 && !sliderPending) {
+                sliderPending = true;
+                $.get("/Api/News/GetSlider", function (response) {
+                    if (!response.HasError) {
+                        $(".dhkapsam .tasiyici").prepend(response.Data);
+                    }
+                    $(".tasiyici > .icerik > .tab").show();
+                    sliderPending = false;
+                });
+            }
+        }
+
+        window.onload = function () {
+            if (view==viewTypes.Masonry) {
+                var MasonryChildren = $(".hybrid-masonry > .wrapper").children();
+                if (MasonryChildren.length > 0) {
+                    //masonry.Add(MasonryChildren[0]);
+                }
+            }
+        };
+
+    
+
+
+
+        var loadingDetailUrl;
+        var showdetailPage = false;
+
+        function updateUrlTitleByNews(news) {
+
+            var url = $(news).attr("href");
+            var title = $(news).attr("data-title");
+
+            pushHistory(title, url);
+
+            loadDetail(title);
+        }
+
+        function loadDetail(title) {
+
+            var detailPattern = /\/(.+?)--(\d+)/;
+
+            if (detailPattern.test(location.pathname)) {
+
+                var news = detailPattern.exec(location.pathname);
+
+                var url = news[1];
+                var id = news[2];
+
+                loadingDetailUrl = url;
+
+
+                $.get("/Data/NewsDetailData", { id: id }, function (data) {
+
+                    if (url == loadingDetailUrl) {
+
+                        if (title)
+                            document.title = title;
+
+
+                        var Data = data.Data;
+
+                        var totalTimerCount = 0;
+
+                        $('.icerik:first').after(Data.Content);
+                        showDetailPage();
+
+                        new Blazy({
+                            offset: 500 // Loads images 500px before they're visible
+                        });
+
+                        LoadImage2.hide();
+                        $('html, body').scrollTop(0);
+
+                        //ilgiliyi bulana kadar dön?
+                        var timerIlgili = setInterval(function () {
+                            var owlIlgili = $('#ilgili-gonderiler');
+                            if (owlIlgili.length > 0) {
+                                owlIlgili.owlCarousel({
+                                    loop: true,
+                                    items: 5,
+                                    nav: true,
+                                    dotsSpeed: 100,
+                                    lazyLoad: true
+                                });
+
+
+                                clearInterval(timerIlgili);
+                            }
+                            if (totalTimerCount > 10)
+                                clearInterval(timerIlgili);
+
+                            totalTimerCount++;
+                        }, 200);
+
+                        //haber detay yüklendiðinde
+                        pageViewHit();
+
+                        $('.yukleniyor').hide();
+                    }
+
+                });
+
+            }
+        }
+
+        function hideDetailPage() {
+
+            if ($('#kapsulDiv').text().trim() == '') {
+                scrollEnabled = false;
+                $(document).scrollTop(0);
+                LoadHomeData();
+            }
+
+            isDetailLoaded = false;
+            $(".icerik.home, #slider-wrapper").show();
+            $('.icerik.detail').hide();
+
+            //header göster
+            $("header.tuttur").css("top", "0");
+            $("header.tuttur").css("transition", "all 0.3s");
+
+            $('header').removeClass('detayda');
+
+            $('#news-notification-bar').remove();
+        }
+
+        function showDetailPage() {
+            isDetailLoaded = true;
+
+            if ($('.icerik.detail').length == 0 || $('.icerik.detail').text().trim() == '') {
+                scrollEnabled = false;
+                $(document).scrollTop(0);
+                loadDetail();
+            }
+
+            $(".icerik.home, #slider-wrapper").hide();
+
+            //header göster
+            $("header.tuttur").css("top", "0");
+            $("header.tuttur").css("transition", "all 0.3s");
+
+            //var content=$('.icerik.detail:first');
+            var content = $('.icerik.detail');
+            content.show();
+
+            $('header').addClass('detayda');
+            $("#NavMenuIcerikTitle").text(content.attr("data-Title"));
+        }
+
+
+    
+
+    if (typeof (window.history.pushState) != 'undefined') {
+
+        var cntrlIsPressed = false;
+
+        $(document).keydown(function(event){
+            if(event.which=="17")
+                cntrlIsPressed = true;
+        });
+
+        $(document).keyup(function(){
+            cntrlIsPressed = false;
+        });
+
+        var newTab = false;
+
+        if (!newTab) {
+
+            $('.masonry .oge a:not(.tooltip)').click(function(){
+                if (!cntrlIsPressed) {
+                    $(this).closest('.oge').find('.yukleniyor').show();
+                }
+            });
+            $('.blogItem a:not(.tooltip)').click(function(){
+                if (!cntrlIsPressed) {
+                    $(this).closest('.blogItem').find('.yukleniyor').show();
+                }
+            });
+        }
+
+        $(document).on('mouseup','.NewsDetailOpenWindow',function (e) {
+            var that = this;
+
+            var mouse = { Left: 1, Middle: 2, Right: 3 }
+            if (e.which == mouse.Left && !cntrlIsPressed) {
+                $(that).find('.yukleniyor').show();
+
+                updateUrlTitleByNews(that);
+
+                e.preventDefault();
+
+                return false;
+            }
+
+        });
+
+        $(document).on('click', '.NewsDetailOpenWindow', function (e) {
+
+            if (!cntrlIsPressed) {
+                e.preventDefault();
+            }
+
+            return cntrlIsPressed;
+        });
+
+    }
+    
+
+        (function () {
+            // Initialize
+            new Blazy({
+                offset: 500 // Loads images 500px before they're visible
+            });
+        })();
+    
+ new Blazy({ offset: 500 }); 
+$('.renderTime').text('0,75 saniye');
+$('.renderServer').text('(BR8)')
+(function(b,e,f,g,c,a,d){b[c]=b[c]||function(){(b[c].a=b[c].a||[]).push(arguments)};b[c].l=1*new Date;for(a=0;a<document.scripts.length;a++)if(document.scripts[a].src===g)return;a=e.createElement(f);d=e.getElementsByTagName(f)[0];a.async=1;a.src=g;d.parentNode.insertBefore(a,d)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(24921881,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0});

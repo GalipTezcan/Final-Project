@@ -1,0 +1,95 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=5, minimum-scale=1, width=device-width, height=device-height">
+<meta name="HandheldFriendly" content="true">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Videolu anlatým Sarýmsaklý Yoðurtlu Bulgur Köftesi Tarifi nasýl yapýlýr? On binlerce kiþinin defterindeki bu tarifin videolu anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#cc2e38">
+<meta property="fb:app_id" content="177905808944310">
+<meta property="fb:pages" content="34941858100">
+<meta property="og:site_name" content="Nefis Yemek Tarifleri">
+<meta property="article:publisher" content="https://www.facebook.com/nefisyemektarifleri/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.nefisyemektarifleri.com/video/sarimsakli-yogurtlu-bulgur-koftesi/">
+<meta property="og:title" content="Sarýmsaklý Yoðurtlu Bulgur Köftesi - Nefis Yemek Tarifleri">
+<meta property="og:description" content="Videolu anlatým Sarýmsaklý Yoðurtlu Bulgur Köftesi Tarifi nasýl yapýlýr? On binlerce kiþinin defterindeki bu tarifin videolu anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://i.nefisyemektarifleri.com/2023/03/20/sarimsakli-yogurtlu-bulgur-koftesi.jpg">
+<meta property="article:published_time" content="2023-03-20T15:25:36+03:00">
+<meta property="article:modified_time" content="2023-05-02T11:37:56+03:00">
+<meta property="og:updated_time" content="2023-05-02T11:37:56+03:00">
+<meta name="twitter:card" content="photo">
+<meta name="twitter:creator" content="@NefisYT">
+<meta name="twitter:site" content="@NefisYT">
+<meta name="twitter:title" content="Sarýmsaklý Yoðurtlu Bulgur Köftesi">
+<meta name="twitter:description" content="Sarýmsaklý Yoðurtlu Bulgur Köftesi Tarifi">
+<meta name="twitter:image" content="https://i.nefisyemektarifleri.com/2023/03/20/sarimsakli-yogurtlu-bulgur-koftesi.jpg">
+<meta name="twitter:image:width" content="500">
+<meta name="twitter:image:height" content="332">
+<meta name="robots" content="max-image-preview:large">
+<meta name="msapplication-TileImage" content="https://i.nefisyemektarifleri.com/2022/10/19/cropped-nyt-amblem-kare-sari2x-8-270x270.png">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="A9AxgGSwmnfgzzkyJHILUr3H8nJ/3D+57oAsL4DBt4USlng4jZ0weq+fZtHC/Qwwn6gd4QSa5DzT3OBif+kXVA0AAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<meta itemprop="position" content="1">
+<meta itemprop="position" content="2">
+<meta itemprop="position" content="3">
+<meta itemprop="position" content="4">
+<meta itemprop="commentCount" content="105">
+<meta itemprop="text" content="Irmik sart mi koymam gerekiyormu?">
+<meta itemprop="datePublished" content="2023-03-22T16:59:24+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="2 kati yapacagim evde 1 adet yumurta kalmis dagilir mi acaba?">
+<meta itemprop="datePublished" content="2024-07-18T16:28:08+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="irmiðimin kalmamýþ koymasam olurmu">
+<meta itemprop="datePublished" content="2023-10-02T18:59:49+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="Daðýlmaz bence">
+<meta itemprop="datePublished" content="2024-07-19T15:42:39+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="Merhabalar bu yemeðin yanýna ne iyi gider">
+<meta itemprop="datePublished" content="2025-03-31T00:17:10+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="Yumurta koymazsak olur mu ?">
+<meta itemprop="datePublished" content="2025-03-20T12:44:28+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="text" content="yuvarlarken zor toparladm ana piserken yarim saatte pismedi ici kuru old nerde yanlis yaptm anlamadim">
+<meta itemprop="datePublished" content="2025-03-17T17:43:40+00:00">
+<meta itemprop="name" content="NYT Kullanýcýsý">
+<meta itemprop="url" content="https://i.nefisyemektarifleri.com/2023/03/20/sarimsakli-yogurtlu-bulgur-koftesi.jpg">
+<meta itemprop="width" content="600">
+<meta itemprop="height" content="400">
+<meta itemprop="name" content="Sarýmsaklý Yoðurtlu Bulgur Köftesi">
+<meta itemprop="mainEntityOfPage" content="https://www.nefisyemektarifleri.com/video/sarimsakli-yogurtlu-bulgur-koftesi/">
+<meta itemprop="description" content="Videolu anlatým Sarýmsaklý Yoðurtlu Bulgur Köftesi Tarifi nasýl yapýlýr? On binlerce kiþinin defterindeki bu tarifin videolu anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta itemprop="datePublished" content="2023-03-20T00:00:00+03:00">
+<meta itemprop="dateModified" content="2023-05-02T00:00:00+03:00">
+<meta itemprop="recipeCuisine" content="Türk">
+<meta itemprop="recipeCategory" content="Bakliyat Yemekleri Videolarý">
+<meta itemprop="bestRating" content="5">
+<meta itemprop="worstRating" content="1">
+<meta itemprop="ratingValue" content="4.97">
+<meta itemprop="ratingCount" content="38">
+<meta itemprop="mainEntityOfPage" content="True">
+<meta itemprop="thumbnailUrl" content="https://i.nefisyemektarifleri.com/2023/03/20/sarimsakli-yogurtlu-bulgur-koftesi.jpg">
+<meta itemprop="dateCreated" content="2023-03-20">
+<meta itemprop="uploadDate" content="2023-03-20T15:25:36+03:00">
+<meta itemprop="isFamilyFriendly" content="true">
+<meta itemprop="videoQuality" content="HQ 720p">
+<meta itemprop="playerType" content="HTML5">
+<meta itemprop="width" content="1280">
+<meta itemprop="height" content="720">
+<meta itemprop="name" content="Sarýmsaklý Yoðurtlu Bulgur Köftesi">
+<meta itemprop="description" content="Videolu anlatým Sarýmsaklý Yoðurtlu Bulgur Köftesi Tarifi nasýl yapýlýr? On binlerce kiþinin defterindeki bu tarifin videolu anlatýmý ve deneyenlerin fotoðraflarý burada.">
+<meta itemprop="duration" content="PT3M16S">
+<meta itemprop="contentUrl" content="https://istr.empower.net/data/videos/10763/10763878-1080_5-400k.mp4?token=2GahryKA0VekIHOKBwb4KQ&amp;ts=1745046437&amp;playername=npm_nefisyemektarifleri">
+<meta itemprop="recipeYield" content="5">
+<meta itemprop="totalTime" content="PT30M">

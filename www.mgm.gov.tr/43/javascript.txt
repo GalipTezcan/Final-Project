@@ -1,0 +1,186 @@
+
+
+
+
+
+
+    (function (d, w, c) {
+
+        (w[c] = w[c] || []).push(function() {
+
+            try {
+
+                w.yaCounter48997139 = new Ya.Metrika({
+
+                    id:48997139,
+
+                    clickmap:true,
+
+                    trackLinks:true,
+
+                    accurateTrackBounce:true,
+
+                    webvisor:true
+
+                });
+
+            } catch(e) { }
+
+       });
+
+ 
+
+        var n = d.getElementsByTagName("script")[0],
+
+            s = d.createElement("script"),
+
+            f = function () { n.parentNode.insertBefore(s, n); };
+
+        s.type = "text/javascript";
+
+        s.async = true;
+
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+ 
+
+        if (w.opera == "[object Opera]") {
+
+            d.addEventListener("DOMContentLoaded", f, false);
+
+        } else { f(); }
+
+    })(document, window, "yandex_metrika_callbacks");
+
+
+
+
+
+        $(function () {
+            $('.hamburger').click(function () { var target = $(this).attr('data-target'); if (target != '') { $(target).toggleClass('active'); } $(this).toggleClass('open'); });
+            $('header nav ul li').click(function () { var isActive = $(this).hasClass('active'); var target = $(this).find('.dropdown'); $('.dropdown.active, li.active').removeClass('active'); if (target != undefined & !isActive) { $(target).addClass('active'); $(this).addClass('active'); } });
+            $('header nav ul li').on('mouseover', function () { $('header nav ul li:hover .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).addClass('droppeddown'); }); $('header nav ul li:hover .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).css('transition-delay', index * 10 + 'ms'); }); });
+            $('header nav ul li').on('mouseout', function () { $('header nav ul li .dropdown .dropdown-column  ul').children().each(function (index, element) { $(this).removeClass('droppeddown'); }); });
+        });
+    
+
+          
+        $( document ).ready(function() {
+            $("audio").prop('muted', false);
+
+          
+
+        });
+
+          var sound = new Howl({
+                src: ['/FILES/mp3/e-tahmin-BT.mp3'],
+                autoplay: false,
+                loop: true,
+                volume: 0.5,
+            });
+
+             $('#sesliEBultenG').on({
+                 mouseenter: function () {
+                                sound.play();
+            //var audio = document.getElementById(sesliEBultenSes);
+            
+            //sesliEBultenSes.play();
+            //sesliEBultenSes.muted = false;
+        },
+                 mouseleave: function () {
+                                sound.pause();
+           // sesliEBultenSes.pause();
+        }
+    });
+    
+
+
+        var slideIndex = 0;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("duyuru-sayfa");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-red", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            // dots[slideIndex - 1].className += " w3-red";
+        }
+    
+
+
+
+        var circle = Circles.create({
+            id: 'nem',
+            //percentage: 43,
+            value: 0,
+            radius: 20,
+            width: 4,
+            //number:     71.3,
+            text: 'H',
+            colors: ['#fff', '#35B4A0'],
+            duration: 400
+        })
+
+    
+
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("sidebar-box");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" box-active", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " box-active";
+        }
+    
+
+
+
+
+
+
+       $(window).scroll(function() {
+
+    if ($(this).scrollTop()>0)
+     {
+        $('.kaybol').fadeOut(0);
+     }
+    else
+     {
+      $('.kaybol').fadeIn(0);
+     }
+ });
+    

@@ -1,0 +1,459 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"@context" : "http://schema.org",
+		"@type" : "WebSite",
+		"name" : "Nefis Yemek Tarifleri",
+		"url" : "https://www.nefisyemektarifleri.com/",
+		"potentialAction": [{
+			"@type": "SearchAction",
+			"target": "https://www.nefisyemektarifleri.com/ara/?utm_source=browser-search&s={search_term_string}",
+			"query-input": "required name=search_term_string"
+		}]
+	}
+
+
+var nytwebpushmodule = 'https://mn.nytcdn.com/wp-content/themes/nytheme/src/js/vendor/web-push-module.js?v='  + parseInt(new Date().getTime() / 86400000);
+var nytwebpushnonce = '6a1220c1a7';
+
+window.addEventListener('DOMContentLoaded', function() {
+	var vendor_stylesheet = document.createElement('link');
+	vendor_stylesheet.href = 'https://mn.nytcdn.com/wp-content/themes/nytheme/dist/assets/css/general-vendor.css?1711622259';
+	vendor_stylesheet.rel  = 'stylesheet';
+	vendor_stylesheet.type = 'text/css';
+	document.getElementsByTagName('head')[0].appendChild(vendor_stylesheet);
+});
+
+window.addEventListener('load', function() {
+	var print_stylesheet = document.createElement('link');
+	print_stylesheet.href = 'https://mn.nytcdn.com/wp-content/themes/nytheme/print.css?1680961699';
+	print_stylesheet.rel  = 'stylesheet';
+	print_stylesheet.media = 'print';
+	document.getElementsByTagName('head')[0].appendChild(print_stylesheet);
+});
+
+
+	function removeEPLoading() {
+		var loading = document.querySelector('.video-presentation .video-loading ');
+
+		if (loading) {
+			loading.remove();
+		}
+
+		var nyt_video_container = document.getElementById('inline-video');
+		if (nyt_video_container){
+			nyt_video_container.style.backgroundColor = "unset";
+		}
+	}
+
+
+		var Countly = Countly || {};
+		Countly.q = Countly.q || [];
+
+		//provide countly initialization parameters
+		Countly.app_key = '0a8affd45c248ede741520e1486853df83eb9b81';
+		Countly.url = 'https://c.nefisyt.com';
+
+		// Countly.q.push(['track_sessions']);
+		// Countly.q.push(['track_pageview']);
+		// Countly.q.push(['track_errors']);
+
+		var events_json = '[]';
+		var events = JSON.parse(events_json);
+		events.forEach(function(event) {
+			Countly.q.push(['add_event', event ]);
+		});
+
+		//load countly script asynchronously
+		(function() {
+			var cly = document.createElement('script'); cly.type = 'text/javascript';
+			cly.async = true;
+			//enter url of script here
+			cly.src = 'https://cdnjs.cloudflare.com/ajax/libs/countly-sdk-web/20.4.0/countly.min.js';
+			cly.onload = function(){Countly.init()};
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+		})();
+	
+
+
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'DC-13772916');
+	
+
+		var ingredients = [];
+
+		gtag('event', 'conversion', {
+			'allow_custom_scripts': true,
+			'u39': 'airfryer',
+			'u41': 'philips-airfryer-ile-tarifler',
+			'u42': 'Philips Airfryer ile Tarifler',
+			'u52': 'Philips Airfryer ile Tarifler &#8211; Nefis Yemek Tarifleri',
+			'u54': '',
+			'u55': ingredients,
+			'u56': '',
+			'u57': '',
+			'u58': '',
+			'u59': '',
+			'u60': '',
+			'u61': '',
+			'send_to': 'DC-13772916/p-coo0/nefis0+standard'
+		});
+	
+
+		!function (w, d, t) {
+			w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+
+			ttq.load('CNAV01BC77UEVSAQDNIG');
+			ttq.page();
+		}(window, document, 'ttq');
+	
+
+		ttq.track('ViewContent',{
+			nytcd1: '',
+			nytcd2: '',
+			nytcd3: 'philips-airfryer-ile-tarifler',
+			nytcd4: 'Philips Airfryer ile Tarifler',
+			nytcd5: 'Philips Airfryer ile Tarifler &#8211; Nefis Yemek Tarifleri',
+			nytcd6: ingredients,
+			nytcd7: '',
+			nytcd8: '',
+			nytcd9: '',
+			nytcd10: '',
+			nytcd11: '',
+			nytcd12: ''
+		});
+	
+
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+		fbq('init', '705132241772900');
+		fbq('track', "PageView");
+	
+
+		fbq('track', 'ViewContent', {
+			nytcd1: '',
+			nytcd2: '',
+			nytcd3: 'philips-airfryer-ile-tarifler',
+			nytcd4: 'Philips Airfryer ile Tarifler',
+			nytcd5: 'Philips Airfryer ile Tarifler &#8211; Nefis Yemek Tarifleri',
+			nytcd6: ingredients,
+			nytcd7: '',
+			nytcd8: '',
+			nytcd9: '',
+			nytcd10: '',
+			nytcd11: '',
+			nytcd12: ''
+		});
+	
+
+		window._adftrack = Array.isArray(window._adftrack) ? window._adftrack : (window._adftrack ? [window._adftrack] : []);
+		window._adftrack.push({
+			HttpHost: 'track.adform.net',
+			pm: 3272769,
+			order : {
+				sv1: '',
+				sv2: '',
+				sv3: '',
+				sv4: 'Philips Airfryer ile Tarifler',
+				sv5: 'Philips Airfryer ile Tarifler &#8211; Nefis Yemek Tarifleri',
+				sv6: ingredients,
+				sv7: '',
+				sv8: '',
+				sv9: '',
+				sv10: '',
+				sv11: '',
+				sv12: ''
+			}
+		});
+		(function () { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://s2.adform.net/banners/scripts/st/trackpoint-async.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+
+	
+(function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-MFXWLS3');
+
+            dataLayer.push( {"event":"PageView","page":{"name":"Philips Airfryer ile Tarifler","post_type":"page"},"login":false} );
+        
+
+            function gtm_trigger_virtual_data(trigger) {
+                if (undefined === trigger) {
+                    return;
+                }
+
+                var virtual_layers = [];
+
+                virtual_layers.forEach(function (data_layer) {
+                    if (data_layer.event === trigger) {
+                        dataLayer.push(data_layer);
+                    }
+                });
+            }
+        
+
+	var BP_DTheme = {};
+	var ajaxurl = '/wp-admin/admin-ajax.php?ajaxget=1';
+	var ajaxurl_upload = '/wp-admin/admin-ajax.php';
+	
+	var nyt_push_target = "https://bildirim.nefisyemektarifleri.com/";
+	var nyt_cdn = "https://mn.nytcdn.com/wp-content/";
+	var nyt_is_logged_in = 0;
+
+
+
+
+
+
+
+
+
+
+
+try{if((typeof noktaad=='undefined'?virgulRefreshCount:noktaad.refreshCount)>400){document.removeEventListener('visibilitychange', window.scrChange);window.vrgPw=function(){};window.noktaHeaderBidding={};window.refreshGoogle=function(t){};var elmxf=document.createElement('IMG');elmxf.setAttribute('class','virgulCounter'),elmxf.style.display='none',elmxf.setAttribute('data-time-end',(new Date).getTime()+6e3),elmxf.style.width='1',elmxf.style.height='1',elmxf.setAttribute('src','https://ng.virgul.com/tck/imp/66fd06cde4b00b594f8137c6?r=159828@site_geneli@donanimhaber:site_geneli&scm=https&l=&t=special&userId='+virgulPageAds.noktaId+'&cs='+(new Date).getTime()),document.getElementsByTagName('BODY')[0].appendChild(elmxf);if(typeof noktaad!='undefined'){noktaad.init=function(){};stopVirgulRefresh();delete noktaad;delete empowerad;}}}catch(eghhf){};;;window.noktaScriptLoaded=true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				googleCustom = 'nyt=1&project=philips-airfryer-ile-tarifler';
+		
+		noktaad = {ads: new Array(), site: 'nefisyemektarifleri'};
+		var noktaScript = document.createElement('script');
+		noktaScript.async = true;
+		noktaScript.type = "text/javascript";
+		noktaScript.id = 'nokta-ad-script';
+		noktaScript.src = 'https://static.virgul.com/theme/mockups/adcode/outside.js?dts=' + parseInt(new Date().getTime() / 86400000);
+		document.getElementsByTagName('head')[0].appendChild(noktaScript);
+	
+window.addEventListener("load", function() {
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mn.nytcdn.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+}); 
+
+		
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '177905808944310',
+				status: true,
+				cookie: true,
+				xfbml: true,
+				version: 'v14.0'
+			});
+		}
+
+		window.nyt_facebook_login_init = function() {
+			FB.login(function (response) {
+				if (response.status !== 'connected') {
+					
+					document.querySelector('#swal2-content .scroll-loading').remove();
+					document.querySelector('#swal2-content .fb-login').classList.remove('hidden');
+					successBottomOn('Giriþ yapýlamadý.');
+
+					
+					return;
+				}
+
+				if (!response.authResponse) {
+					return;
+				}
+
+				let login_form = document.getElementById('nyt-fb-login-form');
+				if (!login_form) {
+					return;
+				}
+
+				let access_token_input = login_form.querySelector('#nyt_fb_access_token');
+				if (!access_token_input) {
+					return;
+				}
+
+				access_token_input.value = response.authResponse.accessToken;
+				login_form.submit();
+			}, {scope: 'email', auth_type: 'rerequest'});
+		}
+	
+(function (a, e) {
+            function f() {
+                var d = 0;
+                if (e.body && e.body.offsetWidth) {
+                    d = e.body.offsetHeight
+                }
+                if (e.compatMode == "CSS1Compat" && e.documentElement && e.documentElement.offsetWidth) {
+                    d = e.documentElement.offsetHeight
+                }
+                if (a.innerWidth && a.innerHeight) {
+                    d = a.innerHeight
+                }
+                return d
+            }
+
+            function b(g) {
+                var d = ot = 0;
+                if (g.offsetParent) {
+                    do {
+                        ot += g.offsetTop
+                    } while (g = g.offsetParent)
+                }
+                return {top: ot}
+            }
+
+			function y() {
+				var l = e.querySelectorAll('.youtube-lazy-embed');
+				if (l.length <= 0) {
+					return;
+				}
+				var j = a.pageYOffset || e.documentElement.scrollTop || e.body.scrollTop;
+				var d = f();
+				for (var k = 0; k < l.length; k++) {
+					var h = l[k];
+					var g = b(h).top;
+					g = g - 200;
+
+					if (g < (d + j) && g > 0) {
+						var i = document.createElement( 'iframe' );
+						i.setAttribute( 'frameborder', '0' );
+						i.setAttribute( 'allowfullscreen', '' );
+						i.setAttribute( 'width', h.dataset.width );
+						i.setAttribute( 'height', h.dataset.height );
+						i.setAttribute( 'allow', 'autoplay' );
+						i.setAttribute( 'src', h.dataset.embed );
+
+						h.classList.remove('youtube-lazy-embed');
+						h.innerHTML = '';
+						h.appendChild( i );
+					}
+				}
+			}
+							a.addEventListener("scroll", y, false);
+			
+			
+			
+			var nyt_lazy_images = {};
+			a.nyt_update_lazy_images_cache = function() {
+				nyt_lazy_images = [].slice.call(e.querySelectorAll('[data-lazy-src]'));
+			}
+
+			e.addEventListener('DOMContentLoaded', function() {
+				nyt_update_lazy_images_cache();
+				var z = false;
+				var usetwox = window.innerWidth > 480;
+
+				var lazyLoad = function() {
+					if (z !== false) {
+						return;
+					}
+					z = true;
+
+					setTimeout(function() {
+						var j = a.pageYOffset || e.documentElement.scrollTop || e.body.scrollTop;
+						var d = f();
+
+						nyt_lazy_images.forEach(function(h) {
+							var s;
+							if ( usetwox == true && h.hasAttribute('data-lazy-src-twox') ) {
+								s = h.getAttribute('data-lazy-src-twox');
+							} else {
+								s = h.getAttribute('data-lazy-src');
+							}
+
+							if (null === s) {
+								nyt_lazy_images = nyt_lazy_images.filter(function(i) {
+									return i !== h;
+								});
+
+								return;
+							}
+							var g = h.getBoundingClientRect().top
+
+							if (g < (d + j) && g > 0) {
+								h.src = s;
+								h.setAttribute('data-lazy-loaded', 'true');
+								h.removeAttribute('data-lazy-src');
+								h.removeAttribute('data-lazy-src-twox');
+
+								nyt_lazy_images = nyt_lazy_images.filter(function(i) {
+									return i !== h;
+								});
+
+								var recipe_image = h.closest('.recipe-image.single');
+								if (recipe_image) {
+									(function(image, recipe_image) {
+										var _img = new Image();
+										_img.src = image.getAttribute('src');
+										_img.onload = function(e) {
+											recipe_image.classList.remove('loading');
+										}
+									})(h, recipe_image);
+								}
+
+								if (nyt_lazy_images.length === 0) {
+									document.removeEventListener('scroll', lazyLoad);
+								}
+							}
+						});
+						z = false;
+					}, 200 );
+				}
+				lazyLoad();
+				e.addEventListener("scroll", lazyLoad);
+
+							} );
+
+		})(window, document);
+		
+
+	window.addEventListener('DOMContentLoaded', function() {
+		var script = document.createElement('script');
+		script.src = 'https://mn.nytcdn.com/wp-content/themes/nytheme/script-notlogin.js?v=1744299635';
+		document.getElementsByTagName('body')[0].appendChild(script);
+
+			});
+	
+
+
+!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1877570159153553");fbq("track","PageView");
