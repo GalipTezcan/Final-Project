@@ -1,4 +1,0 @@
-<meta charset="utf-8">
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<meta name="anti-csrftoken-a2z" content="hAAkkmGPlimBedBIsqu/wBsY2SnFM974MJpH40nRKtnIAAAAAGeBFWRlOTc5YTBjYy04MGU3LTQ4ZTAtYWE5ZS1hZDI0YzM4NWU5ODY=" id="cart-sp-csrf">
-<meta name="encrypted-slate-token" content="AnYxB1qC7thJoMYoEMiiSoznpOGVWuO2O4fvdrC73S7SItdkKMkgT74Xh2ZfL/nwDTg0tX4ktp+DIP1NgMtOmw5yIAlR8f4uw3fT1W9BPGV38lhwUQ6awCqbAoapJwv2KXuaoBUtZKHHi7ss9QydWu0z0aU/MJWrTpgQywF+7QqcKdPDwYFPcyZy+IR6LBSL38bN1xjVlCzU339f3YbeERBvWHxyrNIv4C7YdoFmLn21HYs8QZMUL9EPTMbDyrLpaFoOb4mxp3goGg==">

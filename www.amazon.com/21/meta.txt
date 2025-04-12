@@ -1,3 +1,0 @@
-<meta charset="utf-8">
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<meta name="encrypted-slate-token" content="AnYxO1Aen5Kcs558/l8uhKXkToeHIYfpyb7auRRknord1jco8lnwm9nnlbgR98c7gCciWHI7kQPoYBlmy/H50H5acbDyqAzNgCnqkiQWyb30BxtL8NGzatKIsnbIc/kQ4qVq/cfu8YxWFSJdoCH2hABLc5Dn01DSCL6Wgm5lyCUcnwAlBWNyaG+4MXGLtptfq765gSh3lZQPEChBQsAEm5nokUrSd1tVK6TWe2ew+gziAOtzyb6pHMbN7C2a8vU64H+BYxDH1a3b8Ic=">

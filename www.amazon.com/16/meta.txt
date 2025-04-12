@@ -1,7 +1,0 @@
-<meta charset="utf-8">
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<meta name="encrypted-slate-token" content="AnYx2uecIUoV2sw/IZOIRZeJ0DkamVt+k/SIFqBpZlx0T2Lj7m3xEkQ/pW/jPxeU7qTjY9sUMDsQGlDgtBnqzcO1fnVxY2npncq4WyaWU4FfRU8BbjUPiKYklbIYpMxGVRBte3EQFCVWN/B2l2JY9Olgh5vMGpiCWqwXVL3W1eReaDLnGntUM4xsVv0qcCDzyT0AHyKTlWUws5xPENh0HplwNPCpIKkyeknlGIf4ddkdTazDBMWDxf4YOIpeKK6NIDWqpyZiIxtFKmxF">
-<meta name="anti-csrftoken-a2z" content="hDXPvQEzFSbJ4psWjnnX5bcmSAB0VYqm56eC+Oofdjh3AAAAAGeBEAdlOTc5YTBjYy04MGU3LTQ4ZTAtYWE5ZS1hZDI0YzM4NWU5ODY=">
-<meta name="anti-csrftoken-a2z" content="hDXPvQEzFSbJ4psWjnnX5bcmSAB0VYqm56eC+Oofdjh3AAAAAGeBEAdlOTc5YTBjYy04MGU3LTQ4ZTAtYWE5ZS1hZDI0YzM4NWU5ODY=">
-<meta name="anti-csrftoken-a2z" content="hDXPvQEzFSbJ4psWjnnX5bcmSAB0VYqm56eC+Oofdjh3AAAAAGeBEAdlOTc5YTBjYy04MGU3LTQ4ZTAtYWE5ZS1hZDI0YzM4NWU5ODY=">
-<meta name="anti-csrftoken-a2z" content="hDXPvQEzFSbJ4psWjnnX5bcmSAB0VYqm56eC+Oofdjh3AAAAAGeBEAdlOTc5YTBjYy04MGU3LTQ4ZTAtYWE5ZS1hZDI0YzM4NWU5ODY=">

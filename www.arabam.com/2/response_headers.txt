@@ -1,9 +1,0 @@
-Date: Sat, 01 Mar 2025 08:55:21 GMT
-Content-Type: text/html; charset=UTF-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Cache-Control: max-age=3600, no-cache
-cf-cache-status: DYNAMIC
-Server: cloudflare
-CF-RAY: 91976f5979ae723d-IST
-Content-Encoding: gzip
