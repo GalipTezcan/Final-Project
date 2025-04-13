@@ -109,6 +109,14 @@ class CrawlerService:
             crawl_result = CrawlResult.query.get(crawl_id)
             if not crawl_result:
                 raise ValueError(f"Crawl result with id {crawl_id} not found")
+            
+            # Add https:// prefix if the URL doesn't have a scheme
+            if not url.startswith(('http://', 'https://')):
+                url = 'https://' + url
+                logger.info(f"Added https prefix to URL: {url}")
+                # Update the crawl result URL
+                crawl_result.url = url
+                db.session.commit()
                 
             result = self.crawl_page(url)
             

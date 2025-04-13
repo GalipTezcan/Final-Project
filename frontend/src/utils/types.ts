@@ -10,9 +10,9 @@ export interface CrawlResponse {
 }
 
 export interface CrawlRequest {
-  base_url: string;
-  max_depth: number;
-  max_url: number;
+  url: string;
+  max_depth?: number;
+  max_urls?: number;
 }
 
 export interface LabelRequest {

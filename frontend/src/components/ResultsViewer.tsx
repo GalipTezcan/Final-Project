@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import axios from 'axios';
+import { api } from '../utils/api';
+import './ResultsViewer.css';
 
 interface CrawlResult {
   url: string;
@@ -48,12 +49,24 @@ const ResultsViewer: React.FC = () => {
   ]);
   const [showBackendDetails, setShowBackendDetails] = useState(false);
 
-  const { data: results, isLoading, error } = useQuery<CrawlResult[]>({
+  const { data: results, isLoading, error, refetch } = useQuery<CrawlResult[]>({
     queryKey: ['results', domain],
     queryFn: async () => {
-      const response = await axios.get(`http://localhost:5000/results/${domain}`);
-      return response.data;
+      console.log(`Fetching results for domain: ${domain}`);
+      try {
+        const response = await api.get(`/results/${domain}`);
+        console.log('API response:', response.data);
+        return response.data;
+      } catch (err) {
+        console.error('Error fetching results:', err);
+        throw err;
+      }
     },
+    enabled: !!domain,
+    retry: 3,
+    refetchInterval: 5000, // Retry every 5 seconds while waiting for results
+    refetchOnWindowFocus: true,
+    staleTime: 30000, // Consider data stale after 30 seconds
   });
 
   // Fetch available domains for comparison
@@ -61,7 +74,7 @@ const ResultsViewer: React.FC = () => {
     const fetchDomains = async () => {
       try {
         // This endpoint needs to be implemented in the backend
-        const response = await axios.get('http://localhost:5000/domains');
+        const response = await api.get('/domains');
         if (response.data && Array.isArray(response.data)) {
           // Filter out current domain from list
           setAvailableDomains(response.data.filter(d => d !== domain));
@@ -74,7 +87,18 @@ const ResultsViewer: React.FC = () => {
     };
 
     fetchDomains();
-  }, [domain]);
+    
+    // Log current domain for debugging
+    console.log(`ResultsViewer mounted with domain: ${domain}`);
+    
+    // Set up an interval to check for results
+    const intervalId = setInterval(() => {
+      console.log('Refetching results...');
+      refetch();
+    }, 5000);
+    
+    return () => clearInterval(intervalId);
+  }, [domain, refetch]);
 
   const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
     setTabValue(newValue);
@@ -93,7 +117,7 @@ const ResultsViewer: React.FC = () => {
     
     try {
       // This endpoint needs to be implemented in the backend
-      const response = await axios.post('http://localhost:5000/compare', {
+      const response = await api.post('/compare', {
         domain1: domain,
         domain2: secondDomain
       });
@@ -183,33 +207,183 @@ const ResultsViewer: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
-      <div className="flex flex-col items-center">
-        <h1 className="text-2xl font-bold mb-4">Results Viewer</h1>
+    <div className="results-container">
+      <div className="results-header">
+        <h1 className="results-title">Results for: <span className="domain-name">{domain}</span></h1>
         {isLoading ? (
-          <div className="flex justify-center items-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-gray-900"></div>
+          <div className="loading-state">
+            <div className="loading-spinner"></div>
+            <p className="loading-message">Loading results...</p>
           </div>
         ) : error ? (
-          <p className="text-red-500">Error loading results.</p>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {results?.map((result, index) => (
-              <div key={index} className="bg-white shadow-md rounded-lg p-4">
-                <h2 className="text-xl font-semibold mb-2">{result.url}</h2>
-                <p className="text-gray-600">HTML Tags: {result.metrics.htmltags}</p>
-                <p className="text-gray-600">JavaScript: {result.metrics.javascript}</p>
-                <p className="text-gray-600">Meta: {result.metrics.meta}</p>
-                <p className="text-gray-600">Performance: {result.metrics.performance}</p>
-                <p className="text-gray-600">Headers: {result.metrics.headers}</p>
-                <button className="mt-2 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600" onClick={() => handleUrlSelect(result.url)}>
-                  View Details
-                </button>
+          <div className="error-container">
+            <strong className="error-title">Error: </strong>
+            <span className="error-message">Failed to load results. Please try again.</span>
+            <p className="error-details">{(error as Error).message}</p>
+            <div className="action-buttons">
+              <button 
+                onClick={() => refetch()} 
+                className="button primary-button"
+              >
+                Retry
+              </button>
+              <button 
+                onClick={() => navigate('/')} 
+                className="button secondary-button"
+              >
+                Return to Home
+              </button>
+            </div>
+          </div>
+        ) : results && results.length > 0 ? (
+          <div className="results-grid">
+            {results.map((result, index) => (
+              <div key={index} className="result-card">
+                <h2 className="card-title">{result.url}</h2>
+                <div className="metrics-list">
+                  <div className="metric-item">
+                    <span className="metric-label">HTML Tags:</span>
+                    <span className="metric-value">{result.metrics.htmltags}</span>
+                  </div>
+                  <div className="metric-item">
+                    <span className="metric-label">JavaScript:</span>
+                    <span className="metric-value">{result.metrics.javascript}</span>
+                  </div>
+                  <div className="metric-item">
+                    <span className="metric-label">Meta Tags:</span>
+                    <span className="metric-value">{result.metrics.meta}</span>
+                  </div>
+                  <div className="metric-item">
+                    <span className="metric-label">Performance:</span>
+                    <span className={`metric-value ${result.metrics.performance === 'Good' ? 'good' : 'warning'}`}>
+                      {result.metrics.performance}
+                    </span>
+                  </div>
+                </div>
+                <div className="card-footer">
+                  <button 
+                    onClick={() => handleUrlSelect(result.url)} 
+                    className="view-details-button"
+                  >
+                    View Details
+                  </button>
+                </div>
               </div>
             ))}
           </div>
+        ) : (
+          <div className="empty-state">
+            <svg className="empty-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M12 16h.01M12 13a1 1 0 110-2 1 1 0 010 2z"></path>
+            </svg>
+            <h3 className="empty-title">No results found</h3>
+            <p className="empty-message">
+              We couldn't find any crawl results for {domain}. The crawl might still be in progress.
+            </p>
+            <p className="empty-submessage">
+              Results will automatically appear when they're ready. You can also check the crawl status in the history tab.
+            </p>
+            <div className="action-buttons">
+              <button 
+                onClick={() => refetch()} 
+                className="button primary-button"
+              >
+                Refresh
+              </button>
+              <button 
+                onClick={() => navigate('/history')} 
+                className="button secondary-button"
+              >
+                Check History
+              </button>
+              <button 
+                onClick={() => navigate('/')} 
+                className="button tertiary-button"
+              >
+                Return to Home
+              </button>
+            </div>
+          </div>
         )}
       </div>
+      
+      {/* Show selected URL details */}
+      {selectedUrl && (
+        <div className="modal-overlay">
+          <div className="modal-container">
+            <div className="modal-header">
+              <h3 className="modal-title">URL Details</h3>
+              <button
+                onClick={() => setSelectedUrl(null)}
+                className="close-button"
+              >
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            
+            <div className="modal-body">
+              <h4 className="url-title">
+                <a href={selectedUrl} target="_blank" rel="noopener noreferrer" className="url-link">
+                  {selectedUrl}
+                </a>
+              </h4>
+              
+              {/* Find the result for this URL */}
+              {results && results.map((result, index) => {
+                if (result.url === selectedUrl) {
+                  return (
+                    <div key={index} className="details-content">
+                      <div className="details-grid">
+                        <div className="detail-item">
+                          <h5 className="detail-label">HTML Tags</h5>
+                          <p className="detail-value">{result.metrics.htmltags}</p>
+                        </div>
+                        <div className="detail-item">
+                          <h5 className="detail-label">JavaScript</h5>
+                          <p className="detail-value">{result.metrics.javascript}</p>
+                        </div>
+                        <div className="detail-item">
+                          <h5 className="detail-label">Meta Tags</h5>
+                          <p className="detail-value">{result.metrics.meta}</p>
+                        </div>
+                        <div className="detail-item">
+                          <h5 className="detail-label">Performance</h5>
+                          <p className={`detail-value ${result.metrics.performance === 'Good' ? 'good' : 'warning'}`}>
+                            {result.metrics.performance}
+                          </p>
+                        </div>
+                      </div>
+                      
+                      {result.screenshot && (
+                        <div className="screenshot-section">
+                          <h5 className="screenshot-label">Screenshot</h5>
+                          <img 
+                            src={result.screenshot} 
+                            alt={`Screenshot of ${result.url}`} 
+                            className="screenshot"
+                          />
+                        </div>
+                      )}
+                    </div>
+                  );
+                }
+                return null;
+              })}
+            </div>
+            
+            <div className="modal-footer">
+              <button
+                onClick={() => setSelectedUrl(null)}
+                className="button tertiary-button"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

@@ -3,8 +3,18 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import CrawlForm from './components/CrawlForm';
 import ResultsViewer from './components/ResultsViewer';
-import LoadingSpinner from './components/LoadingSpinner';
 import CrawlHistory from './components/CrawlHistory';
+import Dashboard from './components/Dashboard';
+import './App.css';
+
+const NotFound = () => (
+  <div className="not-found-container">
+    <h1 className="not-found-title">404</h1>
+    <h2 className="not-found-subtitle">Page Not Found</h2>
+    <p className="not-found-text">The page you are looking for does not exist or has been moved.</p>
+    <a href="/" className="not-found-link">Go back to homepage</a>
+  </div>
+);
 
 const App: React.FC = () => {
   return (
@@ -13,15 +23,8 @@ const App: React.FC = () => {
         <Route path="/" element={<CrawlForm />} />
         <Route path="/results/:domain" element={<ResultsViewer />} />
         <Route path="/history" element={<CrawlHistory />} />
-        <Route
-          path="*"
-          element={
-            <div style={{ textAlign: 'center', padding: '2rem' }}>
-              <h1>404 - Page Not Found</h1>
-              <p>The page you are looking for does not exist.</p>
-            </div>
-          }
-        />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
   );

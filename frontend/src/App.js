@@ -1,51 +1,34 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import React from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Layout from './components/Layout';
+import CrawlForm from './components/CrawlForm';
+import ResultsViewer from './components/ResultsViewer';
+import CrawlHistory from './components/CrawlHistory';
+import Dashboard from './components/Dashboard';
+import './App.css';
+
+const NotFound = () => (
+  <div className="not-found-container">
+    <h1 className="not-found-title">404</h1>
+    <h2 className="not-found-subtitle">Page Not Found</h2>
+    <p className="not-found-text">The page you are looking for does not exist or has been moved.</p>
+    <a href="/" className="not-found-link">Go back to homepage</a>
+  </div>
+);
 
 function App() {
-  const [baseUrl, setBaseUrl] = useState('');
-  const [maxDepth, setMaxDepth] = useState(2);
-  const [maxUrl, setMaxUrl] = useState(10);
-  const [message, setMessage] = useState('');
-
-  const handleCrawl = async () => {
-    try {
-      const response = await axios.post('http://localhost:5000/crawl', {
-        base_url: baseUrl,
-        max_depth: maxDepth,
-        max_url: maxUrl
-      });
-      setMessage(response.data.message);
-    } catch (error) {
-      setMessage(error.response?.data?.error || 'An error occurred');
-    }
-  };
-
   return (
-    <div className="App">
-      <h1>Web Crawler</h1>
-      <div>
-        <input
-          type="text"
-          placeholder="Base URL"
-          value={baseUrl}
-          onChange={(e) => setBaseUrl(e.target.value)}
-        />
-        <input
-          type="number"
-          placeholder="Max Depth"
-          value={maxDepth}
-          onChange={(e) => setMaxDepth(e.target.value)}
-        />
-        <input
-          type="number"
-          placeholder="Max URL"
-          value={maxUrl}
-          onChange={(e) => setMaxUrl(e.target.value)}
-        />
-        <button onClick={handleCrawl}>Crawl</button>
-      </div>
-      <p>{message}</p>
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<CrawlForm />} />
+          <Route path="/results/:domain" element={<ResultsViewer />} />
+          <Route path="/history" element={<CrawlHistory />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 
